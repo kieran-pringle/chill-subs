@@ -1,0 +1,244 @@
+.container {
+  padding: 0 2rem;
+  color: #316760;
+  background-color: #FFF9F0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding-top: 1.75rem;
+  font-size: 2.5rem;
+  white-space: pre-wrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #316760;
+  /* color: transparent;
+  text-shadow: 0 0 1px 0 #000; */
+  font-family: Waffle Soft;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 2rem 0 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  line-height: 1.15;
+  font-size: 2.5rem;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.searchContainer {
+  margin-right: 2rem;
+  position: relative;
+  ion-icon {
+    position: absolute;
+    top: 0.75rem;
+    right: 3.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.search {
+  padding: 0.75rem 1.75rem;
+  width: 21.75rem;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  border: 2px solid #316760;
+  font-size: 1.125rem;
+  color: #316760;
+}
+.search:focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.checkbox {
+  width: 25%;
+  height: 49px;
+}
+
+.filterBlock {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  .checkbox {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.filterBlockTitle {
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.browseHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+
+  h2 {
+    margin: 0;
+    font-size: 1.75rem;
+  }
+}
+
+.sortContainer {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  cursor: pointer;
+  ion-icon {
+    margin-left: 0.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
+.cards {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 23.75%);
+  justify-content: space-between;
+  grid-gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  // width: 23.75%;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  transition: all 0.15s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    line-height: 1.4;
+  }
+
+  img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .cardDescription {
+    line-height: 1.5;
+    font-style: italic;
+  }
+
+  .cardStats {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    padding-top: 2.5rem;
+    width: 100%;
+  }
+
+  .cardStat {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+    font-size: 0.9rem;
+    div:first-child {
+      display: flex;
+      align-items: center;
+      max-width: 48%;
+      font-weight: bold;
+      text-align: left;
+      ion-icon {
+        margin-top: 1px;
+        margin-left: 0.5rem;
+      }
+    }
+    div:nth-child(2) {
+      max-width: 52%;
+      text-align: right;
+    }
+  }
+  
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .searchContainer {
+    margin-right: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .filterBlock {
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+
+  .checkbox {
+    width: 100%;
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fill, 100%);
+  }
+}

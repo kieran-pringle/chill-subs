@@ -1,0 +1,124 @@
+.select {
+  position: relative;
+  width: 15rem;
+  margin-right: 1rem;
+  user-select: none;
+}
+
+.selectOpen {
+  z-index: 1;
+}
+
+.input {
+  position: relative;
+  padding: 0.75rem 1.75rem;
+  border: 2px solid #316760;
+  border-radius: 12px;
+  font-size: 1.125rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  list-style: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.input::-webkit-details-marker {
+  display: none;
+}
+
+.selectOpen .input:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.input:after {
+  content: '';
+  position: absolute;
+  top: 1rem;
+  right: 1.75rem;
+  width: .5rem;
+  height: .5rem;
+  border-bottom: 1px solid currentColor;
+  border-left: 1px solid currentColor;
+  border-bottom-left-radius: 2px;
+  transform: rotate(-45deg);
+  transform-origin: center center;
+  transition: transform ease-in-out 100ms
+}
+
+.input:focus {
+  outline: none;
+}
+
+.selectOpen .input:after {
+  top: 1.25rem;
+  transform: rotate(135deg);
+}
+
+.list {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  list-style: none;
+  position: absolute;
+  top: calc(100% + .25rem);
+  left: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  max-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  overflow-y: auto;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list li {
+  margin: 0;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+}
+
+.list li:hover {
+  color: #fff;
+  background-color: #316760;
+}
+
+/* FAKE SELECT */
+
+.input {
+  counter-reset: input;
+}
+
+.input input[type=radio] {
+  counter-increment: input;
+  appearance: none;
+  display: none;
+}
+
+.input input[type=radio]:checked {
+  display: inline;
+}
+
+.input input[type=radio]:after {
+  content: attr(title);
+  display: inline;
+  font-size: 1rem;
+}
+
+.list {
+  counter-reset: labels;
+}
+
+.list label {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}

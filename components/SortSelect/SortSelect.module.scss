@@ -1,0 +1,107 @@
+.select {
+  position: relative;
+  user-select: none;
+}
+
+.selectOpen {
+  z-index: 1;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  border: none;
+  font-size: 1.125rem;
+  list-style: none;
+  cursor: pointer;
+  span {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+    margin-left: 0.5rem;
+  }
+}
+
+.input::-webkit-details-marker {
+  display: none;
+}
+
+.selectOpen .input:before {
+  content: '';
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.list {
+  position: absolute;
+  width: max-content;
+  border: 1px solid #316760;
+  background: #fff;
+  list-style: none;
+  position: absolute;
+  top: calc(100% + .5rem);
+  right: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 12px;
+  max-height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  overflow-y: auto;
+}
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+.list li {
+  margin: 0;
+  padding: 1rem 1.75rem;
+  cursor: pointer;
+}
+
+.list li:hover {
+  color: #fff;
+  background-color: #316760;
+}
+
+/* FAKE SELECT */
+
+.input {
+  counter-reset: input;
+}
+
+.input input[type=radio] {
+  counter-increment: input;
+  appearance: none;
+  display: none;
+}
+
+.input input[type=radio]:checked {
+  display: inline;
+}
+
+.input input[type=radio]:after {
+  content: attr(title);
+  display: inline;
+  font-size: 1rem;
+}
+
+.list {
+  counter-reset: labels;
+}
+
+.list label {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
