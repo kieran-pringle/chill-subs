@@ -55,7 +55,6 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 0.5rem;
-  width: 40%;
 }
 
 .aboutBtn, .searchBtn {
@@ -84,6 +83,7 @@
 }
 
 .searchBtn {
+  margin-right: 1.75rem;
   padding-left: 1.4rem;
   background-color: #316760;
   color: #FFF9F0;
@@ -152,11 +152,20 @@
   /* color: transparent;
   text-shadow: 0 0 1px 0 #000; */
   font-family: Waffle Soft;
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {
+  .main {
+    margin-top: -4.5rem;
+  }
+
   .title {
     font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.125rem;
   }
 
   .buttons {
@@ -166,5 +175,10 @@
 
   .aboutBtn, .searchBtn {
     margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+
+  .logo {
+    font-size: 2rem;
   }
 }

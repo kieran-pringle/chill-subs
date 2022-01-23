@@ -16,6 +16,7 @@
     --disabled-inner: #E1E6F9;
     -webkit-appearance: none;
     -moz-appearance: none;
+    min-width: 1.75rem;
     width: 1.75rem;
     height: 1.75rem;
     outline: none;
@@ -93,6 +94,16 @@
     }
     &:checked {
       --r: 43deg;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  @supports(-webkit-appearance: none) or (-moz-appearance: none) {
+    .input[type='checkbox'] {
+      & + .label {
+        font-size: 1rem;
+      }
     }
   }
 }

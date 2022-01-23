@@ -20,6 +20,12 @@ textarea {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+input[type=text], textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 @font-face {
   font-family: 'Waffle Soft';
   src: url('/fonts/waffle-soft.otf');

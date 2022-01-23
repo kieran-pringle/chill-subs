@@ -40,7 +40,7 @@ const Footer: React.FC = () => {
       right: 'auto',
       bottom: 'auto',
       marginRight: '-50%',
-      padding: '2.5rem',
+      padding: !isMobile ? '2.5rem' : '1.75rem',
       width: !isMobile ? '36rem' : '100%',
       height: !isMobile ? 'auto' : '100%',
       border: 'none',

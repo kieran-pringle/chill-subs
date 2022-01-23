@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/router'
 import Script from 'next/script'
 import Head from 'next/head'
+import Link from 'next/link'
 import Image from 'next/image'
 import Modal from 'react-modal';
 import { AddOutline, BookOutline, CloseOutline, GlobeOutline, LogoTwitter, LogoInstagram } from 'react-ionicons';
@@ -53,7 +54,7 @@ export default function Magazine() {
       right: 'auto',
       bottom: 'auto',
       marginRight: '-50%',
-      padding: '2.5rem',
+      padding: !isMobile ? '2.5rem' : '1.75rem',
       width: !isMobile ? '36rem' : '100%',
       height: !isMobile ? 'auto' : '100%',
       border: 'none',
@@ -77,9 +78,11 @@ export default function Magazine() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={styles.logo}>
-        chill subs
-      </div>
+      <Link href="/">
+        <div className={styles.logo}>
+          chill subs
+        </div>
+      </Link>
 
       <main className={styles.main}>
         <div className={styles.header}>

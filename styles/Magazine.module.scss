@@ -17,6 +17,7 @@
   /* color: transparent;
   text-shadow: 0 0 1px 0 #000; */
   font-family: Waffle Soft;
+  cursor: pointer;
 }
 
 .main {
@@ -374,34 +375,72 @@
   font-size: 3rem;
 }
 
-@media (max-width: 600px) {
-  .title {
-    font-size: 2rem;
-  }
-
-  .contacts {
-    margin-bottom: 3rem;
-  }
-
-  .stats1 {
+@media (max-width: 1024px) {
+  .stats {
     flex-direction: column;
     justify-content: flex-start;
+    align-items: center;
+    margin-top: 1.5rem;
+  }
+
+  .main .stats:last-child {
     margin-top: 0;
-    width: 100%;
   }
 
   .stat {
     margin-bottom: 1.5rem;
   }
 
-  .examples, .prosCons {
+  .prosCons {
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 2.5rem;
+  }
+
+  .card, .example {
     width: 100%;
   }
 
-  .example, .card {
+  .examples {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .title, .logo {
+    font-size: 2rem;
+  }
+
+  .header img {
+    max-width: 100px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .contacts {
+    margin-bottom: 3rem;
+  }
+
+  .stats {
+    margin-top: 0;
     width: 100%;
+  }
+
+  .stat {
+    margin-bottom: 1.5rem;
+    // font-size: 0.9rem;
+  }
+
+  .examples, .prosCons {
+    width: 100%;
+  }
+
+  .card {
+    padding: 1.5rem;
+
+    .btn {
+      padding: 0.5rem 0.75rem;
+    }
   }
 
 }

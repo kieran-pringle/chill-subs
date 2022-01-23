@@ -105,3 +105,9 @@
   display: block;
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .input {
+    font-size: 1rem;
+  }
+}
