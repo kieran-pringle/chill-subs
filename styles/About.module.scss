@@ -46,13 +46,13 @@
 
 .main {
   min-height: 100vh;
-  margin-top: -3rem;
+  margin-top: 2rem;
   padding: 0 0 4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
 }
 
 .footer {
@@ -73,20 +73,61 @@
 
 .title {
   margin: 0;
+  margin-bottom: 1rem;
   line-height: 1.15;
   font-size: 3.25rem;
 }
 
-.title,
 .description {
-  text-align: center;
-}
-
-.description {
-  margin: 2rem 0;
+  margin-bottom: 1rem;
+  max-width: 43rem;
   line-height: 1.5;
   font-size: 1.25rem;
-  font-style: italic;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 43rem;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  a {
+    margin: 0 0.25rem;
+    color: #FF8B5D;
+  }
+}
+
+.creator {
+  max-width: 44rem;
+}
+
+.creatorInfo {
+  display: flex;
+  span {
+    min-width: 240px;
+    border-radius: 6px;
+  }
+}
+
+.creatorText {
+  display: flex;
+  flex-direction: column;
+  margin-top: -0.15rem;
+  margin-left: 1.75rem;
+  line-height: 1.5;
+  font-size: 1.125rem;
+
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    color: #FF8B5D;
+  }
 }
 
 .buttons {
@@ -180,9 +221,9 @@
 }
 
 @media (max-width: 600px) {
-  .main {
-    margin-top: -4.5rem;
-  }
+  // .main {
+  //   margin-top: -4.5rem;
+  // }
 
   .title {
     font-size: 2rem;
@@ -192,15 +233,13 @@
     font-size: 1.125rem;
   }
 
-  .buttons {
+  .creatorInfo {
     flex-direction: column;
-    width: 100%;
   }
 
-  .aboutBtn, .searchBtn {
-    margin-right: 0;
-    margin-bottom: 1rem;
-    font-size: 1rem;
+  .creatorText {
+    margin-left: 0;
+    margin-top: 1rem;
   }
 
   .logo {
