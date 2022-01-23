@@ -36,18 +36,25 @@ export default function Browse() {
       let match = true;
       for (const [key, value] of Object.entries(values)) {
         if (key === 'search') {
-          match = value ? magazine.name.toLowerCase().includes((value as any).toLowerCase()) : true;
+          if (value && !magazine.name.toLowerCase().includes((value as any).toLowerCase())) {
+            match = false;
+          }
         } else if (key === 'responseTime') {
-          match = value ? magazine.responseDays && magazine.responseDays <= value : true;
+          if (value && (!magazine.responseDays || magazine.responseDays > value) ) {
+            match = false;
+          }
         } else if (key === 'noFee') {
-          match = value ? !magazine.fee : true;
+          if (value && magazine.fee) {
+            match = false;
+          }
         } else if (key === 'vibe') {
-          match = value ? magazine[key] === value : true;
+          if (value && magazine[key] !== value) {
+            match = false;
+          }
         } else {
-          // if (value && magazine[key] === undefined || magazine[key] !== value) {
-          //   match = false;
-          // }
-          match = value ? magazine[key] : true;
+          if (value && !magazine[key]) {
+            match = false;
+          }
         }
       }
       return match;
