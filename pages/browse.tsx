@@ -88,11 +88,13 @@ export default function Browse() {
           <Link href="https://twitter.com/chillsubs">
             <LogoTwitter color="#316760" width="24px" height="24px" />
           </Link>
-          <Link href="/about">
-            <div className={styles.link}>About</div>
-          </Link>
+          {!isMobile && (
+            <Link href="/about">
+              <div className={styles.link}>About</div>
+            </Link>
+          )}
           <Link href="https://www.buymeacoffee.com/karinakupp">
-            <div className={styles.link}>Support the project</div>
+            <div className={styles.link}>{!isMobile ? 'Support the project' : 'Support'}</div>
           </Link>
         </div>
       </div>

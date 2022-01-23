@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -6,6 +7,12 @@ import Footer from '../components/Footer';
 import styles from '../styles/About.module.scss'
 
 export default function About() {
+  const [ isMobile, setIsMobile ] = useState<boolean>(false);
+
+  useEffect(() => {
+    setIsMobile(window.innerWidth <= 600);
+  }, [])
+
   return (
     <div className={styles.container}>
       <Head>
@@ -24,11 +31,13 @@ export default function About() {
           <Link href="https://twitter.com/chillsubs">
             <LogoTwitter color="#316760" width="24px" height="24px" />
           </Link>
-          <Link href="/about">
-            <div className={styles.link}>About</div>
-          </Link>
+          {!isMobile && (
+            <Link href="/about">
+              <div className={styles.link}>About</div>
+            </Link>
+          )}
           <Link href="https://www.buymeacoffee.com/karinakupp">
-            <div className={styles.link}>Support the project</div>
+            <div className={styles.link}>{!isMobile ? 'Support the project' : 'Support'}</div>
           </Link>
         </div>
       </div>

@@ -335,4 +335,10 @@
     grid-template-columns: repeat(auto-fill, 100%);
     margin-top: 1.5rem;
   }
+
+  .links {
+    svg, .link {
+      margin-left: 1.25rem;
+    }
+  }
 }
