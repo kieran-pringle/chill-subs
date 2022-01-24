@@ -15,6 +15,7 @@ Modal.setAppElement('#__next');
 
 export default function Magazine() {
   const [ modal, setModal ] = useState<string | null>(null);
+  const [ suggestionHandle, setSuggestionHandle ] = useState<string>('');
   const [ suggestionText, setSuggestionText ] = useState<string>('');
   const [ suggestionSubmitted, setSuggestionSubmitted ] = useState<boolean>(false);
   const router = useRouter();
@@ -31,6 +32,7 @@ export default function Magazine() {
 
   const sendSuggestions = () => {
     const formData = new FormData();
+    formData.append('twitter', suggestionHandle);
     formData.append('magazine', currentMagazine.name);
     formData.append('type', modal);
     formData.append('value', suggestionText); 
@@ -49,6 +51,7 @@ export default function Magazine() {
     content: {
       display: 'flex',
       flexDirection: 'column',
+      justifyContent: 'center',
       top: '50%',
       left: '50%',
       right: 'auto',
@@ -69,6 +72,53 @@ export default function Magazine() {
   };
 
   if (!currentMagazine) return null;
+
+  const suggestionModal = (
+    <Modal
+      isOpen={modal ? true : false}
+      onRequestClose={closeModal}
+      style={customStyles}
+    >
+      {!suggestionSubmitted ? (
+        <>
+          <div className={styles.modalHeader}>
+            {modal === 'niceThing' ? (
+              <h2>Share a nice thing about {currentMagazine.name} :)</h2>
+            ) : (
+              <h2>Share an issue for {currentMagazine.name}</h2>
+            )}
+            <CloseOutline
+              cssClasses={styles.modalClose}
+              onClick={() => setModal(null)}
+              width="32px"
+              height="32px"
+              color="#316760"
+            />
+          </div>
+          <span>We'll review it and add it to the list :)</span>
+          <div className={styles.field}>
+            <div className={styles.label}>Your Twitter handle (optional)</div>
+            <input className={styles.input} onChange={e => setSuggestionHandle(e.target.value)} />
+          </div>
+          <div className={styles.field}>
+            <div className={styles.label}>Suggestion</div>
+            <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
+          </div>
+          <button className={`${styles.btn} ${styles.modalBtn}`} onClick={sendSuggestions}>Send</button>
+        </>
+      ) : (
+        <div className={styles.successContainer}>
+          <div className={styles.successEmoji}>
+            👌
+          </div>
+          <div className={styles.success}>
+            <div className={styles.successText}>You're the best. We'll look at your suggestions soon!</div>
+          </div>
+          <div className={`${styles.btn} ${styles.successBtn}`} onClick={closeModal}>Keep browsing</div>
+        </div>
+      )}
+    </Modal>
+  )
   
   return (
     <div className={styles.container}>
@@ -205,72 +255,7 @@ export default function Magazine() {
             </div>
           ))}
         </div>
-        {modal === 'niceThing' && (
-          <Modal
-            isOpen
-            onRequestClose={closeModal}
-            style={customStyles}
-            contentLabel="Example Modal"
-          >
-            {!suggestionSubmitted ? (
-              <>
-                <div className={styles.modalHeader}>
-                  <h2>Share a nice thing about {currentMagazine.name} :)</h2>
-                  <CloseOutline
-                    cssClasses={styles.modalClose}
-                    onClick={() => setModal(null)}
-                    width="32px"
-                    height="32px"
-                    color="#316760"
-                  />
-                </div>
-                <span>We'll review it and add it to the list :)</span>
-                <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
-                <button className={`${styles.btn} ${styles.modalBtn}`} onClick={sendSuggestions}>Send</button>
-              </>
-            ) : (
-              <div className={styles.successContainer}>
-                <div className={styles.successEmoji}>
-                  👌
-                </div>
-                <div className={styles.success}>
-                  <div className={styles.successText}>You're the best. We'll look at your suggestions soon!</div>
-                </div>
-                <div className={`${styles.btn} ${styles.successBtn}`} onClick={closeModal}>Keep browsing</div>
-              </div>
-            )}
-          </Modal>
-        )}
-        {modal === 'issue' && (
-          <Modal
-            isOpen
-            onRequestClose={() => setModal(null)}
-            style={customStyles}
-            contentLabel="Example Modal"
-          >
-            {!suggestionSubmitted ? (
-              <>
-                <div className={styles.modalHeader}>
-                  <h2>Report an issue for {currentMagazine.name}</h2>
-                  <CloseOutline cssClasses={styles.modalClose} onClick={() => setModal(null)} />
-                </div>
-                <span>We'll review it and add it to the list :)</span>
-                <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
-                <button className={`${styles.btn} ${styles.modalBtn}`} onClick={sendSuggestions}>Send</button>
-              </>
-            ) : (
-              <div className={styles.successContainer}>
-                <div className={styles.successEmoji}>
-                  👌
-                </div>
-                <div className={styles.success}>
-                  <div className={styles.successText}>You're the best. We'll look at your suggestions soon!</div>
-                </div>
-                <div className={`${styles.btn} ${styles.successBtn}`} onClick={closeModal}>Keep browsing</div>
-              </div>
-            )}
-          </Modal>
-        )}
+        {suggestionModal}
       </main>
 
       <Footer />

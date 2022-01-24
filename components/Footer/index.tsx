@@ -7,6 +7,7 @@ Modal.setAppElement('#__next');
 
 const Footer: React.FC = () => {
   const [ isModalOpen, setIsModalOpen ] = useState<boolean>(false);
+  const [ suggestionHandle, setSuggestionHandle ] = useState<string>('');
   const [ suggestionText, setSuggestionText ] = useState<string>('');
   const [ suggestionSubmitted, setSuggestionSubmitted ] = useState<boolean>(false);
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
@@ -19,6 +20,7 @@ const Footer: React.FC = () => {
 
   const sendSuggestions = () => {
     const formData = new FormData();
+    formData.append('twitter', suggestionHandle);
     formData.append('value', suggestionText); 
     fetch('https://script.google.com/macros/s/AKfycbw6d1j3LbF86ArsQfrj0PZuUsYD2qrpGH2W2FUxOchBJEy3oS__PXcU5MiHQRt3zpzGVw/exec', { method: 'POST', mode: "no-cors", body: formData})
       .then(response => setSuggestionSubmitted(true))
@@ -35,6 +37,7 @@ const Footer: React.FC = () => {
     content: {
       display: 'flex',
       flexDirection: 'column',
+      justifyContent: 'center',
       top: '50%',
       left: '50%',
       right: 'auto',
@@ -75,7 +78,14 @@ const Footer: React.FC = () => {
                 color="#316760"
               />
             </div>
-            <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
+            <div className={styles.field}>
+              <div className={styles.label}>Your Twitter handle (optional)</div>
+              <input className={styles.input} onChange={e => setSuggestionHandle(e.target.value)} />
+            </div>
+            <div className={styles.field}>
+              <div className={styles.label}>Suggestion</div>
+              <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
+            </div>
             <button className={`${styles.btn} ${styles.modalBtn}`} onClick={sendSuggestions}>Send</button>
           </>
         ) : (

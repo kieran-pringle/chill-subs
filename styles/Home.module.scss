@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   padding: 0 2rem;
   color: #316760;
   background-color: #ffedd1;
@@ -45,9 +48,8 @@
 }
 
 .main {
-  min-height: 100vh;
-  margin-top: -3rem;
-  padding: 0 0 4rem;
+  // margin-top: -3rem;
+  // padding: 0 0 4rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -180,9 +182,9 @@
 }
 
 @media (max-width: 600px) {
-  .main {
-    margin-top: -4.5rem;
-  }
+  // .main {
+  //   margin-top: -4.5rem;
+  // }
 
   .title {
     font-size: 2rem;
