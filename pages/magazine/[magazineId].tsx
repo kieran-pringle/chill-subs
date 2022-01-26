@@ -8,6 +8,8 @@ import Modal from 'react-modal';
 import { AddOutline, BookOutline, CloseOutline, GlobeOutline, LogoTwitter, LogoInstagram } from 'react-ionicons';
 import { iconsByName } from '../../utils/iconsByName';
 import favorites from '!!json5-loader!../../data/favorites.json5';
+import examplesSource from '!!json5-loader!../../data/examples.json5';
+import contributorsSource from '!!json5-loader!../../data/contributors.json5';
 import Footer from '../../components/Footer';
 import styles from '../../styles/Magazine.module.scss';
 
@@ -18,9 +20,12 @@ export default function Magazine() {
   const [ suggestionHandle, setSuggestionHandle ] = useState<string>('');
   const [ suggestionText, setSuggestionText ] = useState<string>('');
   const [ suggestionSubmitted, setSuggestionSubmitted ] = useState<boolean>(false);
+  const [ contributorSearchValue, setContributorSearchValue ] = useState<string>('');
   const router = useRouter();
   const { magazineId } = router.query;
   const currentMagazine = favorites.find(m => m.id === Number(magazineId));
+  const [ allContributors, setAllContributors ] = useState<any>([]);
+  const [ contributorList, setContributorList ] = useState<any>([]);
 
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
 
@@ -29,6 +34,30 @@ export default function Magazine() {
       setIsMobile(true);
     }
   }, [])
+
+  const sortByLastName = list => {
+    return list.sort((a, b) => {
+      const namePartsA = a.split(' ');
+      const namePartsB = b.split(' ');
+      const firstNameA = namePartsA[0];
+      const firstNameB = namePartsB[0];
+      const lastNameA = namePartsA[namePartsA.length -1];
+      const lastNameB = namePartsB[namePartsB.length -1];
+      if (lastNameA === lastNameB) {
+        return firstNameA > firstNameB ? 1 : -1;
+      } else {
+        return lastNameA > lastNameB ? 1 : -1
+      }
+    })
+  }
+
+  useEffect(() => {
+    if (magazineId) {
+      const { contributors } = contributorsSource.find(c => c.magazineId === Number(magazineId));
+      setAllContributors(sortByLastName(contributors));
+      setContributorList(sortByLastName(contributors.slice(0, 100)));
+    }
+  }, [magazineId])
 
   const sendSuggestions = () => {
     const formData = new FormData();
@@ -45,6 +74,35 @@ export default function Magazine() {
   const closeModal = () => {
     setModal(null);
     setSuggestionSubmitted(false);
+  }
+
+  const handleContributorSearch = e => {
+    const { value } = e.target;
+    setContributorSearchValue(value);
+    if (!value) {
+      setContributorList(sortByLastName(allContributors.slice(0, 100)));
+    } else {
+      setContributorList(allContributors.filter(c => c.toLowerCase().includes(value.toLowerCase())));
+    }
+  }
+
+  const clearContributorSearch = () => {
+    setContributorSearchValue('');
+    setContributorList(sortByLastName(allContributors.slice(0, 100)));
+  }
+
+  const handleShowMore = () => {
+    const currentPosition = contributorList.length; 
+    if (contributorList.length + 100 <= allContributors.length) {
+      const updatedList = [ ...contributorList, ...allContributors.slice(currentPosition, currentPosition + 100)];
+      setContributorList(sortByLastName(updatedList));
+    } else {
+      setContributorList(sortByLastName(allContributors));
+    }
+  }
+
+  const getContributorId = contributor => {
+    return contributor.replace(' ', '_');
   }
 
   const customStyles = {
@@ -72,6 +130,8 @@ export default function Magazine() {
   };
 
   if (!currentMagazine) return null;
+
+  const { examples } = examplesSource.find(e => e.magazineId === Number(magazineId));
 
   const suggestionModal = (
     <Modal
@@ -169,6 +229,12 @@ export default function Magazine() {
             </a>
           )}
         </div>
+          {currentMagazine.open && (
+            <div className={`${styles.stat} ${styles.openStat}`}>
+              <div>Open:</div>
+              <div>Yes{currentMagazine.deadline && `, till ${currentMagazine.deadline}`}</div>
+            </div>
+          )}
           <div className={styles.stats}>
             <div className={styles.stat}>
               <div>Response time:</div>
@@ -240,7 +306,7 @@ export default function Magazine() {
         </div>
         <h2>Examples</h2>
         <div className={styles.examples}>
-          {currentMagazine.examples?.map((example, i) => (
+          {examples?.map((example, i) => (
             <div className={styles.example} key={i}>
               <h3>'{example.title}' by {example.author}</h3>
               <div className={styles.exampleContent}>
@@ -255,6 +321,30 @@ export default function Magazine() {
             </div>
           ))}
         </div>
+        <h2>Contributors</h2>
+        <div className={styles.searchContainer}>
+          <input
+            className={styles.search}
+            placeholder="Search..."
+            value={contributorSearchValue}
+            onChange={handleContributorSearch}
+          />
+          {contributorSearchValue && (
+            <CloseOutline onClick={clearContributorSearch} color="#316760" width="24" height="24" />
+          )}
+        </div>
+        <div className={styles.contributors}>
+          {contributorList?.sort((a, b) => a.split(' ').slice(-1) > b.split(' ').slice(-1) ? 1 : -1).map((contributor, i) => (
+            <Link href={`/contributor/${getContributorId(contributor)}`}>
+              <div className={styles.contributor} key={i}>
+                <span>{contributor}</span>
+              </div>
+            </Link>
+          ))}
+        </div>
+        {!contributorSearchValue && contributorList.length < allContributors.length && (
+          <div className={styles.showMore} onClick={handleShowMore}>Show more</div>
+        )}
         {suggestionModal}
       </main>
 

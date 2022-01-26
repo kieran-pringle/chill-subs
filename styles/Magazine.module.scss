@@ -110,6 +110,10 @@
   margin: 2rem 0 0;
 }
 
+.openStat {
+  // margin-top: 0.25rem;
+}
+
 .stat {
   display: flex;
   margin-bottom: 0.5rem;
@@ -271,6 +275,82 @@
   border-radius: 16px;
   img {
     border-radius: 16px;
+  }
+}
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 75.5%;
+  position: relative;
+  span {
+    position: absolute;
+    top: 0.65rem;
+    right: 1rem;
+    color: #316760;
+  }
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: #316760;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.search {
+  padding: 0.75rem 1.5rem;
+  // width: 21.75rem;
+  border-radius: 12px;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  border: 2px solid #316760;
+  font-size: 1rem;
+  color: #316760;
+  &::placeholder {
+    color: #316760;
+    opacity: 1;
+  }
+}
+.search:focus {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contributors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+  width: 76.5%;
+}
+
+.contributor {
+  margin-bottom: 1rem;
+  padding: 0.5rem 0.75rem;
+  // border-radius: 10px;
+  font-size: 1rem;
+  // background-color: #fff;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.85;
+  }
+}
+
+.showMore {
+  margin: 1rem auto 0;
+  padding: 0.5rem 0.75rem 0.6rem;
+  border-radius: 10px;
+  // border: 1px solid #316760;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #5F8372;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.9;
   }
 }
 
@@ -471,7 +551,7 @@
     // font-size: 0.9rem;
   }
 
-  .examples, .prosCons {
+  .examples, .prosCons, .contributors, .searchContainer {
     width: 100%;
   }
 
@@ -481,6 +561,15 @@
     .btn {
       padding: 0.5rem 0.75rem;
     }
+  }
+
+  .searchContainer {
+    margin: 0.5rem 0;
+  }
+
+  .contributors {
+    flex-direction: column;
+    justify-content: center;
   }
 
   .links {

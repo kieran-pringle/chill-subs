@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { CloseOutline, LogoTwitter } from 'react-ionicons';
 import favorites from '!!json5-loader!../data/favorites.json5';
+import contributorsSource from '!!json5-loader!../data/contributors.json5';
 import Checkbox from '../components/Checkbox';
 import Footer from '../components/Footer';
 import Select from '../components/Select';
@@ -36,7 +37,10 @@ export default function Browse() {
       let match = true;
       for (const [key, value] of Object.entries(values)) {
         if (key === 'search') {
-          if (value && !magazine.name.toLowerCase().includes((value as any).toLowerCase())) {
+          const magazineMatch = magazine.name.toLowerCase().includes((value as any).toLowerCase());
+          const { contributors } = contributorsSource.find(m => m.magazineId === magazine.id);
+          const contributorMatch = contributors.find(c => c.toLowerCase().includes((value as any).toLowerCase()));
+          if (value && !magazineMatch && !contributorMatch) {
             match = false;
           }
         } else if (key === 'responseTime') {
@@ -113,7 +117,7 @@ export default function Browse() {
 
         <div className={styles.filters}>
           <div className={styles.searchContainer}>
-            <div className={styles.label}>Search by magazine name</div>
+            <div className={styles.label}>Search by magazine or contributor name</div>
             <input
               className={styles.search}
               placeholder="Search..."
@@ -268,6 +272,9 @@ export default function Browse() {
           {results.map((magazine, i) => (
             <Link href={`/magazine/${magazine.id}`} key={i}>
               <div className={styles.card}>
+                {magazine.open && (
+                  <div className={styles.open}>Open</div>
+                )}
                 <Image src={magazine.cover || ''} width={120} height={120} />
                 <h3>{magazine.name}</h3>
                 <div className={styles.cardDescription}>{`"${magazine.description}"`}</div>
