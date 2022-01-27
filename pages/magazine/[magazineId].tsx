@@ -306,44 +306,57 @@ export default function Magazine() {
         </div>
         <h2>Examples</h2>
         <div className={styles.examples}>
-          {examples?.map((example, i) => (
-            <div className={styles.example} key={i}>
-              <h3>'{example.title}' by {example.author}</h3>
-              <div className={styles.exampleContent}>
-                <span className={styles.excerpt}>(excerpt)</span>
-                <div className={styles.exampleText}>{example.text}</div>
-                {/* <span className={styles.excerpt}>... (excerpt end)</span> */}
+          {examples?.length ? (
+            examples.map((example, i) => (
+              <div className={styles.example} key={i}>
+                <h3>'{example.title}' by {example.author}</h3>
+                <div className={styles.exampleContent}>
+                  <span className={styles.excerpt}>(excerpt)</span>
+                  <div className={styles.exampleText}>{example.text}</div>
+                  {/* <span className={styles.excerpt}>... (excerpt end)</span> */}
+                </div>
+                <a href={example.link}>
+                  <BookOutline cssClasses={styles.icon} />
+                  Read the full piece in the magazine
+                </a>
               </div>
-              <a href={example.link}>
-                <BookOutline cssClasses={styles.icon} />
-                Read the full piece in the magazine
-              </a>
-            </div>
-          ))}
-        </div>
-        <h2>Contributors</h2>
-        <div className={styles.searchContainer}>
-          <input
-            className={styles.search}
-            placeholder="Search..."
-            value={contributorSearchValue}
-            onChange={handleContributorSearch}
-          />
-          {contributorSearchValue && (
-            <CloseOutline onClick={clearContributorSearch} color="#316760" width="24" height="24" />
+            ))
+          ) : (
+            <div>Examples are coming :)</div>
           )}
         </div>
-        <div className={styles.contributors}>
-          {contributorList?.sort((a, b) => a.split(' ').slice(-1) > b.split(' ').slice(-1) ? 1 : -1).map((contributor, i) => (
-            <Link href={`/contributor/${getContributorId(contributor)}`} key={i}>
-              <div className={styles.contributor}>
-                <span>{contributor}</span>
-              </div>
-            </Link>
-          ))}
-        </div>
-        {!contributorSearchValue && contributorList.length < allContributors.length && (
-          <div className={styles.showMore} onClick={handleShowMore}>Show more</div>
+        <h2>Contributors</h2>
+        {allContributors.length ? (
+          <>
+            <div className={styles.searchContainer}>
+              <input
+                className={styles.search}
+                placeholder="Search..."
+                value={contributorSearchValue}
+                onChange={handleContributorSearch}
+              />
+              {contributorSearchValue && (
+                <CloseOutline onClick={clearContributorSearch} color="#316760" width="24" height="24" />
+              )}
+            </div>
+            <div className={styles.contributors}>
+              {contributorList?.sort((a, b) => a.split(' ').slice(-1) > b.split(' ').slice(-1) ? 1 : -1).map((contributor, i) => (
+                <Link href={`/contributor/${getContributorId(contributor)}`} key={i}>
+                  <div className={styles.contributor}>
+                    <span>{contributor}</span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+            {!contributorSearchValue && contributorList.length < allContributors.length && (
+              <div className={styles.showMore} onClick={handleShowMore}>Show more</div>
+            )}
+          </>
+        ) : (
+          <div className={styles.contributorsEmpty}>
+            Contributors are coming :) <br /> <br />
+            (or not, maybe it's too many of them)
+          </div>
         )}
         {suggestionModal}
       </main>

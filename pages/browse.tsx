@@ -152,9 +152,10 @@ export default function Browse() {
               placeholder="All the vibes"
               options={[
                 { value: undefined, title: 'All the vibes' },
-                { value: 'bestest', title: 'Send us your best (make it award level or sth)' },
+                { value: 'bestest', title: 'Very fancy very impressive very not fast' },
                 { value: 'best', title: 'Send us your best but less intimidating' },
                 { value: 'worst', title: 'Send us your fucking worst' },
+                { value: 'chilling', title: 'We\'re just chilling here' },
               ]}
               onSelect={option => handleValuesChange('vibe', option.value)}
             />

@@ -189,12 +189,15 @@
     margin-bottom: 1rem;
     padding-left: 0;
     line-height: 1.5;
-    svg {
+    span {
       margin-top: 0.125rem;
       margin-right: 0.75rem;
       min-width: 1.35rem;
       width: 1.35rem;
       height: 1.35rem;
+    }
+    svg {
+      color: #316760;
     }
   }
 
@@ -352,6 +355,11 @@
   &:hover {
     opacity: 0.9;
   }
+}
+
+.contributorsEmpty {
+  margin-top: 1.5rem;
+  width: 75%;
 }
 
 .modalHeader {
@@ -551,8 +559,16 @@
     // font-size: 0.9rem;
   }
 
-  .examples, .prosCons, .contributors, .searchContainer {
+  .examples, .prosCons, .contributors, .searchContainer, .contributorsEmpty {
     width: 100%;
+  }
+
+  .examples {
+    margin-bottom: 1rem;
+  }
+
+  .contributorsEmpty {
+    margin-top: 1rem;
   }
 
   .card {
