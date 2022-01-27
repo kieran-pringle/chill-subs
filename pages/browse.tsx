@@ -271,7 +271,7 @@ export default function Browse() {
 
         <div className={styles.cards}>
           {results.map((magazine, i) => (
-            <Link href={`/magazine/${magazine.id}`} key={i}>
+            <Link href={`/magazine/${magazine.id}`} key={magazine.id}>
               <div className={styles.card}>
                 {magazine.open && (
                   <div className={styles.open}>Open</div>
