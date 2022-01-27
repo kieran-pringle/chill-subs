@@ -14,7 +14,7 @@ export const iconsByName = {
   'library-outline': <LibraryOutline />,
   'shirt-outline': <ShirtOutline />,
   'thumbs-up-outline': <ThumbsUpOutline />,
-  'lightbulb-outline': <BulbOutline />,
+  'bulb-outline': <BulbOutline />,
   'cash-outline': <CashOutline />,
   'megaphone-outline': <MegaphoneOutline />,
   'flash-outline': <FlashOutline />,

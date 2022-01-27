@@ -23,7 +23,7 @@ export default function Magazine() {
   const [ contributorSearchValue, setContributorSearchValue ] = useState<string>('');
   const router = useRouter();
   const { magazineId } = router.query;
-  const currentMagazine = favorites.find(m => m.id === Number(magazineId));
+  const currentMagazine = favorites.find(m => m.name.toLowerCase().replace(/\s/g, '-') === magazineId);
   const [ allContributors, setAllContributors ] = useState<any>([]);
   const [ contributorList, setContributorList ] = useState<any>([]);
 
@@ -53,7 +53,7 @@ export default function Magazine() {
 
   useEffect(() => {
     if (magazineId) {
-      const { contributors } = contributorsSource.find(c => c.magazineId === Number(magazineId));
+      const { contributors } = contributorsSource.find(c => c.magazineId === magazineId);
       setAllContributors(sortByLastName(contributors));
       setContributorList(sortByLastName(contributors.slice(0, 100)));
     }
@@ -102,7 +102,7 @@ export default function Magazine() {
   }
 
   const getContributorId = contributor => {
-    return contributor.replace(' ', '_');
+    return contributor.replace(/\s/g, '_');
   }
 
   const customStyles = {
@@ -131,7 +131,7 @@ export default function Magazine() {
 
   if (!currentMagazine) return null;
 
-  const { examples } = examplesSource.find(e => e.magazineId === Number(magazineId));
+  const { examples } = examplesSource.find(e => e.magazineId === magazineId);
 
   const suggestionModal = (
     <Modal

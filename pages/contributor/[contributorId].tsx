@@ -26,14 +26,14 @@ export default function Contributor() {
 
   useEffect(() => {
     if (contributorId) {
-      const contributorName = (contributorId as string).replace('_', ' ');
+      const contributorName = (contributorId as string).replace(/_/g, ' ');
       setCurrentContributor(contributorName);
       const contributorMagazines = contributorsSource
         .filter(m => {
           return m.contributors.find(c => c === contributorName);
         })
         .map(m => m.magazineId)
-      const magazines = favorites.filter(m => contributorMagazines.includes(m.id));
+      const magazines = favorites.filter(m => contributorMagazines.includes(m.name.toLowerCase().replace(/\s/g, '-')));
       setMagazinesList(magazines);
     }
   }, [contributorId])

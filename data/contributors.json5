@@ -1,6 +1,6 @@
 [
   {
-    "magazineId": 1,
+    "magazineId": 'bullshit-lit',
     "contributors": [
       'Sloane Angelou', 'Eady H', 'Harrison Casswell', 'Kimberly Wolf', 'Lauren Theresa',
       'Laszlo Aranyi', 'James Diaz', 'Logan Roberts', 'Ben Riddle', 'Brian Simmons', 'Jason Melvin',
@@ -11,7 +11,7 @@
     ],
   },
   {
-    "magazineId": 2,
+    "magazineId": 'prolit',
     "contributors": [
       'Erika Walsh', 'Ryan Eckes', 'Corey Qureshi', 'Amy Saul-Zerby', 'Sean Webb', 'Brittanie Sterner',
       'Warren Longmire', 'Elizabeth Scanlon', 'Maryan Nagy Captan', 'Angelo Colavita',
@@ -38,7 +38,7 @@
     ],
   },
   {
-    "magazineId": 3,
+    "magazineId": 'rejection-letters',
     "contributors": [
       'Andrew Bertaina', 'Kristin Garth', 'Lannie Stabile', 'Capella Parrish', 'S. T. Brant',
       'Richard LeDue', 'David Green', 'Keith Welch', 'C. Cimmone', 'Kyla Houbolt', 'Vanessa Walters',
@@ -130,7 +130,7 @@
     ],
   },
   {
-    "magazineId": 4,
+    "magazineId": 'fine-print-press',
     "contributors": [
       'Ron Regé, Jr.', 'Andres Parada', 'Brian Blomerth', 'Charlyne Yi', 'Christopher Fischer',
       'Christopher Payne', 'Erin Allen', 'Frances Michelle Lopez', 'Freddy Ruppert', 'Hilal Omar Al Jamal',
@@ -155,13 +155,13 @@
     ],
   },
   {
-    "magazineId": 5,
+    "magazineId": 'slant',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 6,
+    "magazineId": 'the6ress',
     "contributors": [
       'Rachel Kavanagh', 'Robert Beveridge', 'Mark Watkins', 'Charlotte Brisland', 'Tee Ferguson',
       'SJ Kennedy Scott', 'Sofia Grin', 'Cristian Usai', 'Liv Wood', 'Tom Cherrie', 'Tyler Hayden', 'Simon Hauwaerts',
@@ -180,28 +180,18 @@
     ],
   },
   {
-    "magazineId": 7,
+    "magazineId": 'kissing-dynamite',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 8,
+    "magazineId": 'south-broadway-ghost-society',
     "contributors": [
-      'David Rawson', 'Jordan A. Rothacker', 'Alexandra Naughton', 'Blake Edward Hamilton',
-      'Hugh Cook', 'William Doreski', 'Veronica Love', 'K.J. Kindling', 'D.S. Maolalai', 'Kim Peter Kovac',
-      'John Grey', 'Brice Maiurro', 'Nathaniel Kennon Perkins', 'Linda M. Crate', 'Howie Good',
-      'James H. Duncan', 'Mark Blickley + Keith Goldstein', 'Dave Owens', 'Glen Armstrong',
-      'Evan James Sheldon', 'Bethany Moore', 'D.o.t.B.', 'Anthony Lawrence', 'Erik-John Fuhrer',
-      'Maria Berardi', 'Ace Boggess', 'Bare Ly', 'Bruce McRae', 'Patricia Walsh', 'Sam Albala',
-      'Moira Murphy', 'Steve Shultz', 'Margarita Serafimova', 'Dalton Telschow', 'C.C. Hannett',
-      'Mark J. Mitchell', 'R. Gerry Fabian', 'Heidi Gonzales', 'Seth Berg', 'Brian Matta',
-      'David Atkinson', 'Annette Freeman', 'Sowa H. Mrügar', 'Joshua Espitia', 'Ingrid Calderon',
-      'Natalie Sierra', 'Ahja Fox', 'Sarah D.G. Larue', 'Megan Heise', 'Sam Pink', 'Alessandra Ragusin',
     ],
   },
   {
-    "magazineId": 9,
+    "magazineId": 'the-global-youth-review',
     "contributors": [
       'Sulola Imran Abiola', 'Vinicius Amano', 'Abdulmueed Balogun', 'Dimitar Belchev', 'Mario Calvo',
       'Arisa Chattasa', 'Sarah Chaudhry', 'Jake Colling', 'Rodrigo Curi', 'Jose Da Rocha', 'Shaunak De',
@@ -230,13 +220,13 @@
     ],
   },
   {
-    "magazineId": 10,
+    "magazineId": 'high-shelf',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 11,
+    "magazineId": 'spam',
     "contributors": [
       'Amy De’Ath', 'Craig Santos Perez', 'Ed Luker', 'nicky melville', 'Will Harris', 'Imogen Cassels',
       'Lizzie McCreadie', 'Nina Ward', 'Fintan Calpin', 'JD Howse', 'Ali Znaidi', 'Shehzar Doja',
@@ -257,7 +247,7 @@
     ],
   },
   {
-    "magazineId": 12,
+    "magazineId": 'c*nsorship-magazine',
     "contributors": [
       'Lorelei Bacht', 'Craig Kittner', 'Elizabeth Cowling', 'Sarah Robin', 'Hat Leith', 'Andre F. Peltier',
       'Sneha Roy', 'Tim Prutton', 'HLR', 'Christopher Thomas', 'Lindsey Chambley', 'Vivian McInerny',
@@ -269,7 +259,7 @@
     ],
   },
   {
-    "magazineId": 13,
+    "magazineId": 'blue-river-review',
     "contributors": [
       'Dallas Woodburn', 'John Gallaher', 'Maddie Murphy', 'David Starkey', 'Luke Rolfes', 'Al Simmons',
       'Brad Johnson', 'Michael Chin', 'William Snyder, Jr.', 'Thomas J. Erickson', 'Caitlin Woolley',
@@ -312,7 +302,7 @@
     ],
   },
   {
-    "magazineId": 14,
+    "magazineId": 'elsewhere',
     "contributors": [
       'Leigh Allison Wilson', 'Joanna Ruocco', 'Andrew Sullivan', 'C. Dylan Bassett', 'Ruth Baumann',
       'Brian Doyle', 'Jessica Poli',
@@ -371,7 +361,7 @@
     ],
   },
   {
-    "magazineId": 15,
+    "magazineId": 'empty-house-press',
     "contributors": [
       'Kyle Seamus Brosnihan', 'Ashleigh Bryant Phillips', 'Jane-Rebecca Cannarella', 'Kevin Chesser',
       'Mary Ann Honaker', 'Stephanie Rogers', 'Morgan Russell', 'Kelly R. Samuels', 'Julia Shiota',
@@ -399,7 +389,7 @@
     ],
   },
   {
-    "magazineId": 16,
+    "magazineId": 'fugue',
     "contributors": [
       'Albert Abonado', 'Kathy Acker', 'Carl Adamshick', 'Betty Adcock', 'R.E. Alatee', 'L.N. Allen',
       'Olivia V. Ambrogio', 'Britta Ameel', 'Greg Ames', 'John Edward Ames', 'Kenneth C. Andersen',
@@ -577,7 +567,7 @@
     ],
   },
   {
-    "magazineId": 17,
+    "magazineId": 'g*mob',
     "contributors": [
       'Monica McClure', 'Sasha Fletcher', 'George McKim', 'Rena Branson', 'Joseph Young',
       'Tracy Dimond', 'Vanessa Jimenez Gabb', 'David Trinidad', 'Mark Cugini', 'Laura Relyea',
@@ -649,13 +639,13 @@
     ],
   },
   {
-    "magazineId": 18,
+    "magazineId": 'pacifica-literary-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 19,
+    "magazineId": 'paperbag',
     "contributors": [
       'Anne Carson', 'Brian Carey Chung', 'Robert Currie', 'Joanna Fuhrman', 'Andrew Grace',
       'Elsbeth Pancrazi', 'Matthew Rohrer', 'Solmaz Sharif', 'Toni Simon', 'Rick Snyder',
@@ -708,13 +698,13 @@
     ],
   },
   {
-    "magazineId": 20,
+    "magazineId": 'pigeon-pages',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 21,
+    "magazineId": 'press-pause-press',
     "contributors": [
       'Hanna Abi Akl', 'Farnaz Abdolmaleki', 'Maryann Aita', 'Jordan Anthony', 'T. J. Antley',
       'Brian Michael Barbeito', 'Kathryn M. Barber', 'Emily Bell', 'Katelyn Bland-Clark', 'Kat Bodrie',
@@ -745,25 +735,25 @@
     ],
   },
   {
-    "magazineId": 22,
+    "magazineId": 'sixth-finch',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 23,
+    "magazineId": 'the-spectacle',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 24,
+    "magazineId": 'watershed-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 25,
+    "magazineId": 'cobra-milk',
     "contributors": [
       'Tori Ashley Matos', 'Cynthia Alessandra Briano', 'Shareen K. Murayama', 'Danie Kessel',
       'Mateo Perez Lara', 'Adam Sulzdorf-Liszkiewicz', 'Benjamin Bartu', 'Jessica Kim',
@@ -788,7 +778,7 @@
     ],
   },
   {
-    "magazineId": 26,
+    "magazineId": 'near-window',
     "contributors": [
       'Georgia Conlon', 'Christine M. Estel', 'Jason de Koff', 'Max Levy', 'Sarah Moran',
       'Megan Neary', 'Kenneth Pobo', 'Mitchell Solomon', 'Claire Taylor', 'Lucy Wallis',
@@ -808,13 +798,13 @@
     ],
   },
   {
-    "magazineId": 27,
+    "magazineId": 'neuro-logical-magazine',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 28,
+    "magazineId": 'diagram',
     "contributors": [
       'Fulla Abdul-Jabbar', 'Gina Abelkop', 'Scott Abels', 'D M Aderibigbe', 'Carrie Olivia Adams',
       'Corinn Adams', 'Erica W Adams', 'Samuel J Adams', 'Sara Adams', 'Nick Admussen', 'Joe Aguilar',
@@ -1069,49 +1059,49 @@
     ],
   },
   {
-    "magazineId": 29,
+    "magazineId": 'the-furious-gazelle',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 30,
+    "magazineId": 'the-penn-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 31,
+    "magazineId": 'the-rappahannock-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 32,
+    "magazineId": 'spork-press',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 33,
+    "magazineId": 'north-dakota-quarterly',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 34,
+    "magazineId": 'the-daily-drunk',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 35,
+    "magazineId": 'bending-genres',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 36,
+    "magazineId": 'holyflea!',
     "contributors": [
       'INDIGO', 'CHRIS KILVINGTON', 'NAM HOANG-TRAN', 'LIENE SCHIPPER', 'ADRIAN ERNESTO CEPEDA',
       'ESSICA SARLIN', 'LILLIAN BARFIELD', 'KIMBERLEY DAWN', 'JAMESON RIVERA', 'EMMA RUTH WILSON',
@@ -1128,7 +1118,7 @@
     ],
   },
   {
-    "magazineId": 37,
+    "magazineId": 'stanchion',
     "contributors": [
       'Africa Miranda', 'Andrew Knott', 'Bryan Sargent', 'Creed Anthony', 'David Stanley',
       'Doug French', 'Doug Zeigler', 'Gavin Lodge', 'Julie Bogle', 'Michelle Juergen',
@@ -1157,7 +1147,7 @@
     ],
   },
   {
-    "magazineId": 38,
+    "magazineId": 'crow-name',
     "contributors": [
       'David Centorbi', 'Keith J. Clark', 'Chidiebube onye Okohia', 'Patrick Nevins',
       'Nkateko Masinga', 'Kara Goughnour', 'Ashley Pearson', 'Hibah Shabkhez', 'Shiksha Dheda',
@@ -1168,18 +1158,18 @@
     ],
   },
   {
-    "magazineId": 39,
+    "magazineId": 'grub-street',
     "contributors": [
     ],
   },
   {
-    "magazineId": 40,
+    "magazineId": 'many-nice-donkeys',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 41,
+    "magazineId": 'chaotic-merge',
     "contributors": [
       'J.R Allen', 'Spencer Pechart', 'Hannah Dancy', 'Alfredo Salvatore Arcilesi', 'Mason Martinez',
       'Noah Rigby', 'William Doreski', 'Gerard Sarrat', 'Federick Pollack', 'Melody Wang',
@@ -1201,7 +1191,7 @@
     ],
   },
   {
-    "magazineId": 42,
+    "magazineId": 'little-engines',
     "contributors": [
       'B. Frayn Masters', 'Damien Jurado', 'Susannah Felts', 'Josh Hooten', 'Mike Lowery',
 
@@ -1211,13 +1201,13 @@
     ],
   },
   {
-    "magazineId": 43,
+    "magazineId": 'misery-tourism',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 44,
+    "magazineId": 'autofocus',
     "contributors": [
       'Rachel Kolman', 'John King', 'Mistie Watkins', 'Sara Rauch', 'Erin Slaughter', 'Aaron Burch',
       'Ciera Horton McElroy', 'Laurie Rachkus Uttich', 'Meghan Phillips', 'David Shields',
@@ -1246,7 +1236,7 @@
 //     "magazineId": 45,
 //   },
   {
-    "magazineId": 46,
+    "magazineId": 'hooligan-mag',
     "contributors": [
       'Taylor Byas', 'Shiksha Dheda', 'Matt Mitchell', 'Pat Haney', 'Jeni De La O', 'Dana Tuohey',
       'Kora Schultz', 'Madeleine Corley', 'Olivia Braley', 'Kristin Lueke', 'Maya Nordine',
@@ -1263,7 +1253,7 @@
     ],
   },
   {
-    "magazineId": 47,
+    "magazineId": 'had',
     "contributors": [
       'Aaron Burch', 'W. Todd Kaneko', 'Annika Barranti Klein', 'Brennan Bestwick',
       'Katie Runde', 'Siân Griffiths, Dave Housley, & Aaron Burch', 'Rhea Ramakrishnan',
@@ -1370,13 +1360,13 @@
     ],
   },
   {
-    "magazineId": 48,
+    "magazineId": 'corvus-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 49,
+    "magazineId": 'adjacent-pineapple',
     "contributors": [
       'Jane Goldman', 'Felix Bernstein & Kyoo Lee', 'Andy Spragg', 'Alison Gibb', 'Ellen Dillon',
       'J L Williams', 'Tessa Berring', 'Roger Sedarat', 'David Spittle', 'Hannah Van Hove',
@@ -1386,55 +1376,55 @@
     ],
   },
   {
-    "magazineId": 50,
+    "magazineId": 'hobart',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 51,
+    "magazineId": 'brave-voices',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 52,
+    "magazineId": 'twin-pies-literary',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 53,
+    "magazineId": 'longleaf-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 54,
+    "magazineId": 'barrelhouse',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 55,
+    "magazineId": 'waxwing-literary-journal',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 56,
+    "magazineId": 'willow-springs',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 57,
+    "magazineId": 'electric-lit',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 58,
+    "magazineId": 'dollar-store-magazine',
     "contributors": [
       'Njikonye N. Charles', 'Kristen Lynn Kreashko', 'J.V. Sumpter', 'Josh Shepard',
       'Halle Preneta', 'Kenneth Pobo', 'Elizabeth Feucht', 'Clem Flowers', 'Josh Sippie',
@@ -1446,25 +1436,25 @@
     ],
   },
   {
-    "magazineId": 59,
+    "magazineId": 'the-lumiere-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 60,
+    "magazineId": 'identity-theory',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 61,
+    "magazineId": 'back-patio-press',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 62,
+    "magazineId": 'neutral-spaces',
     "contributors": [
       'James Tadd Adcox', 'Joseph Grantham', 'Ashleigh Bryant Phillips', 'Mike Andrelczyk',
       'Judson Hamilton', 'Brooke Nicole Plummer', 'Dylan Angell', 'Joshua Hebburn',
@@ -1509,18 +1499,18 @@
     ],
   },
   {
-    "magazineId": 63,
+    "magazineId": 'the-bitchin’-kitsch',
     "contributors": [
 
     ],
   },{
-    "magazineId": 64,
+    "magazineId": 'trampset',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 65,
+    "magazineId": 'the-voidspace',
     "contributors": [
       'Michael O’Brien', 'Oscar González Cabo', 'Leo Doulton', 'Courtenay S. Gray',
       'HLR', '@lynchpoet / rudy', 'Kyla Houbolt', 'Arden Hunter', 'Meghna Jayakumar',
@@ -1531,43 +1521,43 @@
     ],
   },
   {
-    "magazineId": 66,
+    "magazineId": 'cloves',
     "contributors": [
       'Leigh Chadwick', 'William R. Soldan',
     ],
   },
   {
-    "magazineId": 67,
+    "magazineId": 'reservoir-road-literary-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 68,
+    "magazineId": 'x-r-a-y',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 69,
+    "magazineId": 'maudlin-house',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 70,
+    "magazineId": 'olney',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 71,
+    "magazineId": 'jellyfish-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 72,
+    "magazineId": 'taco-bell-quarterly',
     "contributors": [
       'Carman C. Curton', ' Jeff Barker', 'Emily Costa', 'Catherine Moore', 'DW Becknar',
       'Natasha Cabot', 'Reed Schmitz', 'Marla Eizik', 'Josh Olsen', 'Rosie Accola',
@@ -1613,19 +1603,19 @@
     ],
   },
   {
-    "magazineId": 73,
+    "magazineId": 'the-paris-review',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 74,
+    "magazineId": 'the-new-yorker',
     "contributors": [
 
     ],
   },
   {
-    "magazineId": 75,
+    "magazineId": 'poetry',
     "contributors": [
 
     ],

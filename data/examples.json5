@@ -1,6 +1,6 @@
 [
   {
-    "magazineId": 1,
+    "magazineId": 'bullshit-lit',
     "examples": [
       {
         "author": "Ben Riddle",
@@ -58,7 +58,7 @@ where do you meet these strange people with all their interesting stories?"
     ],
   },
   {
-    "magazineId": 2,
+    "magazineId": 'prolit',
     "examples": [
       {
         "author": "Matt Dineen",
@@ -131,7 +131,7 @@ motivating you with fear."
     ],
   },
   {
-    "magazineId": 3,
+    "magazineId": 'rejection-letters',
     "examples": [{
         "author": "Raina K. Puels",
         "title": "SPACE COLONIZATION SCARES ME",
@@ -214,7 +214,7 @@ Eating books like cereal"
     ],
   },
   {
-    "magazineId": 4,
+    "magazineId": 'fine-print-press',
     "examples": [{
         "author": "Amanda Glasser",
         "title": "I want to be the pill you take to sleep",
@@ -265,7 +265,7 @@ when they might have otherwise had water."
     ],
   },
   {
-    "magazineId": 5,
+    "magazineId": 'slant',
     "examples": [{
         "author": "Scott Blackwell",
         "title": "Another Sailor, Lost At Sea",
@@ -327,7 +327,7 @@ when I succumbed, a frail autumnal leaf."
     ],
   },
   {
-    "magazineId": 6,
+    "magazineId": 'the6ress',
     "examples": [{
         "author": "Hollie McNish",
         "title": "fingering to ed sheeran's shape of you",
@@ -376,7 +376,7 @@ reaching across the sink, \n\
     ]
   },
   {
-    "magazineId": 7,
+    "magazineId": 'kissing-dynamite',
     "examples": [{
         "author": "Jordan Hamel",
         "title": "Anxiety & Co.",
@@ -447,7 +447,7 @@ feels like a revolution when the city dictates heat."
     ]
   },
   {
-    "magazineId": 8,
+    "magazineId": 'south-broadway-ghost-society',
     "examples": [{
         "author": "Danny Mazur",
         "title": "Pretzels",
@@ -535,7 +535,7 @@ What would I not allow on my menu?"
     ],
   },
   {
-    "magazineId": 9,
+    "magazineId": 'the-global-youth-review',
     "examples": [{
         "author": "Kath G",
         "title": "i am tired",
@@ -587,7 +587,7 @@ I entered."
     ],
   },
   {
-    "magazineId": 10,
+    "magazineId": 'high-shelf',
     "examples": [{
         "author": "Joan Penn",
         "title": "Death in the Time of Pandemic Pontoum",
@@ -657,7 +657,7 @@ smears of blood. "
     ]
   },
   {
-    "magazineId": 11,
+    "magazineId": 'spam',
     "examples": [{
         "author": "nicky melville",
         "title": "pets",
@@ -754,7 +754,7 @@ let’s just agree it does"
     ],
   },
   {
-    "magazineId": 12,
+    "magazineId": 'c*nsorship-magazine',
     "examples": [{
         "author": "Janaya Fuller-Evans",
         "title": "Be Positive",
@@ -825,7 +825,7 @@ from behind."
     ],
   },
   {
-    "magazineId": 13,
+    "magazineId": 'blue-river-review',
     "examples": [{
         "author": "Jack Rockwood",
         "title": "Bus Stop",
@@ -883,7 +883,7 @@ destruction of said list. \n\
     ],
   },
   {
-    "magazineId": 14,
+    "magazineId": 'elsewhere',
     "examples": [{
         "author": "Lee Upton",
         "title": "WHEN YOU CAN'T TALK YOUR THOUGHTS GET MEAN",
@@ -913,7 +913,7 @@ So there’s this nice man, very sweet, shorter than I am, really wiry and skinn
     ],
   },
   {
-    "magazineId": 15,
+    "magazineId": 'empty-house-press',
     "examples": [{
         "author": "Eleanor Rose Shaw",
         "title": "TODAY",
@@ -966,7 +966,7 @@ park I threw picnics in."
     ],
   },
   {
-    "magazineId": 16,
+    "magazineId": 'fugue',
     "examples": [{
         "author": "Charlotte Hughes",
         "title": "Performance",
@@ -1046,7 +1046,7 @@ didn’t know they were all by one guy."
     ],
   },
   {
-    "magazineId": 17,
+    "magazineId": 'g*mob',
     "examples": [{
         "author": "Emily Banks",
         "title": "How I Learned to Stop Worrying",
@@ -1121,7 +1121,7 @@ to jailbreak her age commands."
     ],
   },
   {
-    "magazineId": 18,
+    "magazineId": 'pacifica-literary-review',
     "examples": [{
         "author": "Emma Bolden",
         "title": "Social Media",
@@ -1163,7 +1163,7 @@ Even from this distance, the river appears oil-slicked and garbage-bound. Stuck,
     ],
   },
   {
-    "magazineId": 19,
+    "magazineId": 'paperbag',
     "examples": [{
         "author": "Ariel Francisco",
         "title": "For My Uncle Kiko, Who's Spent Most of His Life in Psychiatric Hospitals with Schizophrenia",
@@ -1220,7 +1220,7 @@ All noise is doomed to failure. The potter's field floods & reveals its noise am
     ],
   },
   {
-    "magazineId": 20,
+    "magazineId": 'pigeon-pages',
     "examples": [{
         "author": "Tracy Fuad",
         "title": "Considering the Unit of the Day",
@@ -1272,7 +1272,7 @@ Two weeks ago, as I was getting ready for a night out, a spider jumped out from 
     ],
   },
   {
-    "magazineId": 21,
+    "magazineId": 'press-pause-press',
     "examples": [{
         "author": "Geoff Callard",
         "title": "Twenty Questions",
@@ -1311,7 +1311,7 @@ I also like to sit down in my shower while I shave my legs. I aim the showerhead
     ],
   },
   {
-    "magazineId": 22,
+    "magazineId": 'sixth-finch',
     "examples": [{
         "author": "David Kirby",
         "title": "Read Everything",
@@ -1372,7 +1372,7 @@ a spirit human?"
     ],
   },
   {
-    "magazineId": 23,
+    "magazineId": 'the-spectacle',
     "examples": [{
         "author": "M.M. Carrigan",
         "title": "Bleeder",
@@ -1422,7 +1422,7 @@ Delivered a stillborn baby, then miscarried  \n\
     ],
   },
   {
-    "magazineId": 24,
+    "magazineId": 'watershed-review',
     "examples": [{
         "author": "Derek Graf",
         "title": "There Are No Birds In My House",
@@ -1473,7 +1473,7 @@ I’m counting messy buns and immaculate blowouts."
     ],
   },
   {
-    "magazineId": 25,
+    "magazineId": 'cobra-milk',
     "examples": [{
         "author": "Emma Ensley",
         "title": "And ever ever ever ever ever",
@@ -1543,7 +1543,7 @@ Like, literally?"
     ],
   },
   {
-    "magazineId": 26,
+    "magazineId": 'near-window',
     "examples": [{
         "author": "Bridie Donaghy",
         "title": "Adam Driver and other obsessions",
@@ -1608,7 +1608,7 @@ There is also the wonderful aroma of freshly brewed sulawesi toraja coffee. Beet
     ],
   },
   {
-    "magazineId": 27,
+    "magazineId": 'neuro-logical-magazine',
     "examples": [{
         "author": "Shawn Berman",
         "title": "RUMOR HAS IT THAT THE BLUE LIGHT EMANATING FROM YOUR SMARTPHONE CAN NOT ONLY RUIN YOUR EYES BUT IT CAN ALSO DISTORT YOUR SLEEPING PATTERNS MAKING IT HARDER TO PASS OUT AT NIGHT",
@@ -1691,7 +1691,7 @@ I’ve held your first teeth in the palm of my hand like pearls."
     ],
   },
   {
-    "magazineId": 28,
+    "magazineId": 'diagram',
     "examples": [{
         "author": "Collier Brown",
         "title": "THE TETRAHEDRAL KITES",
@@ -1733,7 +1733,7 @@ I would make a terrible Buddhist. I don't know how to turn off the voices. I am 
     ],
   },
   {
-    "magazineId": 29,
+    "magazineId": 'the-furious-gazelle',
     "examples": [{
         "author": "Martina Reisz Newberry",
         "title": "A LITTLE GLINT, A SLASH OF COLOR",
@@ -1804,7 +1804,7 @@ of foraging supremacy."
     ],
   },
   {
-    "magazineId": 30,
+    "magazineId": 'the-penn-review',
     "examples": [{
         "author": "Samantha DeFlitch",
         "title": "SPLIT-BONED DOG",
@@ -1852,7 +1852,7 @@ and those who played them"
     ],
   },
   {
-    "magazineId": 31,
+    "magazineId": 'the-rappahannock-review',
     "examples": [{
         "author": "Nancy Lynée Woo",
         "title": "Somewhere in Montana, Maybe",
@@ -1908,7 +1908,7 @@ controlled by the lizard brain, "
     ],
   },
   {
-    "magazineId": 32,
+    "magazineId": 'spork-press',
     "examples": [{
         "author": "Matt Mitchell",
         "title": "Cyclone",
@@ -1972,7 +1972,7 @@ swarm inside the mind. I can’t really say when this will stop."
     ],
   },
   {
-    "magazineId": 33,
+    "magazineId": 'north-dakota-quarterly',
     "examples": [{
         "author": "Andrea Gregory",
         "title": "Activities",
@@ -2042,7 +2042,7 @@ would be peering out at me, as if I’d been drooling on myself in my sleep."
     ]
   },
   {
-    "magazineId": 34,
+    "magazineId": 'the-daily-drunk',
     "examples": [
       {
         "author": "Courtney LeBlanc",
@@ -2114,7 +2114,7 @@ splotched with enemies’ blood."
     ],
   },
   {
-    "magazineId": 35,
+    "magazineId": 'bending-genres',
     "examples": [{
         "author": "Gay Degani",
         "title": "The Homely Muse",
@@ -2152,7 +2152,7 @@ Of course, I know what to write, but each day, four hundred possible futures exp
     ],
   },
   {
-    "magazineId": 36,
+    "magazineId": 'holyflea!',
     "examples": [{
         "author": "LEAH BOXLEY",
         "title": "I WOULD LIKE A HONEY HAM",
@@ -2213,7 +2213,7 @@ usually bright eyes followed passersby as they passed him by on the street."
     ],
   },
   {
-    "magazineId": 37,
+    "magazineId": 'stanchion',
     "examples": [{
         "author": "Jeff Bogle",
         "title": "Coffee",
@@ -2284,7 +2284,7 @@ Lily. “There are big suns, ones that make our sun look like a tiny button next
     ],
   },
   {
-    "magazineId": 38,
+    "magazineId": 'crow-name',
     "examples": [{
         "author": "David Centorbi",
         "title": "This Place is Really Quaint",
@@ -2333,7 +2333,7 @@ or end it later?"
     ],
   },
   {
-    "magazineId": 39,
+    "magazineId": 'grub-street',
     "examples": [{
         "author": "Beatriz Seelaender",
         "title": "A Kidney Qaught in Quicksand",
@@ -2391,10 +2391,10 @@ Eros, Philia, Ludus, Agape, Pragma and Philautia. \n\
     ],
   },
   {
-    "magazineId": 40,
+    "magazineId": 'many-nice-donkeys',
   },
   {
-    "magazineId": 41,
+    "magazineId": 'chaotic-merge',
     "examples": [{
         "author": "Isabel Lee Roden",
         "title": "They Kept Joan of Arc In Prison For a Year",
@@ -2457,7 +2457,7 @@ when driving into daisies"
     ],
   },
   {
-    "magazineId": 42,
+    "magazineId": 'little-engines',
     "examples": [{
         "author": "Mike Nagel",
         "title": "Teeth",
@@ -2501,7 +2501,7 @@ The husband stared at her with his mouth hanging open, replaying in his head the
     ],
   },
   {
-    "magazineId": 43,
+    "magazineId": 'misery-tourism',
     "examples": [{
         "author": "Jordan Sullivan",
         "title": "The Cancelled Man",
@@ -2570,7 +2570,7 @@ That afternoon, as I trimmed the steaks, I thought about how I was going to brea
     ],
   },
   {
-    "magazineId": 44,
+    "magazineId": 'autofocus',
     "examples": [{
         "author": "David Kirby",
         "title": "Big Liar",
@@ -2674,7 +2674,7 @@ Is there a way to live as an artist in America that isn't dissonant? More specif
 //     "notes": "accept some crazy list shit too, accept poetry films"
 //   },
   {
-    "magazineId": 46,
+    "magazineId": 'hooligan-mag',
     "examples": [{
         "author": "Elly McCarthy",
         "title": "hibernaculum",
@@ -2761,7 +2761,7 @@ shhh I can’t"
     ],
   },
   {
-    "magazineId": 47,
+    "magazineId": 'had',
     "examples": [{
         "author": "Leila Register",
         "title": "FAILED DESSERT",
@@ -2802,7 +2802,7 @@ BEN, KATY’s sometime boyfriend, currently getting in touch with his inner rhyt
     ],
   },
   {
-    "magazineId": 48,
+    "magazineId": 'corvus-review',
     "examples": [{
         "author": "Tom Barlow",
         "title": "Customers",
@@ -2868,7 +2868,7 @@ head that's just not getting there."
     ],
   },
   {
-    "magazineId": 49,
+    "magazineId": 'adjacent-pineapple',
     "examples": [{
         "author": "David Ross Linklater",
         "title": "Blood Tests",
@@ -2920,7 +2920,7 @@ and that’s why everything is wrong."
     ],
   },
   {
-    "magazineId": 50,
+    "magazineId": 'hobart',
     "examples": [{
         "author": "Lena Tsykynovska",
         "title": "Sonnet",
@@ -2988,7 +2988,7 @@ her silken fall."
     ],
   },
   {
-    "magazineId": 51,
+    "magazineId": 'brave-voices',
     "examples": [{
         "author": "Jay Hurteau",
         "title": "I Feel Most Connected",
@@ -3055,7 +3055,7 @@ an 11:11 pop up on my screen"
     ],
   },
   {
-    "magazineId": 52,
+    "magazineId": 'twin-pies-literary',
     "examples": [{
         "author": "Mallory Smart",
         "title": "somewhere not here",
@@ -3115,7 +3115,7 @@ We tell him we didn’t order anything. \n\
     ],
   },
   {
-    "magazineId": 53,
+    "magazineId": 'longleaf-review',
     "examples": [{
         "author": "Hannah Grieco",
         "title": "The Last Six Cookies in the Package",
@@ -3151,7 +3151,7 @@ I had to Google his obituary to calculate how old he was when I was born. \n\
     ],
   },
   {
-    "magazineId": 54,
+    "magazineId": 'barrelhouse',
     "examples": [{
         "author": "CLARA CRISTOFARO",
         "title": "OFFICE LADIES",
@@ -3210,7 +3210,7 @@ into the marrow."
     ],
   },
   {
-    "magazineId": 55,
+    "magazineId": 'waxwing-literary-journal',
     "examples": [{
         "author": "Amanda Turner",
         "title": "The Fish Hums to the Night and the Night Hums to the Fish",
@@ -3275,7 +3275,7 @@ when there’s just the one?"
     ],
   },
   {
-    "magazineId": 56,
+    "magazineId": 'willow-springs',
     "examples": [{
         "author": "David Kirby",
         "title": "The Return of Martin Guerre",
@@ -3351,7 +3351,7 @@ after civil defense drills at Rolling Fields Elementary."
     ],
   },
   {
-    "magazineId": 57,
+    "magazineId": 'electric-lit',
     "examples": [{
         "author": "Maui Smith",
         "title": "diagnosis",
@@ -3394,7 +3394,7 @@ Moved the couch and tried to find the glass heating its way into a wedge."
     ],
   },
   {
-    "magazineId": 58,
+    "magazineId": 'dollar-store-magazine',
     "examples": [{
         "author": "Kenneth Pobo",
         "title": "TRAVELLER",
@@ -3450,7 +3450,7 @@ beasts,"
     ],
   },
   {
-    "magazineId": 59,
+    "magazineId": 'the-lumiere-review',
     "examples": [{
         "author": "Courtney LeBlanc",
         "title": "ANTILAMENTATION",
@@ -3499,7 +3499,7 @@ I thought this while eating Cheerios the morning of my twenty-seventh birthday, 
     ],
   },
   {
-    "magazineId": 60,
+    "magazineId": 'identity-theory',
     "examples": [{
         "author": "CJ Hallman",
         "title": "Guilin Noodles",
@@ -3536,7 +3536,7 @@ way."
     ],
   },
   {
-    "magazineId": 61,
+    "magazineId": 'back-patio-press',
     "examples": [{
         "author": "Michael O’Brien",
         "title": "the earth IS flat, bro",
@@ -3587,7 +3587,7 @@ secret stories"
     ],
   },
   {
-    "magazineId": 62,
+    "magazineId": 'neutral-spaces',
     "examples": [{
         "author": "Emily Alexander",
         "title": "THIS PART OF LIFE",
@@ -3649,7 +3649,7 @@ there is something occurring at an incredible distance and you are always where 
     ],
   },
   {
-    "magazineId": 63,
+    "magazineId": 'the-bitchin’-kitsch',
     "examples": [{
         "author": "H.E. Grahame",
         "title": "Check the Box",
@@ -3687,7 +3687,7 @@ to sue the school for all of its colored pencils."
       },
     ],
   },{
-    "magazineId": 64,
+    "magazineId": 'trampset',
     "examples": [{
         "author": "Hannah Grieco",
         "title": "My love, if I wrote your Tinder profile",
@@ -3729,19 +3729,19 @@ My body recognized her before I did—I stiffened, my heart began to race, I won
     ],
   },
   {
-    "magazineId": 65,
+    "magazineId": 'the-voidspace',
     "examples": [
 
     ],
   },
   {
-    "magazineId": 66,
+    "magazineId": 'cloves',
     "examples": [
 
     ],
   },
   {
-    "magazineId": 67,
+    "magazineId": 'reservoir-road-literary-review',
     "examples": [{
         "author": "Dutch Simmons",
         "title": "Jesus Is Just Another Name for Gruyere",
@@ -3783,7 +3783,7 @@ My body recognized her before I did—I stiffened, my heart began to race, I won
     ],
   },
   {
-    "magazineId": 68,
+    "magazineId": 'x-r-a-y',
     "examples": [{
         "author": "Sutton Strother",
         "title": "WHEN YOU THOUGHT YOU WERE A GUN AND NOT A TARGET",
@@ -3822,7 +3822,7 @@ And at nineteen using the savings to move away to California."
     ],
   },
   {
-    "magazineId": 69,
+    "magazineId": 'maudlin-house',
     "examples": [{
         "author": "MATT MITCHELL",
         "title": "GROWN OCEAN",
@@ -3860,7 +3860,7 @@ friend who hated you. "
     ],
   },
   {
-    "magazineId": 70,
+    "magazineId": 'olney',
     "examples": [{
         "author": "tyler engström",
         "title": "things i saw in the grocery parking lot",
@@ -3908,7 +3908,7 @@ and once again I felt like a fraud"
     ],
   },
   {
-    "magazineId": 71,
+    "magazineId": 'jellyfish-review',
     "examples": [{
         "author": "LUCIE BONVALET",
         "title": "THE CHOICE",
@@ -3942,7 +3942,7 @@ We watched as our mothers and fathers pulled money from here and there — the u
     ],
   },
   {
-    "magazineId": 72,
+    "magazineId": 'taco-bell-quarterly',
     "examples": [{
         "author": "Nancy Cook",
         "title": "IN PRAISE OF TACO BELL",
@@ -3985,19 +3985,19 @@ they said save it for future reference!"
     ],
   },
   {
-    "magazineId": 73,
+    "magazineId": 'the-paris-review',
     "examples": [
 
     ],
   },
   {
-    "magazineId": 74,
+    "magazineId": 'the-new-yorker',
     "examples": [
 
     ],
   },
   {
-    "magazineId": 75,
+    "magazineId": 'poetry',
     "examples": [
 
     ],

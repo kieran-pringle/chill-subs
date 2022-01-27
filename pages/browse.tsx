@@ -38,7 +38,8 @@ export default function Browse() {
       for (const [key, value] of Object.entries(values)) {
         if (key === 'search') {
           const magazineMatch = magazine.name.toLowerCase().includes((value as any).toLowerCase());
-          const { contributors } = contributorsSource.find(m => m.magazineId === magazine.id);
+          const mId = magazine.name.toLowerCase().replace(/\s/g, '-');
+          const { contributors } = contributorsSource.find(m => m.magazineId === mId);
           const contributorMatch = contributors.find(c => c.toLowerCase().includes((value as any).toLowerCase()));
           if (value && !magazineMatch && !contributorMatch) {
             match = false;
@@ -271,7 +272,7 @@ export default function Browse() {
 
         <div className={styles.cards}>
           {results.map((magazine, i) => (
-            <Link href={`/magazine/${magazine.id}`} key={magazine.id}>
+            <Link href={`/magazine/${magazine.name.toLowerCase().replace(/\s/g, '-')}`} key={magazine.id}>
               <div className={styles.card}>
                 {magazine.open && (
                   <div className={styles.open}>Open</div>
