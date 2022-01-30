@@ -191,7 +191,7 @@
   align-items: center;
   position: relative;
   margin-bottom: 2rem;
-  padding: 2rem;
+  padding: 2rem 2rem;
   border-radius: 16px;
   text-align: center;
   background-color: #fff;
@@ -205,6 +205,8 @@
   }
 
   .open {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -213,6 +215,21 @@
     font-size: 0.75rem;
     color: #fff;
     background-color: #316760;
+  }
+
+  .deadlineIcon {
+    padding-right: 0.25rem;
+    span {
+      display: flex;
+      align-items: center;
+    }
+  }
+  
+  .tooltip {
+    padding: 0.25rem 0.5rem 0.35rem;
+    border-radius: 8px;
+    color: #316760;
+    background-color: #efefef;
   }
 
   h3 {

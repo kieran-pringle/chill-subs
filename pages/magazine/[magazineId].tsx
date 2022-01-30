@@ -322,7 +322,7 @@ export default function Magazine() {
               </div>
             ))
           ) : (
-            <div>Examples are coming :)</div>
+            <div>Examples are coming :) (or not available)</div>
           )}
         </div>
         <h2>Contributors</h2>

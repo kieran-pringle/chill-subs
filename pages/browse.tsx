@@ -3,7 +3,9 @@ import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
 import Image from 'next/image'
-import { CloseOutline, LogoTwitter } from 'react-ionicons';
+import { format } from 'date-fns';
+import ReactTooltip from 'react-tooltip';
+import { CloseOutline, LogoTwitter, TimeOutline } from 'react-ionicons';
 import favorites from '!!json5-loader!../data/favorites.json5';
 import contributorsSource from '!!json5-loader!../data/contributors.json5';
 import Checkbox from '../components/Checkbox';
@@ -76,6 +78,17 @@ export default function Browse() {
       sortedResults.sort((m1, m2) => m1.twitterFollowers < m2.twitterFollowers ? 1 : -1)
     } else if (option.value === 'followersAsc') {
       sortedResults.sort((m1, m2) => m1.twitterFollowers >= m2.twitterFollowers ? 1 : -1)
+    } else if (option.value === 'deadline') {
+      const haveDeadline = sortedResults.filter(m => m.deadline);
+      const withoutDeadline = sortedResults.filter(m => !m.deadline);
+      sortedResults = [
+        ...haveDeadline.sort((m1, m2) => {
+          const m1Deadline: any = new Date(m1.deadline);
+          const m2Deadline: any = new Date(m2.deadline);
+          return m1Deadline - m2Deadline;
+        }),
+        ...withoutDeadline,
+      ]
     } else {
       sortedResults.sort((m1, m2) => m1.name.toLowerCase() > m2.name.toLowerCase() ? 1 : -1)
     }
@@ -265,6 +278,7 @@ export default function Browse() {
               { value: 'az', dir: 'asc', label: 'Name (A-Z)' },
               { value: 'followersDesc', dir: 'desc', label: 'Twitter followers (high to low)' },
               { value: 'followersAsc', dir: 'asc', label: 'Twitter followers (low to high)' },
+              { value: 'deadline', dir: 'asc', label: 'Deadline' },
             ]}
             onSelect={option => sortResults(option)}
           />
@@ -275,7 +289,19 @@ export default function Browse() {
             <Link href={`/magazine/${magazine.name.toLowerCase().replace(/\s/g, '-')}`} key={magazine.id}>
               <div className={styles.card}>
                 {magazine.open && (
-                  <div className={styles.open}>Open</div>
+                  magazine.deadline ? (
+                    <div className={styles.open} data-tip="Submission deadline">
+                      <div className={styles.deadlineIcon}>
+                        <TimeOutline width="16px" height="16px" color="#fff" />
+                      </div>
+                      <ReactTooltip place="bottom" arrowColor="#efefef" className={styles.tooltip} />
+                      {format(new Date(magazine.deadline), 'MMM d')}
+                    </div>
+                  ) : (
+                    <div className={styles.open}>
+                      Open
+                    </div>
+                  )
                 )}
                 <Image src={magazine.cover || ''} width={120} height={120} />
                 <h3>{magazine.name}</h3>
