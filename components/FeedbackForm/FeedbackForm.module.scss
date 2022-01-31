@@ -57,7 +57,13 @@
     margin-bottom: 1rem;
     line-height: 1.5;
   }
-  a {
+  a:hover {
+    opacity: 0.85;
+    div {
+      opacity: 0.85;
+    }
+  }
+  a:last-child {
     color: #FF8B5D;
   }
 }

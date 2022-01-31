@@ -85,7 +85,9 @@ const FeedbackForm = (props) => {
             <textarea rows={6} className={styles.textarea} onChange={e => setSuggestionText(e.target.value)} />
           </div>
           <div className={styles.magazineForm}>
-            <div className={styles.magazineFormTitle}>Extended magazine suggestion form for super humans ⬇️</div>
+            <a href="https://docs.google.com/forms/d/1ujyhy9ZfKPgNVB1waDHAcGW90jy15Y92xBYi_jCcm8c/edit" target="_blank" rel="noreferrer">
+              <div className={styles.magazineFormTitle}>Extended magazine suggestion form for super humans ⬇️</div>
+            </a>
             <div className={styles.magazineFormText}>It would help A LOT if you filled in at least some of the details in the following form:) It will save me some time, and I can use it to generate cool ideas 😎</div>
             <a href="https://docs.google.com/forms/d/1ujyhy9ZfKPgNVB1waDHAcGW90jy15Y92xBYi_jCcm8c/edit" target="_blank" rel="noreferrer">
               Go to the magazine form
