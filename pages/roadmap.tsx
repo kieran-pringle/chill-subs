@@ -178,7 +178,7 @@ export default function Roadmap() {
             <div className={styles.blockHeaderEmoji}>🚀</div>
             <h3>In progress</h3>
           </div>
-          <div className={styles.feature}>
+          <div className={styles.featureNoLink}>
             <div className={styles.featureTitle}>Adding magazines that filled in the extended form</div>
           </div>
         </div>
