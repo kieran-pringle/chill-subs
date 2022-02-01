@@ -125,6 +125,10 @@
   .quoteAuthor {
     margin-top: 0.5rem;
     font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.85;
+    }
   }
 }
 

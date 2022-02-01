@@ -250,6 +250,11 @@ export default function Roadmap() {
 
         <div className={styles.magazines}>
           <h2>Magazine suggestions</h2>
+          {/* <span>
+            Keep in mind that the list is updated once a day,
+            so if you don't see the magazine you suggested today,
+            don't worry, it will appear here soon:)
+          </span> */}
           <div className={styles.searchContainer}>
             <input
               className={styles.search}

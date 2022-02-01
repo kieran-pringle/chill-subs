@@ -77,7 +77,11 @@ export default function Feature() {
           {currentFeature.quote && (
             <div className={styles.quote}>
               <div className={styles.quoteContent}>"{currentFeature.quote}"</div>
-              {currentFeature.author && <div className={styles.quoteAuthor}>@{currentFeature.author}</div>}
+              {currentFeature.author && (
+                <a href={`https://twitter.com/${currentFeature.author}`} target="_blank" rel="noreferrer">
+                  <div className={styles.quoteAuthor}>@{currentFeature.author}</div>
+                </a>
+              )}
             </div>
           )}
           <div className={styles.description}>{currentFeature.description}</div>
