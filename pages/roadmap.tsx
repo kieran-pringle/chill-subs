@@ -191,8 +191,8 @@ export default function Roadmap() {
             <h3>Planned</h3>
           </div>
           {plannedFeatures.map(feature => (
-            <Link href={`/feature/${feature.id}`}>
-              <div className={styles.feature} key={feature.id}>
+            <Link href={`/feature/${feature.id}`} key={feature.id}>
+              <div className={styles.feature}>
                 <div className={styles.featureTitle}>{feature.title}</div>
                 <div className={styles.featureDiscuss}><ChatbubblesOutline color="#316760" /></div>
               </div>
@@ -206,8 +206,8 @@ export default function Roadmap() {
             <h3>Your suggestions</h3>
           </div>
           {suggestions.map(feature => (
-            <Link href={`/feature/${feature.id}`}>
-              <div className={styles.feature} key={feature.id}>
+            <Link href={`/feature/${feature.id}`} key={feature.id}>
+              <div className={styles.feature}>
                 <div className={styles.featureTitle}>{feature.title}</div>
                 <div className={styles.featureDiscuss}><ChatbubblesOutline color="#316760" /></div>
               </div>
@@ -221,8 +221,8 @@ export default function Roadmap() {
             <h3>FUTURE</h3>
           </div>
           {futureFeatures.map(feature => (
-            <Link href={`/feature/${feature.id}`}>
-              <div className={styles.feature} key={feature.id}>
+            <Link href={`/feature/${feature.id}`} key={feature.id}>
+              <div className={styles.feature}>
                 <div className={styles.featureTitle}>{feature.title}</div>
                 <div className={styles.featureDiscuss}><ChatbubblesOutline color="#316760" /></div>
               </div>
@@ -263,7 +263,7 @@ export default function Roadmap() {
           </div>
           <div className={styles.magazinesList}>
             {magazineList?.sort((a, b) => a > b ? 1 : -1).map((magazine, i) => (
-              <div className={styles.magazine}>
+              <div className={styles.magazine} key={magazine}>
                 <span>{magazine}</span>
               </div>
             ))}
