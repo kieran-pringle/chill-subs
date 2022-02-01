@@ -2,7 +2,8 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Link from 'next/link'
 import ProgressBar from '@ramonak/react-progress-bar';
-import { LogoTwitter, CloseOutline, ChatbubblesOutline } from 'react-ionicons';
+import { LogoTwitter, CloseOutline, ChatbubblesOutline, AddCircleOutline } from 'react-ionicons';
+import FeedbackForm from '../components/FeedbackForm';
 import Footer from '../components/Footer';
 import styles from '../styles/Roadmap.module.scss'
 
@@ -113,6 +114,7 @@ export default function Roadmap() {
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
   const [ magazineList, setMagazineList ] = useState<any[]>([]);
   const [ magazineSearchValue, setMagazineSearchValue ] = useState<string>('');
+  const [ isModalOpen, setIsModalOpen ] = useState<boolean>(false);
 
   useEffect(() => {
     setIsMobile(window.innerWidth <= 600);
@@ -201,9 +203,17 @@ export default function Roadmap() {
         </div>
 
         <div className={styles.block}>
-          <div className={styles.blockHeader}>
-            <div className={styles.blockHeaderEmoji}>📝</div>
-            <h3>Your suggestions</h3>
+          <div className={styles.blockHeaderWithButton}>
+            <div className={styles.blockHeaderLeft}>
+              <div className={styles.blockHeaderEmoji}>📝</div>
+              <h3>Your suggestions</h3>
+            </div>
+            <AddCircleOutline
+              width="32px"
+              height="32px"
+              color="#316760"
+              onClick={() => setIsModalOpen(true)}
+            />
           </div>
           {suggestions.map(feature => (
             <Link href={`/feature/${feature.id}`} key={feature.id}>
@@ -274,6 +284,7 @@ export default function Roadmap() {
             ))}
           </div>
         </div>
+        <FeedbackForm isModalOpen={isModalOpen} setIsModalOpen={setIsModalOpen} />
       </main>
 
       <Footer />

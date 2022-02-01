@@ -112,7 +112,23 @@
   width: 75%;
 }
 
-.blockHeader {
+.blockHeader, .blockHeaderWithButton {
+  display: flex;
+  align-items: center;
+}
+
+.blockHeaderWithButton {
+  justify-content: space-between;
+  svg {
+    margin-top: 0.25rem;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+.blockHeaderLeft {
   display: flex;
   align-items: center;
 }
