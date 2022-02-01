@@ -267,7 +267,7 @@ export default function Roadmap() {
             )}
           </div>
           <div className={styles.magazinesList}>
-            {magazineList?.sort((a, b) => a > b ? 1 : -1).map((magazine, i) => (
+            {magazineList?.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1).map((magazine, i) => (
               <div className={styles.magazine} key={magazine}>
                 <span>{magazine}</span>
               </div>

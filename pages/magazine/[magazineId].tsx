@@ -341,7 +341,7 @@ export default function Magazine() {
               )}
             </div>
             <div className={styles.contributors}>
-              {contributorList?.sort((a, b) => a.split(' ').slice(-1) > b.split(' ').slice(-1) ? 1 : -1).map((contributor, i) => (
+              {contributorList?.sort((a, b) => a.toLowerCase().split(' ').slice(-1) > b.toLowerCase().split(' ').slice(-1) ? 1 : -1).map((contributor, i) => (
                 <Link href={`/contributor/${getContributorId(contributor)}`} key={i}>
                   <div className={styles.contributor}>
                     <span>{contributor}</span>
