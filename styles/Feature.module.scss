@@ -93,105 +93,38 @@
 }
 
 .title,
-.description {
-  max-width: 30rem;
+.description,
+.quote {
+  max-width: 70%;
   text-align: center;
 }
 
-.magazines {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
+.description {
+  margin-top: 0.75rem;
+  font-size: 1.125rem;
+  line-height: 1.6;
 }
 
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 23.75%);
-  justify-content: space-between;
-  grid-gap: 1.25rem;
-}
-
-.card {
+.quote {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: relative;
-  margin-bottom: 2rem;
-  padding: 2rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
   border-radius: 16px;
-  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.6;
   background-color: #fff;
-  overflow: hidden;
-  transition: all 0.15s;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-  cursor: pointer;
 
-  &:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-
-  .open {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    padding: 0.5rem;
-    border-radius: 10px;
-    font-size: 0.75rem;
-    color: #fff;
-    background-color: #316760;
-  }
-
-  h3 {
-    margin-top: 2rem;
-    line-height: 1.4;
-  }
-
-  img {
-    object-fit: cover;
-    border-radius: 50%;
-  }
-
-  .cardDescription {
-    line-height: 1.5;
+  .quoteContent {
+    margin-right: 1rem;
     font-style: italic;
   }
 
-  .cardStats {
-    display: flex;
-    flex-direction: column;
-    margin-top: auto;
-    padding-top: 2.5rem;
-    width: 100%;
-  }
-
-  .cardStat {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.25rem;
-    font-size: 0.9rem;
-    line-height: 1.3;
-    div:first-child {
-      display: flex;
-      align-items: center;
-      max-width: 60%;
-      font-weight: bold;
-      text-align: left;
-      ion-icon {
-        margin-top: 1px;
-        margin-left: 0.5rem;
-      }
-    }
-    div:nth-child(2) {
-      max-width: 40%;
-      text-align: right;
-    }
-  }
-  
-}
-
-@media (max-width: 1024px) {
-  .cards {
-    grid-template-columns: repeat(auto-fill, 48.5%);
+  .quoteAuthor {
+    margin-top: 0.5rem;
+    font-weight: bold;
   }
 }
 
@@ -200,8 +133,8 @@
     font-size: 2rem;
   }
 
-  .cards {
-    grid-template-columns: repeat(auto-fill, 100%);
+  .title {
+    line-height: 1.3;
   }
 
   .links {
@@ -218,5 +151,9 @@
     & .link:last-child {
       margin-bottom: 0;
     }
+  }
+
+  .title, .description {
+    max-width: 100%;
   }
 }

@@ -205,8 +205,18 @@
   }
 
   .links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -4px;
     svg, .link {
       margin-left: 1.25rem;
+      margin-bottom: 0.65rem;
+    }
+    .link {
+      font-size: 1.125rem;
+    }
+    & .link:last-child {
+      margin-bottom: 0;
     }
   }
 }

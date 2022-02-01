@@ -30,3 +30,14 @@ input[type=text], textarea {
   font-family: 'Waffle Soft';
   src: url('/fonts/waffle-soft.otf');
  }
+
+#disqus_thread {
+  margin-top: 2rem;
+  width: 75%;
+}
+
+@media (max-width: 600px) {
+  #disqus_thread {
+    width: 100%;
+  }
+}

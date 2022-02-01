@@ -31,14 +31,15 @@ export default function About() {
           <Link href="https://twitter.com/chillsubs">
             <LogoTwitter color="#316760" width="24px" height="24px" />
           </Link>
-          {!isMobile && (
-            <Link href="/about">
-              <div className={styles.link}>About</div>
-            </Link>
-          )}
-          <Link href="https://www.buymeacoffee.com/karinakupp">
-            <div className={styles.link}>{!isMobile ? 'Support the project' : 'Support'}</div>
+          <Link href="/about">
+            <div className={styles.link}>About</div>
           </Link>
+          <Link href="/roadmap">
+            <div className={styles.link}>Roadmap</div>
+          </Link>
+          <a href="https://www.buymeacoffee.com/karinakupp" target="_blank" rel="noreferrer">
+            <div className={styles.link}>Support the project</div>
+          </a>
         </div>
       </div>
 

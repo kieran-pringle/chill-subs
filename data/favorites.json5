@@ -391,9 +391,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "January 31, 2022",
-    "theme": "Valentine's Day",
     "notes": "looks nice, even though small. and the about section is quite moody:) Issue 4.2 - Jack Rockwood \"Bus Stop\", Hannah Smart \"Existential Crisis\", Summer 21 - Charlie D’Aniello \"the death of spring"
   },
   {
@@ -1083,6 +1080,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "deadline": "February 6, 2022",
     "notes": "lol i love the vibe"
   },
   {
@@ -1145,9 +1143,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline":"January 31, 2022",
-    "theme": "Indigo, Violet",
     "notes": "Issue 1 - David Centorbi \"This Place is Really Quaint\", Keith J. Clark \"Trash and Treasure\", Nkateko Masinga \"Third World Bird\". Issue 2 - Kara Goughnour"
   },
   {
@@ -2017,8 +2012,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "January 31, 2022",
   },
   {
     "id": 68,
@@ -2375,8 +2368,6 @@
     "cons": [
       { "title": "There is often a few to submit, but there are also free submission periods:)", "icon": "cash-outline" }
     ],
-    "open": true,
-    "deadline": "free till January 31, 2022",
   },
   {
     "id": 80,
@@ -2404,8 +2395,6 @@
     "cons": [
       { "title": "No free examples on the website, you have to buy an issue or be a subscriber to view them", "icon": "thumbs-down-outline" }
     ],
-    "open": true,
-    "deadline": "January 31, 2022",
   },
   {
     "id": 81,
@@ -2432,8 +2421,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "January 31, 2022",
   },
   {
     "id": 82,
@@ -2525,7 +2512,5 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "January 30, 2022",
   },
 ]

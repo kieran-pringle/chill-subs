@@ -198,14 +198,15 @@ export default function Magazine() {
           <Link href="https://twitter.com/chillsubs">
             <LogoTwitter color="#316760" width="24px" height="24px" />
           </Link>
-          {!isMobile && (
-            <Link href="/about">
-              <div className={styles.link}>About</div>
-            </Link>
-          )}
-          <Link href="https://www.buymeacoffee.com/karinakupp">
-            <div className={styles.link}>{!isMobile ? 'Support the project' : 'Support'}</div>
+          <Link href="/about">
+            <div className={styles.link}>About</div>
           </Link>
+          <Link href="/roadmap">
+            <div className={styles.link}>Roadmap</div>
+          </Link>
+          <a href="https://www.buymeacoffee.com/karinakupp" target="_blank" rel="noreferrer">
+            <div className={styles.link}>Support the project</div>
+          </a>
         </div>
       </div>
 
@@ -215,16 +216,16 @@ export default function Magazine() {
           <h1 className={styles.title}>{currentMagazine.name}</h1>
           <div className={styles.description}>{`"${currentMagazine.description}"`}</div>
           <div className={styles.contacts}>
-          <a href={currentMagazine.website} className={styles.contact}>
+          <a href={currentMagazine.website} className={styles.contact} target="_blank" rel="noreferrer">
             <GlobeOutline cssClasses={styles.contactIcon} />
           </a>
           {currentMagazine.twitter && (
-            <a href={currentMagazine.twitter} className={styles.contact}>
+            <a href={currentMagazine.twitter} className={styles.contact} target="_blank" rel="noreferrer">
               <LogoTwitter cssClasses={styles.contactIcon} />
             </a>
           )}
           {currentMagazine.instagram && (
-            <a href={currentMagazine.instagram} className={styles.contact}>
+            <a href={currentMagazine.instagram} className={styles.contact} target="_blank" rel="noreferrer">
               <LogoInstagram cssClasses={styles.contactIcon} />
             </a>
           )}
@@ -315,7 +316,7 @@ export default function Magazine() {
                   <div className={styles.exampleText}>{example.text}</div>
                   {/* <span className={styles.excerpt}>... (excerpt end)</span> */}
                 </div>
-                <a href={example.link}>
+                <a href={example.link} target="_blank" rel="noreferrer">
                   <BookOutline cssClasses={styles.icon} />
                   Read the full piece in the magazine
                 </a>
