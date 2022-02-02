@@ -3,7 +3,7 @@ import {
   ThumbsUpOutline, BulbOutline, CashOutline, MegaphoneOutline, FlashOutline, BrushOutline,
   HappyOutline, EarthOutline, BookmarkOutline, MicOutline, BeerOutline, BookOutline,
   ThumbsDownOutline, PhonePortraitOutline, CompassOutline, GlassesOutline, BandageOutline,
-  SkullOutline, PawOutline, GlobeOutline,
+  SkullOutline, PawOutline, GlobeOutline, AlertCircleOutline,
 } from 'react-ionicons';
 
 export const iconsByName = {
@@ -33,4 +33,5 @@ export const iconsByName = {
   'skull-outline': <SkullOutline />,
   'paw-outline': <PawOutline />,
   'globe-outline': <GlobeOutline />,
+  'alert-circle-outline': <AlertCircleOutline />
 }

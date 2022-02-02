@@ -33,7 +33,7 @@ export default function Contributor() {
           return m.contributors.find(c => c === contributorName);
         })
         .map(m => m.magazineId)
-      const magazines = favorites.filter(m => contributorMagazines.includes(m.name.toLowerCase().replace(/\s/g, '-')));
+      const magazines = favorites.filter(m => contributorMagazines.includes(m.key));
       setMagazinesList(magazines);
     }
   }, [contributorId])

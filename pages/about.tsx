@@ -77,6 +77,10 @@ export default function About() {
           Hit us up on <Link href="https://twitter.com/chillsubs">Twitter</Link> (and tag us if we managed to help you somehow🙂)
         </div>
 
+        <div className={styles.email}>
+          Or email: <a href="mailto:karinakupp@gmail.com">karinakupp@gmail.com</a>
+        </div>
+
         <div className={styles.creator}>
           <h2>Creator</h2>
           <div className={styles.creatorInfo}>

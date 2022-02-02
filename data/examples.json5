@@ -754,7 +754,7 @@ let’s just agree it does"
     ],
   },
   {
-    "magazineId": 'c*nsorship-magazine',
+    "magazineId": 'cnsorship',
     "examples": [{
         "author": "Janaya Fuller-Evans",
         "title": "Be Positive",
@@ -1046,7 +1046,7 @@ didn’t know they were all by one guy."
     ],
   },
   {
-    "magazineId": 'g*mob',
+    "magazineId": 'gmob',
     "examples": [{
         "author": "Emily Banks",
         "title": "How I Learned to Stop Worrying",
@@ -1608,7 +1608,7 @@ There is also the wonderful aroma of freshly brewed sulawesi toraja coffee. Beet
     ],
   },
   {
-    "magazineId": 'neuro-logical-magazine',
+    "magazineId": 'neuro-logical',
     "examples": [{
         "author": "Shawn Berman",
         "title": "RUMOR HAS IT THAT THE BLUE LIGHT EMANATING FROM YOUR SMARTPHONE CAN NOT ONLY RUIN YOUR EYES BUT IT CAN ALSO DISTORT YOUR SLEEPING PATTERNS MAKING IT HARDER TO PASS OUT AT NIGHT",
@@ -3210,7 +3210,7 @@ into the marrow."
     ],
   },
   {
-    "magazineId": 'waxwing-literary-journal',
+    "magazineId": 'waxwing',
     "examples": [{
         "author": "Amanda Turner",
         "title": "The Fish Hums to the Night and the Night Hums to the Fish",
@@ -3649,7 +3649,7 @@ there is something occurring at an incredible distance and you are always where 
     ],
   },
   {
-    "magazineId": 'the-bitchin’-kitsch',
+    "magazineId": 'the-bitchin-kitsch',
     "examples": [{
         "author": "H.E. Grahame",
         "title": "Check the Box",
@@ -3783,7 +3783,7 @@ My body recognized her before I did—I stiffened, my heart began to race, I won
     ],
   },
   {
-    "magazineId": 'x-r-a-y',
+    "magazineId": 'xray',
     "examples": [{
         "author": "Sutton Strother",
         "title": "WHEN YOU THOUGHT YOU WERE A GUN AND NOT A TARGET",
@@ -4009,7 +4009,7 @@ they said save it for future reference!"
     ],
   },
   {
-    "magazineId": 'agbowó',
+    "magazineId": 'agbowo',
     "examples": [{
         "author": "Adetutu Adediran",
         "title": "Bodies are Anomalies",
@@ -4335,6 +4335,577 @@ and boys taste wind in their kites \n\
 for the first and only time \n\
 before retiring to raincoats \n\
 and broken trailer homes"
+      },
+    ],
+  },
+
+  {
+    "magazineId": 'sans-press',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'streetcake-magazine',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'crow-cross-keys',
+    "examples": [
+      {
+        "author": "Jessie Lynn McMains",
+        "title": "Rust Belt Jessie’s Taxonomy of Ghosts",
+        "link": "https://crowcrosskeys.com/2020/10/31/rust-belt-jessies-taxonomy-of-ghosts-jessie-lynn-mcmains/",
+        "text": "—6660.1 Ghosts that haunt a location \n\
+—6660.111 Those that came with the place \n\
+—6660.112 The amorphous black mist with a feeling of knives \n\
+—6660.113 The traveling salesman who hung himself when his wife left him for another man \n\
+—6660.114 The small boy pressing his face to the lighthouse window, his ghost-breath leaving no fog on the glass, always just about to fall \n\
+—6660.12 Those that are just passing through, the travelers \n\
+—6660.121 The little-girl ghosts in the kitchen that one sleepless night, chattering slumber party giggle-speak, clattering the spoons and jam jars \n\
+—6660.122 The sad ghost with no shoes who perched on the edge of your bed, told you of how he watched his little sister die \n\
+—6660.13 Those that haunt the places you pass through"
+      },
+      {
+        "author": "Sarah McPherson",
+        "title": "Shedding Skin",
+        "link": "https://crowcrosskeys.com/2021/10/30/shedding-skin-sarah-mcpherson/",
+        "text": "Agirl who is born by the sea has salt water in her blood. She is nursed by sea foam as well as at her mother’s breast. Her first toys are pearlescent shells, pitted drift glass gems, many-coloured pebbles polished smooth, driftwood shapes that she fits together into odd, twisted figures. She is as happy on sand as on grass, and as nimble on the rocks as a mountain goat, scrambling the cliffs with no fear."
+      },
+      {
+        "author": "Grace Safford",
+        "title": "She is Beautiful",
+        "link": "https://crowcrosskeys.com/2020/10/31/she-is-beautiful-grace-safford/",
+        "text": "Awoman in white robes stands by my bedside and says she must return to the earth. I open my eyes and know I am not dreaming. \n\
+ \n\
+I’d seen her before, this woman, in my mother’s garden, dancing between the rows of my neighbor’s harvest, painting her nails with lavender and her skin with honeycomb. Everyone in town knows her. She tends to our crops, fussing over corn knocked down in floods, digging at trees bored by foreign beetles, separating typha from wheat. When the grasses curl in the creeping heat, timothy and cogon, she is there when no one else dares to step outside."
+      },
+    ],
+  },
+  {
+    "magazineId": 'defunkt',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'trouble-maker-fire-starter',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-wild-hunt',
+    "examples": [
+      {
+        "author": "Ellie Broughton",
+        "title": "Game",
+        "link": "https://wildhuntmag.com/fiction/game-ellie-broughton",
+        "text": "At a little bookshop off a market road in Hackney, golden lights glowed against the deepening blue night. It was here that I first met her, last summer, at a book launch (where else?). She was Twitter-famous, and I had already browsed her socials once or twice. In particular I liked her Instagram Stories, every pic warm and expensive. I would lie in my hand-me-down sheets on Saturday mornings and tap, tap, tap through them until I heard the rolling boil of the kettle in the shared kitchen. \n\
+ \n\
+She wrote about food, but not the food I ate. She wrote long, sprawling essays that conjured smells, memories, and phrases to be savoured. Her prose simmered, her incantations of antique and unfamiliar words an ancient English too refined for me. I envied her freedom: when I wrote like that it usually came back soggy and raw in the middle, dry or burned at the edges. She had flair. She had taste. "
+      },
+      {
+        "author": "Mandy Shunnarah",
+        "title": "Ghost Story",
+        "link": "https://wildhuntmag.com/fiction/mandy-shunnarah-ghost-story",
+        "text": "Camille fluttered awake with a shiver, a common occurrence when you’re homeless and spend more nights sleeping outdoors than in. \n\
+ \n\
+“I’ll be damned, I thought it would never happen!” a woman’s voice squealed. \n\
+ \n\
+Camille wasn’t expecting company. The whole point of sleeping in a graveyard is to avoid people––and avoid the possibility of being robbed. Or worse. \n\
+ \n\
+She bolted upright, feeling the dampness from her period between her legs. She’d run out of tampons again and old socks rarely stayed in place. \n\
+ \n\
+“Shit,” she grimaced, looking down to see if her pants were stained. \n\
+ \n\
+“Oh my,” the other woman said. “That’s awfully unfortunate. I’d offer you a rag, but––”"
+      },
+      {
+        "author": "Elinor Abbott",
+        "title": "I Remain Yours",
+        "link": "https://wildhuntmag.com/fiction/elinorabbott-i-remain-yours",
+        "text": "Dear Walt, \n\
+ \n\
+The snow’s almost melted now. The bones of the earth are showing again, the mesa to the west sheds its white coat for the last time, I hope. The fence is busted, wire came down from the weight of the snow. I worried the cow might wander off but she stays put, I guess even she knows there’s nowhere to go. Eli came out and looked at the fence with me yesterday, thinks we could patch it up with twine to keep the cow in. I was out working on it just now, but my fingers went numb from cold and I couldn’t tie the knots. I came in to warm my hands, but felt the urge to write you. I suppose I can’t stop wondering. The question of you takes up more room in my mind than scripture, though that will come as no surprise to you. I can’t pretend I was ever the holiest of women. I wish I could blow these words off the paper and send them out looking for you, like clouds or dust."
+      },
+      {
+        "author": "Helen McClory",
+        "title": "I Remain Yours",
+        "link": "https://wildhuntmag.com/fiction/2016/5/4/helenmcclory-lore",
+        "text": "They killed the hare when the mist was on the early morning river. They had come upon her in an abutting field, while crossing it silently out on a hunt. She lay in her form, resting, eyebright and whiskers quivering. Dew on the long and parted grass. One man whistled through his teeth. She did not move. Her nose moved. Someone cocked their gun. \n\
+ \n\
+The youngest held her body by the ears. Long creature, with great elegant legs and feet, fur the colour of clay. They tied her to the grouse pole, and brought her back with a double brace. The house was empty of the womenfolk when they returned. Outside, the trumpets of daffodils blared bright against an encroaching bank of smoke-white fog. Most of them thought nothing of it."
+      },
+    ],
+  },
+  {
+    "magazineId": 'wrongdoing',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'overheard',
+    "examples": [
+      {
+        "author": "James Croal Jackson",
+        "title": "CHRISTMAS, 2017",
+        "link": "https://www.overheardlit.com/three-poems",
+        "text": "I heard last year Uncle Keat \n\
+lost his sight, and nobody \n\
+has seen him since. \n\
+ \n\
+Tonight, my oldest brother– waiting \n\
+on a kidney, unable to walk– \n\
+unwraps a flashlight. \n\
+ \n\
+A gift of hope, I suppose, \n\
+what we lose we tend to replace \n\
+at the end of a year– \n\
+ \n\
+the longer Dad’s dead the wider \n\
+entropy’s net consumes us."
+      },
+      {
+        "author": "Joe Mitchell",
+        "title": "MALE BONDING",
+        "link": "https://www.overheardlit.com/male-bonding",
+        "text": "On my thirteenth birthday Dad took me moose hunting for the first time.  It wasn’t his idea, but after some coaxing from Mom, he agreed. I had no desire to go moose hunting. We would both rather be in different places with different people. We got along sure, but donning camo and sitting in wet bog with dad and my uncle wasn’t on my bucket list. Mom charmed me. Said it’d be good for me. She said it would get the stink of the house off me.\n\
+​\n\
+Dad and Uncle Bert were already outside the house throwing gear into the bed of the truck.  That’s what woke me up. Banging and swearing. The sound of metal hitting metal. Looking I saw there were fishing nets and rope, an old backpack, rubber boots, and a gun case all slapped in the truck bed. “Where’s he at?” I overhead Dad yell to Mom. “Just waking up Denis, Christ, give him a few minutes before you lays into him.”  I don’t bother showering, knowing that I’ll be covered in tree sap, moose crap, and possibly blood.  After throwing on a t-shirt, hoodie and a pair of track pants, I grab a banana and shove on my sneakers. I don’t own rubber boots."
+      },
+    ],
+  },
+  {
+    "magazineId": 'susurrus',
+    "examples": [
+      {
+        "author": "Melissa Nunez",
+        "title": "Sweet Like",
+        "link": "https://www.susurrusthemagazine.com/sweet-like",
+        "text": "Honeybee—my name—and I was \n\
+expected sweet. As if it were always \n\
+meant others devour what I had mistaken \n\
+for my own. More, they tell me. More \n\
+than you can know. And again I’m lost \n\
+to ponder what I misunderstand."
+      },
+      {
+        "author": "Madeline Trosclair",
+        "title": "Alluvium",
+        "link": "https://www.susurrusthemagazine.com/alluvium",
+        "text": "The silted heart and heron \n\
+born of moon-silver fringes \n\
+ \n\
+Skims the waterline.  \n\
+Each touch, if briefly, inside  \n\
+ \n\
+Somewhere only ever. These  \n\
+Moments at the river’s soft \n\
+ \n\
+Mouth are geographically young \n\
+And unfolding, always. "
+      },
+      {
+        "author": "Gordon Johnston",
+        "title": "Going to Water—Wise Creek of the Ocmulgee River",
+        "link": "https://www.susurrusthemagazine.com/going-to-water-wise-creek-of-the-ocmulgee-river",
+        "text": "Before the canoe carries him, he must first carry the canoe—from shed to truck, then from Vineville to the river. The drive requires strong coffee in a cup that won’t spill on the washboard logging roads, music on cassette because that’s all the old truck will play, the rising sun coming sideways into the cab, and a forbearing foot that lets up on the accelerator where key slowings, pauses, and silences are called for. He thinks of his patient foot as a governor—a means of arresting an engine’s speed and power to make arrival more gradual, usually for safety’s sake."
+      },
+      {
+        "author": "Stanley Patrick Stocker",
+        "title": "Son of God, Son of the Earth",
+        "link": "https://www.susurrusthemagazine.com/son-of-god-son-of-the-earth",
+        "text": "Henry stood at the stove, the steam rising up as he worked. He seasoned stalks of fresh asparagus and sautéed them until they were tender but firm. As he grilled the marinated pork, he prepared lettuce for the salad and topped it with tomato slices and sesame dressing. Finally, he carefully spooned brown rice into a blue porcelain bowl. \n\
+ \n\
+        One by one, he placed the dishes on a tray and stepped back to examine his work.  \n\
+ \n\
+        The pork, the salad, the fresh asparagus, the steaming rice–nothing could be improved, he decided, without creating some imbalance that would require a change in flavor or texture or color. Silently, he pronounced the meal complete, and covered it with a red and white calico cloth."
+      },
+    ],
+  },
+  {
+    "magazineId": 'annulet',
+    "examples": [
+      {
+        "author": "Orchid Tierney",
+        "title": "Tidal-Lingualism: On Craig Santos Perez’s “from tidelands",
+        "link": "https://annuletpoeticsjournal.com/Orchid-Tierney-Tidal-Lingualism",
+        "text": "Don Mee Choi proposes that “translation is a map, a mode that can trigger endless crossings from one party to another.” [1] The anti-neocolonial mode of her translations are actions of legibility against the imperial deformations—that is military, settler, or economic colonialism—embedded in the English and Korean languages. The “endless crossings” invoke arrivals and departures. Comings and goings. Encounters and re-encounters with different platforms of foreign and domestic power. Her claim here makes me wonder if we—as readers—can ever ethically settle inside translated literature or whether the possibilities of translation require a floating to some approximation of understanding."
+      },
+      {
+        "author": "Gabriel Palacios",
+        "title": "State ID",
+        "link": "https://annuletpoeticsjournal.com/Gabriel-Palacios-State-ID",
+        "text": "Outbuilding painted some gone color forty years ago \n\
+ \n\
+Hedges ornamented with a purse \n\
+ \n\
+We blew in at the speed of Saxons \n\
+Mannequinned on spears \n\
+Stenciling the orange-red Wallachian dusk \n\
+ \n\
+Only ever had enough \n\
+Siphoned out to reach \n\
+The terminus of one main \n\
+Neon bloodless drag the ugliest \n\
+America admits to having seen"
+      },
+      {
+        "author": "C.T. Salazar",
+        "title": "Flesh with Thicket Wonder: On Reading besmilr brigham",
+        "link": "https://annuletpoeticsjournal.com/C-T-Salazar-Flesh-with-Thicket-Wonder",
+        "text": "What does a poetic sensibility of soil look like? When a poet begins a dialogue that’s more about the ecosystem that makes that dialogue possible, how is the poem constructed? Sound, syllable, punctuation—even the most elementally chirping parts of language can contain and contribute to the world the poem’s describing—this is a revelation that’s part of the spare poetics of besmilr brigham. The ecological root of brigham’s writing gave me an entirely different aperture to critique the distance between the world, and objects we look at to think about the world. Brigham sparked in me a love for poets whose work seeks the world by collapsing that distance."
+      },
+      {
+        "author": "Sara Deniz Akant",
+        "title": "from: The Book of Perihan",
+        "link": "https://annuletpoeticsjournal.com/Sara-Deniz-Akant-from-The-Book-of-Perihan",
+        "text": "TELEVISION SET \n\
+I treated the television set like an estranged housemate; its antennae-eyes watching me from the corner, never finding the need to verbalize its judgment. I was glad of its presence, as there was nothing else in the apartment apart from a bed, a terrace, numerous walls and floors. When I first arrived, I stared at the television, half expecting it to inform me as to where to go, or what to do.\n\
+\n\
+It stared unblinking back.\n\
+\n\
+\n\
+LIGHTS, THE TERRACE\n\
+When you live on a hill, in a city as dry and quiet as a tomb, the things about you settle slowly and methodically like dust when there is no wind left. The particles in your mind do the same. You no longer feel the need to speak to anyone out loud, for there is no one to speak to, and you no longer speak to yourself, for there is nothing to say. All is left silent and – unutuyorsun – you forget why anyone uttered words to begin with."
+      },
+    ],
+  },
+  {
+    "magazineId": 'degenerate-art',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'yuzu-press',
+    "examples": [
+      
+    ],
+  },
+  {
+    "magazineId": 'perhappened',
+    "examples": [
+      {
+        "author": "Youngseo Lee",
+        "title": "hypnagogia: in which i go bad in the summer",
+        "link": "https://www.perhappened.com/hypnagogiayoungseolee.html",
+        "text": "the boys are usually friends’ friends but sometimes just beautiful strangers. you’re not sure because you are always plunged into the middle of their total infatuation with you. often, you meet with them in hip new downtown restaurants with purple lights swaying over your food; other times, it’s at cafés and they notice how beautifully the sunlight tints you in the window seat. of course you can’t ascribe faces to them, though. each scenario falls into the same little room with a blaring screen, and you can’t tell if it’s just you and a boy or a party of seventeen because when you try to count the bodies here, they all collapse into one lovable chunk of a mirage. when these boys profess their destined love for you, you laugh for seven minutes."
+      },
+      {
+        "author": "Kenley Alligood",
+        "title": "i only listen to bon iver when it’s snowing & it is always snowing",
+        "link": "https://www.perhappened.com/boniverkenleyalligood.html",
+        "text": "in Michigan and I am sick \n\
+for loves who leave \n\
+and move downstate or only  \n\
+across town. & Superior’s  \n\
+shores melt late into the year  \n\
+and I’ve left loves there too —  \n\
+disguised as smooth stones,  \n\
+my chest as pack ice  \n\
+which will crack open  \n\
+unexpectedly to swallow you  \n\
+whole."
+      },
+      {
+        "author": "Maria Gray",
+        "title": "object impermanence",
+        "link": "https://www.perhappened.com/objectimpermanencemariagray.html",
+        "text": "That cold spring night we tripped on acid just off \n\
+Mountain Avenue, lay in the makeshift parking lot \n\
+outside our dormitory and stuck our sonic tongues out \n\
+at the stars, I really thought you loved me and maybe \n\
+you still did. We made exquisite corpses, fallen snow angels \n\
+green-screened against the ice, and we kicked our legs toward the sky \n\
+like birds, like sunflowers, like divine organisms in pursuit of flight. \n\
+That was something I could do then, before the sickness \n\
+got bad and lead settled into my limbs, before you \n\
+decided you were scared and couldn’t do the whole \n\
+friendship thing anymore."
+      },
+      {
+        "author": "Stella Lei",
+        "title": "re-creation over water",
+        "link": "https://www.perhappened.com/recreationstellalei.html",
+        "text": "I fish for my hands on weekends, baiting hooks \n\
+with heirloom rings because even metal remembers \n\
+  \n\
+              more than me. See: every bullet recalls \n\
+              its gun. Every body is birthed from crime. \n\
+  \n\
+I list my sins on receipts that sink into \n\
+water, released into salt. One: the number \n\
+  \n\
+              of mouths. Two: every exit I stole, every mile \n\
+              I spent. "
+      },
+    ],
+  },
+  {
+    "magazineId": 'ember',
+    "examples": [
+      {
+        "author": "L. Mack",
+        "title": "Crepuscular",
+        "link": "https://read.emberjournal.org/l-mack/crepuscular/",
+        "text": "When sultry summer sunsets tease \n\
+The dusk in lazy, languid light, \n\
+And hazy humming bumblebees, \n\
+In poky, pollen-heavy flight, \n\
+Drift dull and dopey on the breeze \n\
+Before the newborn night, \n\
+I watch the flitting fireflies, \n\
+And strain my ears to hear the shrill \n\
+Of tree frogs singing Day’s demise \n\
+In Dusk’s domain. And with a thrill \n\
+I heed what, wordless, they advise: \n\
+Be still, be still, be still."
+      },
+      {
+        "author": "Tim O'Neal",
+        "title": "The Last Dragonride",
+        "link": "https://read.emberjournal.org/tim-oneal-2/the-last-dragonride/",
+        "text": "Barrie had to ride, she just had to. \n\
+ \n\
+Sweaty and exhausted, she stood outside the dragon-hire paddock. She’d spent all afternoon in the New Zealand humidity, waiting in line to experience her first dragonflight. She’d worked all summer, doing odd chores, saving up for this. And if she didn’t go today, she’d never get to at all; the pen closed at six and the next ride would be the last for the day before the carnival closed for the season. \n\
+ \n\
+Even worse, tomorrow was her birthday. She’d be thirteen. A teenager. Too old to ride the dragons. The other kids at school would tease her, saying she was mutton dressed up like a lamb."
+      },
+      {
+        "author": "Daniel L. Link",
+        "title": "Let Her Run",
+        "link": "https://read.emberjournal.org/daniel-l-link/let-her-run/",
+        "text": "The moment I saw Artie Ranberg, I knew there was something special about him. Fresh off the bus for my first day at Traverse City High, he stood at the front of a queue of upperclassmen, shaking hands and welcoming all of us freshmen to our new lives. \n\
+ \n\
+“I’m Artie. Glad to have you with us,” he said, squeezing my hand with a surprisingly firm grip. “Welcome to the Trojans.” \n\
+ \n\
+“Thanks,” I said, as he ushered me to the back of a long line of students awaiting entry to a large gymnasium."
+      },
+      {
+        "author": "Bryce Emley",
+        "title": "Talking to the Moon",
+        "link": "https://read.emberjournal.org/bryce-emley/talking-to-the-moon/",
+        "text": "They call it a cold place, \n\
+an emptiness, \n\
+shadow, \n\
+cracked mirror hanging \n\
+in the galaxy’s empty room. \n\
+ \n\
+Don’t listen to them. \n\
+Like every distant thing, \n\
+there’s so much more to it \n\
+than what we think we know. \n\
+ \n\
+Not all cold things are lifeless, \n\
+dear reader. \n\
+Not all that listens is silent."
+      },
+    ],
+  },
+  {
+    "magazineId": 'zero-readers',
+    "examples": [
+      {
+        "author": "Paxton Grey",
+        "title": "en route",
+        "link": "https://www.zeroreaders.com/2021/06/en-route/",
+        "text": "you know asphalt tastes like death: \n\
+gritty between your teeth. you lose \n\
+yourself to the icy street. drunk shoeless, you lie \n\
+ \n\
+there waiting for an inattentive truck \n\
+to do what you couldn’t. but it’s 3am \n\
+in the suburbs and you can’t help \n\
+ \n\
+but think you botched it again. so \n\
+you dry your eyes. swallow a few too many \n\
+sleeping pills. easy as a deer bolting \n\
+ \n\
+from the headlights. you realize \n\
+ash is not snow; gutter slush will not save you. \n\
+the concrete cannot speak your name."
+      },
+      {
+        "author": "Megan Nichols",
+        "title": "Child",
+        "link": "https://www.zeroreaders.com/2021/09/child-megan-nichols/",
+        "text": "Your face \n\
+is the last match in the book \n\
+ \n\
+guiding me \n\
+through \n\
+the wreckage \n\
+ \n\
+lighting the candles \n\
+that encircle us \n\
+ \n\
+so that I may see \n\
+ \n\
+how best \n\
+to reassemble \n\
+our home."
+      },
+      {
+        "author": "Katy Naylor",
+        "title": "mainstay",
+        "link": "https://www.zeroreaders.com/2021/09/mainstay-katy-naylor/",
+        "text": "cast off your past like so much dry skin \n\
+come down with me to the water \n\
+ \n\
+loose those knots which bind you to your old pain \n\
+the empty cup \n\
+the mast at your back \n\
+ \n\
+let me be the harbour for your second chances \n\
+find them here \n\
+in the seaweed \n\
+on the rocks"
+      },
+      {
+        "author": "Noren Haq",
+        "title": "Spare Room",
+        "link": "https://www.zeroreaders.com/2021/12/spare-room-noren-haq/",
+        "text": "I will embroider us together, into every secret seam \n\
+turn the bedsheet inside out \n\
+and leave it to fade to dust in the spare room. \n\
+A surprise for when I’m gone. \n\
+And then you will see \n\
+How we were made and unmade and could never be undone. \n\
+And you will know \n\
+How much you were loved."
+      },
+    ],
+  },
+  {
+    "magazineId": 'gigantic-sequins',
+    "examples": [
+      {
+        "author": "Xandria Phillips",
+        "title": "FOR A BURIAL FREE OF SHARKS",
+        "link": "http://www.giganticsequins.com/phillips81.html",
+        "text": "how in the hull we worked we wormed at earth’s lack in we lives and in those deaths / and I say we / not collective not tongued the same and not kin and not in love / but in all of we pressed up against we heat and doings similar and reduced to sameness / saw the first of we plunging for home / landing into a shiver of them / in not looking towards the carnage saw the moon reflected onto by we water was pink / we may have known / well I did not / that a drop would not take us to the bottom and buried / well I did not know these beasts stream with we / we had to try to die better / without soil to pollinate pores no soul restoration"
+      },
+      {
+        "author": "Caitlin Luce Christensen",
+        "title": "A Man Eats Another Man's Heart",
+        "link": "http://www.giganticsequins.com/christensen-a-man-eats-another-mans-heart.html",
+        "text": "A man eats another man’s heart. You, witness, try to make a record of it. It’s all been said. Variations on a theme: either To make peace is to forget, or “To forgive is to forget.” Try again: “War will never end.” Try again: Memory is, achingly, the only relation we can have with the dead. Try again: “The heart is a muscle the size of your fist.” Try again. \n\
+\n\
+Two men are on the ground and one is wounded at the chest. The other is eating something red and pulsing, blood on his palms. They have long fingers those hands, archaeologist’s hands, peeling back skin to extract history. The wounded man scarcely moves his lips. The other is tearing into the organ with his teeth. It seems tough. He chews ten times, good for digestion."
+      },
+      {
+        "author": "Ingrid Jędrzejewski",
+        "title": "Appropriation",
+        "link": "http://www.giganticsequins.com/ingridj.html",
+        "text": "My baby takes things. Although she can only just sit up on her own, she knows how to operate her arms and maneuver her fingers into secret places. She finds improbable things on the floor, sometimes things for which we’ve been looking for years. She can snake her way into pockets, tease out coins and keys, used tissues and breath mints. As long as it is small enough to block a windpipe, she can find it. We watch her closely, but never catch her in the act.  "
+      },
+      {
+        "author": "Kim Hagerich",
+        "title": "Lost and Father",
+        "link": "http://www.giganticsequins.com/hagerich81.html",
+        "text": "One day I sit with my children and say, “Your father has burned out, and we must find a new one before our whole brood dims.” \n\
+    They don’t emit the expected byproducts of sadness: piles of salt, chiffon, mallard squawks— or else I think sadness looks like something other than what it does, their mother who has never felt it firsthand. Or perhaps it is that our burned-out father was not fleshy but conceptual, something we aspired one day to attain. We had been practicing. We laid an empty suit at the head of the table for together breakfast and pinned its shoulders to the topmost slat. On sunny days, we set him up in the yard. There were days when the children would visit vocational spaces: firehouses, office buildings, anthropological digs."
+      },
+    ],
+  },
+  {
+    "magazineId": 'foglifter',
+    "examples": [
+      {
+        "author": "Kanika Agrawal",
+        "title": "from Okazaki Fragments",
+        "link": "https://foglifterjournal.com/wp-content/uploads/2021/02/Agrawal-Kanika_from-Okazaki-Fragments.pdf",
+        "text": "Okazaki is consistently Okazakiadjacent. It is a co-efficient covalent conformation in \n\
+which Okazaki switches \n\
+ \n\
+lines with Okazaki when \n\
+the occasion strikes. See \n\
+ \n\
+Okazaki’s strand wind its mind \n\
+around Okazaki’s inner events. \n\
+ \n\
+See Okazaki as the filament \n\
+lighting Okazaki’s sentence. \n\
+ \n\
+In this segment Okazaki is in \n\
+Okazaki’s cellular element."
+      },
+      {
+        "author": "D. Arthur",
+        "title": "Dykes in a Tub",
+        "link": "https://foglifterjournal.com/wp-content/uploads/2021/07/D.-Arthur-Dykes-in-a-Tub.pdf",
+        "text": "For some reason, it is “news” that on social media the sapphic blond supermodel posted a picture in a bathtub kissing her also-blond-girlfriend, that actress from that long-cancelled show \n\
+that had too many seasons of teen girls murdering one another. Both of their hair, wet and \n\
+pushed back, looks the same color, just different lengths. The model’s just past her chin. The \n\
+actress’ past her shoulders. They are naked, but we can’t see much. We see heads. We see shoulders. We see one knee of the actress bent up into a smooth peak above the water. We see no \n\
+toes. I imagine them dunking their heads down into the warm scented water of the deep soaking tub. I imagine their hair floating and tangling, a dark blond cloud, impossible to decipher \n\
+whose hair is whose."
+      },
+      {
+        "author": "Chekwube Danladi",
+        "title": "INWARD ASPECT",
+        "link": "https://foglifterjournal.com/wp-content/uploads/2021/02/Chekwube-Danladi-INWARD-ASPECT.pdf",
+        "text": "A person in love may start this poem with unruffled dusk, \n\
+how it paves the way for sun in the mourning. \n\
+ \n\
+May confuse “mourning” for “morning” due to their condition. \n\
+Chemically distraught, they may become aroused by love’s hair \n\
+ \n\
+fallen in drains, by splinter and blood in love’s heir’s thumb, \n\
+may slip in the delusions granted by the worldly \n\
+ \n\
+kindness of wake-and-bake and morning sex. \n\
+A person in spite now forgets how it was our tattered \n\
+ \n\
+bodies that insistently kept us warm when the vortex raged, \n\
+or the weeping thundered, when cast out to Illinois’s lonesome \n\
+ \n\
+prairie. "
+      },
+      {
+        "author": "Dez Deshaies",
+        "title": "Magical Faggot as Cinematic Study",
+        "link": "https://foglifterjournal.com/wp-content/uploads/2021/02/Deshaies-Dez_Magical-Faggot-as-Cinematic-Study.pdf",
+        "text": "The same group that sponsors my queer soccer league wants to start a queer e-sports league. My soccer team plans to form another team for this second league, but cannot find a game to compete in, since all of us only want to play healers. There is a brief fight about who could heal the most, who would look the best in Mercy drag. In an online game of Dungeons and Dragons, we experiment with a party of six clerics. It works until our church breaks."
+      },
+    ],
+  },
+  {
+    "magazineId": 'lost-balloon',
+    "examples": [
+      {
+        "author": "S. S. Mandani",
+        "title": "Body of Water",
+        "link": "https://lost-balloon.com/2021/07/14/body-of-water-mandani/",
+        "text": "The psychic across from the dollar pizza joint on East 6th Street told Rohan he’d die at the age \n\
+of eighty-five. \n\
+ \n\
+His cousin Navya smiled terrifically in the corner of the room, having just been told she would be unfazed by the negative energy from the men in her life and have a hallmark year. Rohan had known Navya her whole life, since they were babies, and had met her boyfriend. Layla the psychic was, so far, one for one."
+      },
+      {
+        "author": "Star Su",
+        "title": "Fairest",
+        "link": "https://lost-balloon.com/2021/05/12/fairest-star-su/",
+        "text": "The jungle gym in the strip mall was transformed into a tea party café overnight. Mushroom foam and plastic lily pads were plucked from the mud-rubber ground, rolled over by periwinkle marble and re-planted with three-legged chairs, aquamarine gems in the backing. She suggests fairy lights and smoothie names to the manager, tastes rare cheesecake and chocolate mousse, licks the cream clean from the acetate ring. They do a soft opening with his daughter’s fifth birthday, sending invitations sealed with rainbow wax, cardstock recycled from a time when she still wrote love letters. Her handwriting is beautiful when she presses the gel pens hard."
+      },
+      {
+        "author": "Hugh Behm-Steinberg",
+        "title": "A Song About Dogs",
+        "link": "https://lost-balloon.com/2021/08/04/a-song-about-dogs-hugh-behmsteinberg/",
+        "text": "We’re in a meeting, a long, tedious, thorough meeting, the sort with breakout groups that never break out, and whoever isn’t paying attention gets the look. You text me a note, “We should be in a band,” and while making it look like I’m paying so much attention I’m actually taking notes, what I’m really doing is typing furiously, over and over, “Oh yeah oh hell yeah!”"
+      },
+      {
+        "author": "Megan Pillow",
+        "title": "Instructions for Fucking Your Postpartum Wife",
+        "link": "https://lost-balloon.com/2021/02/03/your-postpartum-wife-megan-pillow/",
+        "text": "1)  First, get the groceries. Get the baby when he cries. Get a clutch of flowers, and make sure they’re the wild ones. These, the ones that waver when your car wings past, the ones that seem to be stretching toward you with every stem and every filament. \n\
+ \n\
+2)  Forget your hands, your mouth. Forget that ancient come-on that you used back when it was just the two of you. Grab her breasts while she’s cooking, and she will become a stinging nettle. Put your hand down her pants when she’s washing the dishes, and she will become a man o’ war. If she lets you, touch her hair by hair and inch by delicate inch. Expect nothing."
       },
     ],
   },

@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "BULLSHIT LIT",
+    "key": "bullshit-lit",
     "cover": "/covers/bullshit.jpeg",
     "description": "Your shitty prose, fucked-up line breaks, abandoned sketches, nonsensical plots, and so on. Everybody else wants your best—we want your worst.",
     "acceptPreviouslyPublished": false,
@@ -35,6 +36,7 @@
   {
     "id": 2,
     "name": "Prolit",
+    "key": "prolit",
     "cover": "/covers/prolit.jpeg",
     "description": "Submissions of  poetry, prose, art, and photography that deal in some way with money, work, class, or capitalism are welcome.",
     "acceptPreviouslyPublished": false,
@@ -65,6 +67,7 @@
   {
     "id": 3,
     "name": "Rejection Letters",
+    "key": "rejection-letters",
     "cover": "/covers/rejection-letters.jpeg",
     "description": "We like the absurd, the heartbreaking, the hysterical. We like rejection letters, fiction, poetry, CNF, hybrid, whatever.",
     "acceptPreviouslyPublished": false,
@@ -96,6 +99,7 @@
   {
     "id": 4,
     "name": "Fine Print Press",
+    "key": "fine-print-press",
     "cover": "/covers/fine-print.jpeg",
     "description": "Our goal is to showcase the work of independent and up-and-coming artists and authors in communities around the world.",
     "acceptPreviouslyPublished": false,
@@ -124,6 +128,7 @@
   {
     "id": 5,
     "name": "Slant",
+    "key": "slant",
     "cover": "/covers/slant.jpeg",
     "description": "Its editorial tastes are broad, but in all cases it looks for craft in making and freshness of sensibility. Unlike many journals, SLANT looks favorably upon traditional verse forms and narrative poetry.",
     "acceptPreviouslyPublished": false,
@@ -134,7 +139,7 @@
     "responseDays": 120,
     "fee": "",
     "payment": "",
-    "website": "https://uca.edu/archives/slant/",
+    "website": "https://slantpoetryjournal.wordpress.com/",
     "twitter": "https://twitter.com/slantpoetry",
     "twitterFollowers": 496,
     "insta": "",
@@ -152,6 +157,7 @@
   {
     "id": 6,
     "name": "the6ress",
+    "key": "the6ress",
     "cover": "/covers/the6ress.jpeg",
     "description": "We adore, promote and publish the weird and wonderful work of artists and poets that melt the minds of the mainstream.",
     "acceptPreviouslyPublished": true,
@@ -182,6 +188,7 @@
   {
     "id": 7,
     "name": "Kissing Dynamite",
+    "key": "kissing-dynamite",
     "cover": "/covers/kissing-dynamite.jpeg",
     "description": "Twelve poems each month— Kissing Dynamite curates compact issues that honor the thematic threads presented by contributing poets.",
     "acceptPreviouslyPublished": false,
@@ -207,11 +214,14 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "February 7, 2022",
     "notes": "Issue 7 - “Anxiety & Co.” by Jordan Hamel. “Dad” by Karyn Peyton. Issue 33 - “Friday Morning” by Christine Naprava"
   },
   {
     "id": 8,
     "name": "South Broadway Ghost Society",
+    "key": "south-broadway-ghost-society",
     "cover": "/covers/south-broadway-ghost-society.jpeg",
     "description": "We like pieces that are intimate, pieces that challenge the status quo, pieces that our readers will be thinking about when they are driving home late at night. We like humor, especially when that humor serves a bigger purpose.",
     "acceptPreviouslyPublished": false,
@@ -238,6 +248,7 @@
   {
     "id": 9,
     "name": "The Global Youth Review",
+    "key": "the-global-youth-review",
     "cover": "/covers/global-youth-review.jpeg",
     "description": "We are an upcoming international literary magazine hoping to amplify the voices of marginalized communities through creative art forms. Every issue published centers around a specific social issue we wish to combat.",
     "acceptPreviouslyPublished": true,
@@ -273,6 +284,7 @@
   {
     "id": 10,
     "name": "High Shelf",
+    "key": "high-shelf",
     "cover": "/covers/high-shelf.jpeg",
     "description": "Providing a home for poetry, art, and photography. All artists retain full rights to their work.",
     "acceptPreviouslyPublished": false,
@@ -303,6 +315,7 @@
   {
     "id": 11,
     "name": "SPAM",
+    "key": "spam",
     "cover": "/covers/spam.jpeg",
     "description": "SPAM aims to publish exciting poetry that speaks to the post-internet generation. We welcome any type of content that may be deemed 'poetic' in the 21st century.",
     "acceptPreviouslyPublished": true,
@@ -336,6 +349,7 @@
   {
     "id": 12,
     "name": "C*nsorship Magazine",
+    "key": "cnsorship",
     "cover": "/covers/censorship.jpeg",
     "description": "A literary magazine all about censorship We take inspiration from the little magazines of the late 19th and early 20th centuries. We welcome poetry, prose and visual art, as experimental as they come!",
     "acceptPreviouslyPublished": false,
@@ -366,6 +380,7 @@
   {
     "id": 13,
     "name": "Blue River Review",
+    "key": "blue-river-review",
     "cover": "/covers/blue-river-review.png",
     "description": "What we like: Punchy brevity. Frogs. Pieces that feel like a soft, retro filter. Desert grunge. Midwest indie.",
     "acceptPreviouslyPublished": false,
@@ -396,6 +411,7 @@
   {
     "id": 14,
     "name": "elsewhere",
+    "key": "elsewhere",
     "cover": "/covers/elsewhere.png",
     "description": "elsewhere cares only about the line / no line. We want short prose works (flash fiction, prose poetry, nonfiction) that cross, blur, and/or mutilate genre. We publish only six writers quarterly. Give us your homeless, your animals, your lunch money: we're hungry.",
     "acceptPreviouslyPublished": false,
@@ -426,6 +442,7 @@
   {
     "id": 15,
     "name": "Empty House Press",
+    "key": "empty-house-press",
     "cover": "/covers/empty-house.jpeg",
     "description": "We encourage broad interpretations of what the idea or image of an empty house might evoke. This includes but is not limited to writing about home, landscape, place, memory, and of course, the atmosphere of previously inhabited spaces.",
     "acceptPreviouslyPublished": true,
@@ -459,6 +476,7 @@
   {
     "id": 16,
     "name": "Fugue",
+    "key": "fugue",
     "cover": "/covers/fugue.jpeg",
     "description": "Established in 1990 at the University of Idaho, Fugue biannually publishes poetry, fiction, essays, hybrid work, and visual art from established and emerging writers and artists.",
     "acceptPreviouslyPublished": false,
@@ -490,6 +508,7 @@
   {
     "id": 17,
     "name": "G*MOB",
+    "key": "gmob",
     "cover": "/covers/gmob.jpeg",
     "description": "In a world filled with Jolly Ranchers, G*Mob is a Warhead.",
     "acceptPreviouslyPublished": false,
@@ -517,6 +536,7 @@
   {
     "id": 18,
     "name": "Pacifica Literary Review",
+    "key": "pacifica-literary-review",
     "cover": "/covers/pacifica.jpeg",
     "description": "We want unique voices and risky writing; send your predictable stuff to those hoary old journals who’ve been printing the same thing since 1970. Professors and baristas will receive equal consideration. Sonnets and memes will receive equal consideration. If it is excellent and gives us the feels, we’ll print it.",
     "acceptPreviouslyPublished": false,
@@ -542,11 +562,13 @@
     "cons": [
       { "title": "Submission fee", "icon": "thumbs-down-outline" }
     ],
+    "open": true,
     "notes": "PNW:) Issue 17.2 - Emma Bolden \"Social Media\". and fun twitter😎"
   },
   {
     "id": 19,
     "name": "Paperbag",
+    "key": "paperbag",
     "cover": "/covers/paperbag.png",
     "description": "Paperbag is interested in presenting larger bodies of poetry, visual art, sound, collaboration, and experiment from established and emerging writers and artists throughout the world.",
     "acceptPreviouslyPublished": false,
@@ -573,6 +595,7 @@
   {
     "id": 20,
     "name": "Pigeon Pages",
+    "key": "pigeon-pages",
     "cover": "/covers/pigeon-pages.jpeg",
     "description": "Pigeon Pages is a literary space where emerging and established writers from all backgrounds are encouraged to nest together. We seek to champion voices that are not always allowed to sing loudly.",
     "acceptPreviouslyPublished": false,
@@ -598,11 +621,13 @@
     "cons": [
       { "title": "Submission fee", "icon": "thumbs-down-outline" }
     ],
+    "open": true,
     "notes": "Tracy Fuad - \"Considering the Unit of the Day\" BOOM! awesome"
   },
   {
     "id": 21,
     "name": "Press Pause Press",
+    "key": "press-pause-press",
     "cover": "/covers/press-pause.png",
     "description": "Press Pause is a literary magazine with zero social media presence. We want to create an online (and real-life) place away from the usual spaces—a primarily quiet place. ",
     "acceptPreviouslyPublished": false,
@@ -633,6 +658,7 @@
   {
     "id": 22,
     "name": "Sixth Finch",
+    "key": "sixth-finch",
     "cover": "/covers/sixth-finch.jpeg",
     "description": "We are committed to bringing the best in contemporary art and poetry to our readers at no cost.",
     "acceptPreviouslyPublished": false,
@@ -656,11 +682,14 @@
     "cons": [
       { "title": "Website is a bit slow on mobile - just a little downside in the reading experience area", "icon": "phone-outline" }
     ],
+    "open": true,
+    "deadline": "April 6, 2022",
     "notes": "Summer 2021 - David Kirby \"Read Everything\", \"Good Luck Everybody\" - this is fire. Allison Titus \"Futures Index\". Ellen Welcker"
   },
   {
     "id": 23,
     "name": "THE SPECTACLE",
+    "key": "the-spectacle",
     "cover": "/covers/spectacle.jpeg",
     "description": "We aim for content that reminds us that our lenses matter—they focus, distort, clarify, conceal. We value and emphasize relationships between the literary and visual arts, pairing the majority of the pieces we publish with original work from a variety of contributing visual artists.",
     "acceptPreviouslyPublished": false,
@@ -689,6 +718,7 @@
   {
     "id": 24,
     "name": "Watershed Review",
+    "key": "watershed-review",
     "cover": "/covers/watershed.jpeg",
     "description": "Our mission is to publish literature and visual art illustrating diversity in thought and experience, capturing the crucial narratives and images of our current cultural moment, as well as awareness of the shifting edges of genre.",
     "acceptPreviouslyPublished": false,
@@ -712,11 +742,14 @@
     "cons": [
       { "title": "Submission fee", "icon": "thumbs-down-outline" }
     ],
+    "open": true,
+    "deadline": "February 28, 2022",
     "notes": "Spring 2021 - Derek Graf \"There Are No Birds In My House\", Eric Roy \"Cartoon Obvious\". Winter 2020 - Laura Cherry."
   },
   {
     "id": 25,
     "name": "Cobra Milk",
+    "key": "cobra-milk",
     "cover": "/covers/cobra-milk.jpeg",
     "description": "Cobra Milk invites you to get weird, get vulnerable, ​and get at us with the work you want to bring into the world. ",
     "acceptPreviouslyPublished": false,
@@ -748,6 +781,7 @@
   {
     "id": 26,
     "name": "Near Window",
+    "key": "near-window",
     "cover": "/covers/near-window.jpeg",
     "description": "Near Window is a zine about having a view out/in through a window. I wanted to make something that was a space for softness, for emotional vulnerability, for weirdness, and openness. Near Window is about opening up, and about getting a different perspective.",
     "acceptPreviouslyPublished": false,
@@ -782,6 +816,7 @@
   {
     "id": 27,
     "name": "Neuro Logical Magazine",
+    "key": "neuro-logical",
     "cover": "/covers/neuro-logical.jpeg",
     "description": "We want writing that doesn't really fit elsewhere, those about waking up and walking and how clouds look strange. Even a thought that just bopped across your mind.",
     "acceptPreviouslyPublished": false,
@@ -813,6 +848,7 @@
   {
     "id": 28,
     "name": "Diagram",
+    "key": "diagram",
     "cover": "/covers/diagram.jpeg",
     "description": "WE VALUE the insides of things, vivisection, urgency, risk, elegance, flamboyance, work that moves us, language that does something new, or does something old--well. We like iteration and reiteration. Ruins and ghosts. Mechanical, moving parts, balloons, and frenzy. Buzz us.",
     "acceptPreviouslyPublished": false,
@@ -843,6 +879,7 @@
   {
     "id": 29,
     "name": "The Furious Gazelle",
+    "key": "the-furious-gazelle",
     "cover": "/covers/furious-gazelle.jpeg",
     "description": "Before you submit to the Furious Gazelle, ask yourself the following about your submission: Does it have a good story? Is it compulsively readable? Are you a living human being who has written some words? If you answered “yes” to any of those questions, we encourage you to submit.",
     "acceptPreviouslyPublished": true,
@@ -872,6 +909,7 @@
   {
     "id": 30,
     "name": "The Penn Review",
+    "key": "the-penn-review",
     "cover": "/covers/penn-review.jpeg",
     "description": "Publishes original poetry, fiction, creative nonfiction, and visual artwork, and feature a blend of emerging and established voices. Ranked as one of the 25 Fastest Fiction & Poetry Markets in Duotrope's database.",
     "acceptPreviouslyPublished": false,
@@ -900,6 +938,7 @@
   {
     "id": 31,
     "name": "The Rappahannock Review",
+    "key": "the-rappahannock-review",
     "cover": "/covers/rappahannock.jpeg",
     "description": "The Rappahannock Review is a literary journal that has been edited and published by students in the Creative Writing Program at the University of Mary Washington since 2013.",
     "acceptPreviouslyPublished": false,
@@ -924,11 +963,13 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "deadline": "February 16, 2022",
     "notes": "Issue 22 - Meg Johnson. well i guess it's okIssue 8.1 - Nancy Lynée Woo \"Somewhere in Montana, Maybe\". Issue 7.2 - Geoff Martin \"Dental Therapy"
   },
   {
     "id": 32,
     "name": "Spork Press",
+    "key": "spork-press",
     "cover": "/covers/spork-press.jpeg",
     "description": "handmade books | online publications | tapes",
     "acceptPreviouslyPublished": false,
@@ -957,6 +998,7 @@
   {
     "id": 33,
     "name": "North Dakota Quarterly",
+    "key": "north-dakota-quarterly",
     "cover": "/covers/ndq.jpeg",
     "description": "One of the famous “little magazines” that have been the traditional seed beds of talented writers and contributed so much to the nation’s cultural and artistic life.",
     "acceptPreviouslyPublished": false,
@@ -987,6 +1029,7 @@
   {
     "id": 34,
     "name": "The Daily Drunk",
+    "key": "the-daily-drunk",
     "cover": "/covers/daily-drunk.jpeg",
     "description": "Seeks film, TV, music, video games, and all pop culture-related submissions of previously unpublished fiction, nonfiction, poetry, lists, reviews, quizzes, and comics",
     "acceptPreviouslyPublished": false,
@@ -1020,6 +1063,7 @@
   {
     "id": 35,
     "name": "Bending Genres",
+    "key": "bending-genres",
     "cover": "/covers/bending-genres.jpeg",
     "description": "We seek thrilling, fanciful, oddball, unusual, stunning fiction, poetry, and creative nonfiction pieces. Think Olympics on a case of Red Bull. Think October in April. Think Deep Thoughts by Jack Handey.",
     "acceptPreviouslyPublished": false,
@@ -1050,6 +1094,7 @@
   {
     "id": 36,
     "name": "HOLYFLEA!",
+    "key": "holyflea!",
     "cover": "/covers/holyflea.jpeg",
     "description": "HOLYFLEA! is an online magazine dedicated to the weird and writing with strong voices. We like short things, longer short things and straight up long things that would otherwise just stay in your documents because you weren’t sure what else to do with it.",
     "acceptPreviouslyPublished": true,
@@ -1086,6 +1131,7 @@
   {
     "id": 37,
     "name": "Stanchion",
+    "key": "stanchion",
     "cover": "/covers/stanchion.jpeg",
     "description": "This humble literary zine also stands ready to shine a light onto deft skill, a soft touch, and if lucky, a thunderbolt you won’t see coming.",
     "acceptPreviouslyPublished": false,
@@ -1113,11 +1159,14 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "February 5, 2022",
     "notes": "Jeff Bogle \"Coffee\" - I like it! ohh he's the editor"
   },
   {
     "id": 38,
     "name": "Crow Name",
+    "key": "crow-name",
     "cover": "/covers/crow-name.jpeg",
     "description": "Crows are known and beloved for bringing their human friends shiny gifts. We at Crow Name see your writing as the most gorgeous bric-a-brac glinting in the sun and we want to share its blinding glory with everyone!",
     "acceptPreviouslyPublished": true,
@@ -1148,6 +1197,7 @@
   {
     "id": 39,
     "name": "Grub Street",
+    "key": "grub-street",
     "cover": "/covers/grub-street.jpeg",
     "description": "The staff of Grub Street is committed to supporting emerging writers in the development of their work and will work with submitters personally to help them realize their artistic goals.",
     "acceptPreviouslyPublished": false,
@@ -1178,6 +1228,7 @@
   {
     "id": 40,
     "name": "Many Nice Donkeys",
+    "key": "many-nice-donkeys",
     "cover": "/covers/many-nice-donkeys.jpeg",
     "description": "We welcome the literary, the weird, the disobedient, and the avant-garde. Send us poems that make claims we can’t stop chewing on and stories that reframe the ordinary. If you have work in hybrid genres, send that, too!",
     "acceptPreviouslyPublished": false,
@@ -1209,6 +1260,7 @@
   {
     "id": 41,
     "name": "Chaotic Merge",
+    "key": "chaotic-merge",
     "cover": "/covers/chaotic-merge.jpeg",
     "description": "We seek work that is adventurous and test the border of art and structure. Don’t be afraid to mess with everything you have ever learned in your lives. We write to have fun!",
     "acceptPreviouslyPublished": false,
@@ -1241,6 +1293,7 @@
   {
     "id": 42,
     "name": "Little Engines",
+    "key": "little-engines",
     "cover": "/covers/little-engines.jpeg",
     "description": "Submit your stuff! I can’t wait to see your stories, essays, poems, interviews, comics, reviews, etc. Aim for 1500 words or fewer, but no one’s really counting.",
     "acceptPreviouslyPublished": false,
@@ -1271,6 +1324,7 @@
   {
     "id": 43,
     "name": "Misery Tourism",
+    "key": "misery-tourism",
     "cover": "/covers/misery-tourism.jpeg",
     "description": "What we’re looking for: weird, outsider works of fiction or poetry, non-fiction articles and multimedia experiments, games of all kinds, and other strange, terrible shit.",
     "acceptPreviouslyPublished": false,
@@ -1302,6 +1356,7 @@
   {
     "id": 44,
     "name": "autofocus",
+    "key": "autofocus",
     "cover": "/covers/autofocus.jpeg",
     "description": "We’re seeking personal essay, memoir, confessional poetry, curated journal/diary, curated letters/e-mail, hybrid explorations of the self, and any writing that makes art from your life.",
     "acceptPreviouslyPublished": false,
@@ -1327,7 +1382,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
     "notes": "ahh, David Kirby “Big Liar”. It’s alright:)"
   },
 //   {
@@ -1356,6 +1410,7 @@
   {
     "id": 46,
     "name": "Hooligan Mag",
+    "key": "hooligan-mag",
     "cover": "/covers/hooligan.jpeg",
     "description": "Hooligan functions as a deeply personal process that stems from a passion for creating, storytelling and critical thought -- and being a platform for artists who continue to shift the paradigms and structures in which we live under.",
     "acceptPreviouslyPublished": false,
@@ -1384,6 +1439,7 @@
   {
     "id": 47,
     "name": "HAD",
+    "key": "had",
     "cover": "/covers/had.jpeg",
     "description": "We had an idea for a journal that, like most things Hobart-related, started as something of a joke... until it became a real thing. If submissions are open, we've probably had a couple drinks. We're Hobart After Dark.",
     "acceptPreviouslyPublished": false,
@@ -1415,6 +1471,7 @@
   {
     "id": 48,
     "name": "Corvus Review",
+    "key": "corvus-review",
     "cover": "/covers/corvus.jpeg",
     "description": "A small literary journal publishing pieces that sing. Submit and see if we like your tune! Always seeking weird and wonderful work.",
     "acceptPreviouslyPublished": true,
@@ -1437,11 +1494,13 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
     "notes": "Tom Barlow \"Customers\", Issue 15 - Michael Drezin \"Being Indecisive at the Urinal\", Bruce Morton \"The Tip\". Issue 17 - Mike Keller-Wilson “An Apology for Celebrating the Death of the Mouse in Apartment 6 in 2011” lol this is great. Walter Lacey “Confused”"
   },
   {
     "id": 49,
     "name": "Adjacent Pineapple",
+    "key": "adjacent-pineapple",
     "cover": "/covers/pineapple.jpeg",
     "description": "live and online spaces for writing, discussion and performance. based in glasgow, scotland and spaces of dissension where contradiction doesn't melt.",
     "acceptPreviouslyPublished": false,
@@ -1459,17 +1518,17 @@
     "promoteAfterPublication": false,
     "vibe": "best",
     "pros": [
-      { "title": "Active on social media", "icon": "chatbubbles-outline" }
+
     ],
     "cons": [
-      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+      { "title": "\"I think this mag might be defunct? I've had a submission on unread from them for 16 months, and they havent' used their Twitter in over a year.\"", "icon": "alert-circle-outline" }
     ],
-    "open": true,
     "notes": ""
   },
   {
     "id": 50,
     "name": "Hobart",
+    "key": "hobart",
     "cover": "/covers/hobart.jpeg",
     "description": "We want poetry from the margins, words that open new space without closing off recurring possibilities. There's no one type of poem that we prefer of the other, although we're often interested in poetry that doesn't necessarily know it's poetry. We are looking to be moved by the beauty in what is common.",
     "acceptPreviouslyPublished": false,
@@ -1501,6 +1560,7 @@
   {
     "id": 51,
     "name": "Brave Voices",
+    "key": "brave-voices",
     "cover": "/covers/brave-voices.jpeg",
     "description": "brave voices magazine is a literary & arts magazine that started in 2018. we aim to publish work from marginalized individuals about the human experience.",
     "acceptPreviouslyPublished": false,
@@ -1531,6 +1591,7 @@
   {
     "id": 52,
     "name": "Twin Pies Literary",
+    "key": "twin-pies-literary",
     "cover": "/covers/twin-pies.jpeg",
     "description": "Give us pieces of the puzzle. Skip the haunting - give us what’s beyond it. We want: no-context stories, experimental poetry, form-altering CNF, writing we can hear.",
     "acceptPreviouslyPublished": false,
@@ -1561,6 +1622,7 @@
   {
     "id": 53,
     "name": "Longleaf Review",
+    "key": "longleaf-review",
     "cover": "/covers/longleaf.jpeg",
     "description": "Fiction, creative nonfiction, and poetry––all of it weird",
     "acceptPreviouslyPublished": false,
@@ -1587,11 +1649,14 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "February 28, 2022",
     "notes": ""
   },
   {
     "id": 54,
     "name": "Barrelhouse",
+    "key": "barrelhouse",
     "cover": "/covers/barrelhouse.jpeg",
     "description": "Barrelhouse bridges the gap between serious art and pop culture. It's a biannual print journal featuring fiction, poetry, interviews, and essays about music, art, and the detritus of popular culture.",
     "acceptPreviouslyPublished": false,
@@ -1623,6 +1688,7 @@
   {
     "id": 55,
     "name": "Waxwing Literary Journal",
+    "key": "waxwing",
     "cover": "/covers/waxwing.jpeg",
     "description": "We strive to promote the tremendous cultural diversity of contemporary American literature, alongside international voices both in English and in translation.",
     "acceptPreviouslyPublished": false,
@@ -1646,11 +1712,14 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "May 1, 2022",
     "notes": "Issue 20 - Amanda Turner \"The Fish Hums to the Night and the Night Hums to the Fish\". David Kirby again lol. Robert Fanning"
   },
   {
     "id": 56,
     "name": "Willow Springs",
+    "key": "willow-springs",
     "cover": "/covers/willow-springs.jpeg",
     "description": "Willow Springs publishes work by unknown and up and coming writers, and by U.S. Poet Laureates and Pulitzer Prize winners, engaging our readers in an ongoing discussion of art, ideas, and the human experience.",
     "acceptPreviouslyPublished": false,
@@ -1677,11 +1746,14 @@
     "cons": [
       "Submission fee (though they have some free submission windows)"
     ],
+    "open": true,
+    "deadline": "June 1, 2022",
     "notes": "Issue 88 - David Kirby hi"
   },
   {
     "id": 57,
     "name": "Electric Lit",
+    "key": "electric-lit",
     "cover": "/covers/electric-lit.png",
     "description": "Electric Literature’s second weekly magazine, The Commuter, is publishing strange and diverting poetry, flash fiction, and graphic narratives every Monday.",
     "acceptPreviouslyPublished": false,
@@ -1711,6 +1783,7 @@
   {
     "id": 58,
     "name": "Dollar Store Magazine",
+    "key": "dollar-store-magazine",
     "cover": "/covers/dollar-store.jpeg",
     "description": "We aren't the pub to send your best work to. We want your cringeworthy, embarrassing, \"dollar store\" writing.",
     "acceptPreviouslyPublished": true,
@@ -1742,6 +1815,7 @@
   {
     "id": 59,
     "name": "The Lumiere Review",
+    "key": "the-lumiere-review",
     "cover": "/covers/lumiere-review.jpeg",
     "description": "We are intrigued by the inextinguishable sparks of truth and connection, the effervescent meddling of narrative, and the luminous creations that expand on perceptions of genre, language, and form. After all, we aspire to be the brightest magazine around.",
     "acceptPreviouslyPublished": true,
@@ -1776,6 +1850,7 @@
   {
     "id": 60,
     "name": "Identity Theory",
+    "key": "identity-theory",
     "cover": "/covers/identity-theory.jpeg",
     "description": "An online literary magazine and cultural hub that has been publishing original writing, interviews, and other forms of creative expression since July 2000.",
     "acceptPreviouslyPublished": false,
@@ -1807,6 +1882,7 @@
   {
     "id": 61,
     "name": "Back Patio Press",
+    "key": "back-patio-press",
     "cover": "/covers/back-patio.jpeg",
     "description": "A chill place for weird indie lit on the internet and in print. We like stuff that explores the strangeness in the mundane and usually stuff that references junk food or shitty beer.",
     "acceptPreviouslyPublished": false,
@@ -1835,6 +1911,7 @@
   {
     "id": 62,
     "name": "Neutral Spaces",
+    "key": "neutral-spaces",
     "cover": "/covers/neutral-spaces.jpeg",
     "description": "An ad–free independent space for writers & their work",
     "acceptPreviouslyPublished": true,
@@ -1863,6 +1940,7 @@
   {
     "id": 63,
     "name": "The Bitchin’ Kitsch",
+    "key": "the-bitchin-kitsch",
     "cover": "/covers/bitchin.jpeg",
     "description": "A quarterly art and lit, online and printed magazine prioritizing traditionally marginalized creators, but open to all",
     "acceptPreviouslyPublished": true,
@@ -1887,7 +1965,7 @@
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
     ],
     "cons": [
-      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+      { "title": "\"Because our issues do often deal with mature topics, our publication is open to creatives aged 16+ only.\"", "icon": "alert-circle-outline" }
     ],
     "open": true,
     "deadline": "March 15, 2022"
@@ -1895,6 +1973,7 @@
   {
     "id": 64,
     "name": "trampset",
+    "key": "trampset",
     "cover": "/covers/trampset.jpeg",
     "description": "A literary journal, trampset publishes fiction, nonfiction, and poetry on a rolling basis. We welcome diverse voices, including writers working outside academia.",
     "acceptPreviouslyPublished": false,
@@ -1929,6 +2008,7 @@
   {
     "id": 65,
     "name": "the voidspace",
+    "key": "the-voidspace",
     "cover": "/covers/voidspace.jpeg",
     "description": "We are looking for work the reader can interact with or influence in some way",
     "acceptPreviouslyPublished": true,
@@ -1959,6 +2039,7 @@
   {
     "id": 66,
     "name": "CLOVES",
+    "key": "cloves",
     "cover": "/covers/cloves.jpeg",
     "description": "Nostalgia, trauma, & painful memories in 500 words or less. Single weekly pubs. Sporadic sub windows. Make us bleed—emotionally",
     "acceptPreviouslyPublished": false,
@@ -1986,6 +2067,7 @@
   {
     "id": 67,
     "name": "Reservoir Road Literary Review",
+    "key": "reservoir-road-literary-review",
     "cover": "/covers/reservoir-road.jpeg",
     "description": "Stories that examine the truth in the bitterness, in the anti-heroes. Heavy stories full of grit and discomfort that shed sympathetic light on the questionable, the unfavorable. Stories that ask difficult questions, that provide difficult answers. ",
     "acceptPreviouslyPublished": false,
@@ -2016,6 +2098,7 @@
   {
     "id": 68,
     "name": "X-R-A-Y",
+    "key": "xray",
     "cover": "/covers/xray.jpeg",
     "description": "X-R-A-Y Literary Magazine’s vision is to publish uncomfortable, entertaining, and unforgettable prose that shines brighter than the skeleton in your body, prose that sees through the skin and reveals something deeper",
     "acceptPreviouslyPublished": true,
@@ -2042,10 +2125,12 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
   },
   {
     "id": 69,
     "name": "Maudlin House",
+    "key": "maudlin-house",
     "cover": "/covers/maudlin-house.jpeg",
     "description": "Maudlin House is a bridge between new form fiction and experimental lit that takes on mainstream pop culture through the lens of 21st-century indie art",
     "acceptPreviouslyPublished": false,
@@ -2076,6 +2161,7 @@
   {
     "id": 70,
     "name": "Olney",
+    "key": "olney",
     "cover": "/covers/olney.jpeg",
     "description": "We aim to showcase poetry and prose with sincere intentions, works that forgo aesthetic goals and academic conventions to offer an honest perspective to others. We seek writing that lives in the labor, takes long breaths, words that still have the dirt in them. ",
     "acceptPreviouslyPublished": false,
@@ -2104,11 +2190,11 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
   },
   {
     "id": 71,
     "name": "Jellyfish Review",
+    "key": "jellyfish-review",
     "cover": "/covers/jellyfish.jpeg",
     "description": "An online journal committed to publishing new flash fiction",
     "acceptPreviouslyPublished": false,
@@ -2139,6 +2225,7 @@
   {
     "id": 72,
     "name": "Taco Bell Quarterly",
+    "key": "taco-bell-quarterly",
     "cover": "/covers/taco-bell.jpeg",
     "description": "Is this real? A joke? A literary psy-op? We don’t fully know. We just decided to write about Taco Bell. We are absolutely not affiliated with Taco Bell and make no profits. We can’t even get extra sauce in the drive-thru.",
     "acceptPreviouslyPublished": false,
@@ -2169,6 +2256,7 @@
   {
     "id": 73,
     "name": "The Paris Review",
+    "key": "the-paris-review",
     "cover": "/covers/paris-review.jpeg",
     "description": "Quarterly literary magazine founded in 1953",
     "acceptPreviouslyPublished": false,
@@ -2197,6 +2285,7 @@
   {
     "id": 74,
     "name": "The New Yorker",
+    "key": "the-new-yorker",
     "cover": "/covers/new-yorker.png",
     "description": "Unparalleled reporting and commentary on politics and culture, plus humor and cartoons, fiction and poetry, reviews, and criticism",
     "acceptPreviouslyPublished": false,
@@ -2221,10 +2310,12 @@
     "cons": [
       { "title": "Hahahahahahahahahaahahahaahahahah good luck", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
   },
   {
     "id": 75,
     "name": "Poetry",
+    "key": "poetry",
     "cover": "/covers/poetry.jpeg",
     "description": "An independent literary organization committed to a vigorous presence for poetry in our culture",
     "acceptPreviouslyPublished": false,
@@ -2249,6 +2340,7 @@
     "cons": [
       { "title": "Hahahahahahahahahaahahahaahahahahah good luck", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
   },
 
   // {
@@ -2285,6 +2377,7 @@
   {
     "id": 77,
     "name": "Agbowó",
+    "key": "agbowo",
     "cover": "/covers/agwobo.jpeg",
     "description": "A common space for showcasing and celebrating African literary and visual art",
     "acceptPreviouslyPublished": false,
@@ -2307,14 +2400,13 @@
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
     "cons": [
-      { "title": "Limited demographic: accepting work from writers of African origin", "icon": "globe-outline" }
+      { "title": "Limited demographic: accepting work from writers of African origin", "icon": "earth-outline" }
     ],
-    "open": true,
-    "deadline": "February 1, 2022",
   },
   {
     "id": 78,
     "name": "Superstition Review",
+    "key": "superstition-review",
     "cover": "/covers/superstition-review.png",
     "description": "The online literary magazine produced by creative writing and web design students at Arizona State University. We publish Art, Fiction, Interviews, Nonfiction, and Poetry.",
     "acceptPreviouslyPublished": false,
@@ -2338,12 +2430,11 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 1, 2022",
   },
   {
     "id": 79,
     "name": "New Delta Review",
+    "key": "new-delta-review",
     "cover": "/covers/new-delta.jpeg",
     "description": "An online literary and arts journal produced by graduate students in the MFA Program in Creative Writing at Louisiana State University",
     "acceptPreviouslyPublished": false,
@@ -2372,6 +2463,7 @@
   {
     "id": 80,
     "name": "A Public Space",
+    "key": "a-public-space",
     "cover": "/covers/public-space.jpeg",
     "description": "An independent nonprofit publisher of an eponymous award-winning literary, arts, and culture magazine, and A Public Space Books",
     "acceptPreviouslyPublished": false,
@@ -2399,6 +2491,7 @@
   {
     "id": 81,
     "name": "The Rupture",
+    "key": "the-rupture",
     "cover": "/covers/rupture.png",
     "description": "A literary journal. Established 2009 (as The Collagist)",
     "acceptPreviouslyPublished": false,
@@ -2425,6 +2518,7 @@
   {
     "id": 82,
     "name": "ayaskala",
+    "key": "ayaskala",
     "cover": "/covers/ayaskala.jpeg",
     "description": "An arts organisation and literary magazine trying to build a community and a safe space for conversations around mental health",
     "acceptPreviouslyPublished": false,
@@ -2457,6 +2551,7 @@
   {
     "id": 83,
     "name": "The Broadkill Review",
+    "key": "the-broadkill-review",
     "cover": "/covers/broadkill.jpeg",
     "description": "We’re looking for poetry that plumbs the strange and beautiful, surprises us with new perspectives of what language does, and overwhelms us with duende. Traditional form or wildly experimental, blank verse or free, we want you to woo us within an inch of our lives. ",
     "acceptPreviouslyPublished": false,
@@ -2481,12 +2576,11 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 1, 2022",
   },
   {
     "id": 84,
     "name": "Pareidolia Literary",
+    "key": "pareidolia-literary",
     "cover": "/covers/pareidolia.jpeg",
     "description": "We’re a literary journal for pattern-finders",
     "acceptPreviouslyPublished": false,
@@ -2512,5 +2606,574 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+  },
+
+  {
+    "id": 85,
+    "name": "Sans. PRESS",
+    "key": "sans-press",
+    "cover": "/covers/sans.jpeg",
+    "description": "We are a collective of friends who are in love with telling stories, and who are passionate about sharing them. We are united in our passion for finding new voices, new narratives, new ways of seeing and sharing the world",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": false,
+    "print": true,
+    "responseTime": "6 weeks",
+    "responseDays": 45,
+    "fee": "",
+    "payment": "€150",
+    "website": "https://sanspress.com/submissions",
+    "twitter": "https://twitter.com/PressSans",
+    "twitterFollowers": 379,
+    "insta": "https://instagram.com/sans.press?utm_medium=copy_link",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays! €150 per story", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "No free examples on the website", "icon": "cash-outline" },
+    ],
+    "open": true,
+    "deadline": 'March 7, 2022',
+  },
+  {
+    "id": 86,
+    "name": "streetcake magazine",
+    "key": "streetcake-magazine",
+    "cover": "/covers/street-cake.jpeg",
+    "description": "we want to read poetry and fiction that surprises us, makes us laugh, looks downright weird and is a little out of the ordinary. so if your writing is a bit of an outcast, then join us, support us and keep returning to the cake.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "6 weeks",
+    "responseDays": 45,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.streetcakemagazine.com/",
+    "twitter": "https://twitter.com/streetcakemag",
+    "twitterFollowers": 4611,
+    "insta": "https://instagram.com/streetcakemag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "weird",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" }
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 87,
+    "name": "Crow & Cross Keys",
+    "key": "crow-cross-keys",
+    "cover": "/covers/crow-cross.jpeg",
+    "description": "Seeking the wonderful and the bizarre, the beautiful and the dark. Home to all things dark and lovely. ",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "2 months",
+    "responseDays": 60,
+    "fee": "",
+    "payment": "",
+    "website": "https://crowcrosskeys.com/",
+    "twitter": "https://twitter.com/CrowKeys",
+    "twitterFollowers": 4148,
+    "insta": "https://instagram.com/crowcrosskeys",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "weird",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published: \"prefer work that has not been published recently\"", "icon": "happy-outline" },
+      { "title": "\"Contract includes clause for back-paying each contributor in the event we become a paying market\"", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 88,
+    "name": "Defunkt Magazine",
+    "key": "defunkt",
+    "cover": "/covers/defunkt.jpeg",
+    "description": "We are a magazine that showcases compelling, accessible, and culturally relevant work–anything the mainstream is ignoring, we'll want it. We seek to offer an authentic reflection of the contemporary, and most importantly, to uplift marginalized voices in a fascinating and brutally honest way. Bring us your pain, your strength, your passion.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "Yes",
+    "website": "http://www.defunktmag.com",
+    "twitter": "https://twitter.com/DefunktMag",
+    "twitterFollowers": 1571,
+    "insta": "https://instagram.com/defunktmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: $5 - response within 2 weeks", "icon": "rocket-outline" },
+      { "title": "Pays! \"Payment is distributed based off profits from book sales and tip jar donations starting with Volume 10\"", "icon": "cash-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 18, 2022",
+  },
+  {
+    "id": 89,
+    "name": "Trouble Maker Fire Starter",
+    "key": "trouble-maker-fire-starter",
+    "cover": "/covers/trouble-maker.jpeg",
+    "description": "we're a ~new~ biannual poetry chapbook specializing in LGBT+ and feminist poetry. 💀🔥",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": false,
+    "print": true,
+    "responseTime": "2 months",
+    "responseDays": 60,
+    "fee": "",
+    "payment": "",
+    "website": "https://troublemakerfirestarter.com/",
+    "twitter": "https://twitter.com/trblmkrfrstrtr",
+    "twitterFollowers": 74,
+    "insta": "https://instagram.com/troublemakerfirestarter",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "weird",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 90,
+    "name": "The Wild Hunt",
+    "key": "the-wild-hunt",
+    "cover": "/covers/wild-hunt.jpeg",
+    "description": "Literature magazine celebrating the weird, the other, imaginary worlds, horror, uncanny, monsters, folklore & more",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "4 months",
+    "responseDays": 120,
+    "fee": "",
+    "payment": "£0.02/word",
+    "website": "https://wildhuntmag.com/",
+    "twitter": "https://twitter.com/wildhuntmag",
+    "twitterFollowers": 1909,
+    "insta": "https://instagram.com/wildhuntmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 91,
+    "name": "Wrongdoing Magazine",
+    "key": "wrongdoing",
+    "cover": "/covers/wrongdoing.jpeg",
+    "description": "The best new gothic writing and art. We'll take the dark, the sacrilegious, and all of that good stuff that opens mouths and wounds.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1 month",
+    "responseDays": 30,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "$10 CAD",
+    "website": "https://wrongdoingmag.com",
+    "twitter": "https://twitter.com/wrongdoingmag",
+    "twitterFollowers": 6505,
+    "insta": "https://instagram.com/wrongdoingmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "weird",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: $3 - response within 24 hours", "icon": "rocket-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+      { "title": "Accept previously published: \"Only from personal blogs or websites if it taken down upon acceptance.\"", "icon": "happy-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 31, 2022",
+  },
+  {
+    "id": 92,
+    "name": "Overheard",
+    "key": "overheard",
+    "cover": "/covers/overheard.jpeg",
+    "description": "Online lit mag with a yearly print anthology Subs open year-round✨",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "2 weeks",
+    "responseDays": 14,
+    "fee": "",
+    "payment": "",
+    "website": "https://overheardlit.com",
+    "twitter": "https://twitter.com/overheardlit",
+    "twitterFollowers": 3461,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "chilling",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published: \"Only self-published (collection, blog, etc)\"", "icon": "happy-outline" },
+      { "title": "Print anthologies", "icon": "library-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 93,
+    "name": "Susurrus",
+    "key": "susurrus",
+    "cover": "/covers/susurrus.jpeg",
+    "description": "An online literary arts magazine for artists from the American South",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 weeks",
+    "responseDays": 21,
+    "fee": "",
+    "payment": "",
+    "website": "https://susurrusthemagazine.com",
+    "twitter": "https://twitter.com/susurrusmag",
+    "twitterFollowers": 731,
+    "insta": "https://instagram.com/susurrusmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Only for artists across the American South", "icon": "earth-outline" }
+    ],
+    "open": true,
+    "deadline": "March 15, 2022"
+  },
+  {
+    "id": 94,
+    "name": "Annulet",
+    "key": "annulet",
+    "cover": "/covers/annulet.jpeg",
+    "description": "Annulet: A Journal of Poetics is an online journal featuring literary criticism, poetry, and prose. New forum for closely reading.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "",
+    "website": "https://annuletpoeticsjournal.com",
+    "twitter": "https://twitter.com/annuletpoetics",
+    "twitterFollowers": 899,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 95,
+    "name": "DEGENERATE ART literary journal",
+    "key": "degenerate-art",
+    "cover": "/covers/degenerate.jpeg",
+    "description": "Literary journal inspired by the visual arts. First issue April. Fiction, poetry & creative non-fic inspired by encounters with art.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": false,
+    "print": false,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "",
+    "website": "https://thisdegenerate.art/",
+    "twitter": "https://twitter.com/degenartjournal",
+    "twitterFollowers": 738,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "\"We're specifically for writing inspired by the visual arts\"", "icon": "alert-circle-outline" }
+    ],
+  },
+  {
+    "id": 96,
+    "name": "Yuzu Press",
+    "key": "yuzu-press",
+    "cover": "/covers/yuzu.png",
+    "description": "Singapore-based online literary magazine dedicated to the sweet, the sour, and the bitter",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 weeks",
+    "responseDays": 21,
+    "fee": "",
+    "payment": "",
+    "website": "https://yuzupresslit.wixsite.com/yuzu",
+    "twitter": "https://twitter.com/yuzupress",
+    "twitterFollowers": 1438,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "chilling",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "February 15, 2022",
+  },
+  {
+    "id": 97,
+    "name": "perhappened",
+    "key": "perhappened",
+    "cover": "/covers/perhappened.jpeg",
+    "description": "perhappened lives for your uncertain & surreal. we crave the frayed edge of memory. we embrace all styles & genres of writing & have no word limits or submission fees.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 weeks",
+    "responseDays": 21,
+    "fee": "",
+    "expeditedResponse": true,
+    "payment": "",
+    "website": "https://www.perhappened.com/",
+    "twitter": "https://twitter.com/perhappened",
+    "twitterFollowers": 13000,
+    "insta": "https://www.instagram.com/perhappened/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published: \"we do consider previously published work, including work published in other online/print publications or social media!\"", "icon": "happy-outline" },
+      { "title": "Offer expedited response: $5", "icon": "rocket-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 98,
+    "name": "Ember: A Journal of Luminous Things",
+    "key": "ember",
+    "cover": "/covers/ember.png",
+    "description": "We focus on publishing writing for and by writers ages 10 & up. We offer free feedback on all submissions (we have a no feedback option as well) and publish a variety of writers from the start of their writing journey to those with books and collections.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "5 months",
+    "responseDays": 150,
+    "fee": "",
+    "payment": "$20 min.",
+    "website": "https://emberjournal.org",
+    "twitter": "https://twitter.com/EmberJournal",
+    "twitterFollowers": 926,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays! \"$20 minimum on all publications, fiction/nonfiction payment varies per word \"", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 99,
+    "name": "Zero Readers",
+    "key": "zero-readers",
+    "cover": "/covers/zero-readers.jpeg",
+    "description": "Process-focused poetry journal. Personal feedback on all subs. We esp. like minimal, direct stuff.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1 month",
+    "responseDays": 30,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.zeroreaders.com",
+    "twitter": "https://twitter.com/ZeroReadersMag",
+    "twitterFollowers": 2099,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published: \"sometimes, case-by-case\"", "icon": "happy-outline" },
+      { "title": "\"we write full feedback on all submissions & ask for revisions of the pieces we'd like to print.\"", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 100,
+    "name": "Gigantic Sequins",
+    "key": "gigantic-sequins",
+    "cover": "/covers/gigantic-sequins.jpeg",
+    "description": "A good-looking biannual black & white indie literary arts journal that has been in print since 2009.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "4 months",
+    "responseDays": 120,
+    "fee": "",
+    "payment": "",
+    "website": "http://www.giganticsequins.com",
+    "twitter": "https://twitter.com/GIGANTICsequins",
+    "twitterFollowers": 11000,
+    "insta": "https://instagram.com/giganticsequins",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 101,
+    "name": "Foglifter",
+    "key": "foglifter",
+    "cover": "/covers/foglifter.png",
+    "description": "An LGBTQ+ journal and press, but much more than that—we publish powerful, intersectional writing that queers our perspectives.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "$50",
+    "website": "https://foglifterjournal.com/",
+    "twitter": "https://twitter.com/foglifterpress",
+    "twitterFollowers": 3501,
+    "insta": "https://instagram.com/foglifterpress",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "weird",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays! $50 honorarium per contributor", "icon": "cash-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Only accepts work by queer and trans writers", "icon": "alert-circle-outline" }
+    ],
+  },
+  {
+    "id": 102,
+    "name": "Lost Balloon",
+    "key": "lost-balloon",
+    "cover": "/covers/lost-balloon.jpeg",
+    "description": "Lost Balloon publishes flash fiction, flash nonfiction, and prose poetry (1,000 words or less)",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "",
+    "website": "https://lost-balloon.com/",
+    "twitter": "https://twitter.com/lostballoonmag",
+    "twitterFollowers": 9156,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "February 7, 2022"
   },
 ]

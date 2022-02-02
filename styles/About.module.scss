@@ -85,19 +85,19 @@
   font-size: 1.25rem;
 }
 
-.contact {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
+.contact, .email {
   margin-top: 1rem;
   margin-bottom: 1rem;
   max-width: 43rem;
   line-height: 1.5;
   font-size: 1.25rem;
   a {
-    margin: 0 0.25rem;
     color: #FF8B5D;
   }
+}
+
+.email {
+  margin-top: 0;
 }
 
 .creator {

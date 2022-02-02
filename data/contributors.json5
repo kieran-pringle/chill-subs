@@ -247,7 +247,7 @@
     ],
   },
   {
-    "magazineId": 'c*nsorship-magazine',
+    "magazineId": 'cnsorship',
     "contributors": [
       'Lorelei Bacht', 'Craig Kittner', 'Elizabeth Cowling', 'Sarah Robin', 'Hat Leith', 'Andre F. Peltier',
       'Sneha Roy', 'Tim Prutton', 'HLR', 'Christopher Thomas', 'Lindsey Chambley', 'Vivian McInerny',
@@ -567,7 +567,7 @@
     ],
   },
   {
-    "magazineId": 'g*mob',
+    "magazineId": 'gmob',
     "contributors": [
       'Monica McClure', 'Sasha Fletcher', 'George McKim', 'Rena Branson', 'Joseph Young',
       'Tracy Dimond', 'Vanessa Jimenez Gabb', 'David Trinidad', 'Mark Cugini', 'Laura Relyea',
@@ -798,7 +798,7 @@
     ],
   },
   {
-    "magazineId": 'neuro-logical-magazine',
+    "magazineId": 'neuro-logical',
     "contributors": [
 
     ],
@@ -1406,7 +1406,7 @@
     ],
   },
   {
-    "magazineId": 'waxwing-literary-journal',
+    "magazineId": 'waxwing',
     "contributors": [
 
     ],
@@ -1499,7 +1499,7 @@
     ],
   },
   {
-    "magazineId": 'the-bitchin’-kitsch',
+    "magazineId": 'the-bitchin-kitsch',
     "contributors": [
 
     ],
@@ -1533,7 +1533,7 @@
     ],
   },
   {
-    "magazineId": 'x-r-a-y',
+    "magazineId": 'xray',
     "contributors": [
 
     ],
@@ -1627,7 +1627,7 @@
     ],
   },
   {
-    "magazineId": 'agbowó',
+    "magazineId": 'agbowo',
     "contributors": [
 
     ],
@@ -1670,6 +1670,148 @@
   },
   {
     "magazineId": 'pareidolia-literary',
+    "contributors": [
+
+    ],
+  },
+
+  {
+    "magazineId": 'sans-press',
+    "contributors": [
+      'Philip Berry', 'Georgia Dodsworth', 'Issy Flower', 'Srijani Ganguly', 'Anita Goveas',
+      'Sandra Jackson-Opoku', 'Camila Loricchio', 'Rhona McAdam', 'Thomas Mozden', 'Stephen Schwei',
+      'Eoin Smith', 'Sarah Smith', 'David Wasserman', 'Allison Whittenberg', 'Claire J. Yaxley',
+
+      'Mike Adamson', 'Joseph Anderson', 'T.L. Bodine', 'Malina Douglas', 'Ummkulthum Hassan',
+      'D. Anne Hines', 'Hullabaloo22', 'Valerie Hunter', 'Ellen McCarthy', 'R. Tim Morris',
+      'Sam Muller', 'Penelope Price', 'M. Regan', 'Iona Rule', 'Joe Szalinski', 'Tara Tamburello'
+    ],
+  },
+  {
+    "magazineId": 'streetcake-magazine',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'crow-cross-keys',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'defunkt',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'trouble-maker-fire-starter',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'the-wild-hunt',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'wrongdoing',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'overheard',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'susurrus',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'annulet',
+    "contributors": [
+      'Sara Deniz Akant', 'Emily Barton Altman', 'Jesse K Baer', 'Leon Barros',
+      'Anna Lena Phillips Bell', 'Ellen Boyette', 'Emily Bark Brown', 'Marty Cain',
+      'Mary Helen Callier', 'Yongyu Chen', 'Mary Cisper', 'Jon Conley', 'Mike Corrao',
+      'Justin Cox', 'Zoe Darsee', 'Marlanda Dekine', 'Shira Dentz', 'Jaydn DeWald',
+      'C. Violet Eaton', 'Cass Eddington', 'Olivia Milroy Evans', 'Jared Daniel Fagen',
+      'Rachel Feder', 'Lu Feng', 'Connor Fisher', 'Michael Flatt', 'Graham Foust', 'Knar Gavin',
+      'Katherine Gibbel', 'Joseph Goosey', 'C.R. Grimmer', 'Joe Hall', 'Summer J. Hart',
+      'Kelly Hoffer', 'Jane Huffman', 'Allison Hummel', 'Brenda Iijima', 'Vincent James',
+      'Jessica Johnson', 'Jack Jung', 'Jacqueline Kari', 'Anastasios Karnazes', 'Karla Kelsey',
+      'Kelly Krumrie', 'Janice Lee', 'Julia Madsen', 'Aaron McCullough', 'Shane McCrae',
+      'Carey McHugh', 'Kiley McLaughlin', 'Rose McLarney', 'Joyelle McSweeney', 'Claire Meuschke',
+      'Lara Mimosa Montes', 'Matthew Moore', 'Hilda Morley', 'Alicia Mountain', 'Jed Munson',
+      'Peter Myers', 'Robin Myers', 'Katie Naughton', 'Patty Nash', 'mónica teresa ortiz',
+      'Gabriel Palacios', 'Alyssa Perry', 'Daniel Poppick', 'Khadijah Queen', 'Kylan Rice',
+      'AM Ringwalt', 'Will Russo', 'Brandon Rushton', 'C.T. Salazar', 'Philip Sorenson',
+      'Kim Sowol', 'Daniel Schonning', 'Brandon Shimoda', 'Pete Segall', 'Andrew Seguin',
+      'Orchid Tierney', 'Tasia Trevino', 'G.C. Waldrep', 'Lindsey Webb', 'Ellen Welcker',
+      'Adele Elise Williams', 'Rachel Franklin Wood', 'S. Yarberry', 'CL Young ', 'Tracy Zeman'
+    ],
+  },
+  {
+    "magazineId": 'degenerate-art',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'yuzu-press',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'perhappened',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'ember',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'zero-readers',
+    "contributors": [
+      'Ryan Alexander', 'Sloane Angelou', 'Michael Black', 'Katelyn Botsford Tucker',
+      'Erin Bryant Petty', 'Justin A. Clark', 'Emily Cotman', 'McAllister David',
+      'Allison DeDecker', 'Makenna Dykstra', 'K.R. Everett', 'Daniel J. Flosi', 'Clem Flowers ',
+      'Jay Fraser', 'Jeremy Freedman', 'Jessica Ginting', 'John Grey', 'Paxton Grey',
+      'Noren Haq', 'Dre Hill', 'Michael Igoe', 'Lexi Inez', 'Colin James ', 'Izraq Jesen',
+      'Paris Jessie', 'Samantha Johnson', 'Jeana Jorgensen ', 'Sarthak Kamble',
+      'Stephen Kingsnorth ', 'Nathalie Lawrence', 'Camille Lewis', 'Marie Little',
+      'DS Maolalai', 'Jason Melvin', 'Mark J. Mitchell', 'Katy Naylor', 'Megan Nichols',
+      'P.S. Nolf', 'Damien Posterino', 'Audrey L. Reyes', 'Megan Riggle', 'Kaisa Saarinen',
+      'Neal Sandin', 'Jen Schneider', 'Julia Ruth Smith', 'Preston Smith', 'Madeleine Tomasoa',
+      'Melody Wang', 'S.H. Woodgeard', 'Thomas Zimmerman'
+    ],
+  },
+  {
+    "magazineId": 'gigantic-sequins',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'foglifter',
+    "contributors": [
+
+    ],
+  },
+  {
+    "magazineId": 'lost-balloon',
     "contributors": [
 
     ],

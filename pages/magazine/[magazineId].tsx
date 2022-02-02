@@ -23,7 +23,7 @@ export default function Magazine() {
   const [ contributorSearchValue, setContributorSearchValue ] = useState<string>('');
   const router = useRouter();
   const { magazineId } = router.query;
-  const currentMagazine = favorites.find(m => m.name.toLowerCase().replace(/\s/g, '-') === magazineId);
+  const currentMagazine = favorites.find(m => m.key === magazineId);
   const [ allContributors, setAllContributors ] = useState<any>([]);
   const [ contributorList, setContributorList ] = useState<any>([]);
 
