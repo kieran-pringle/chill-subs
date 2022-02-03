@@ -101,6 +101,10 @@ export default function About() {
           </div>
         </div>
 
+        <div className={styles.hire}>
+          <div className={styles.hireEmoji}>👩🏻‍💻</div>Self promo: you can also hire me for all the IT related work (building something, fixing your website, whatever), because why not? Cheap Polish developer here 😏
+        </div>
+
         {/* <div className={styles.buttons}>
           <Link href="/browse">
             <button className={styles.searchBtn}>
