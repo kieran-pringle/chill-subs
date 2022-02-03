@@ -89,7 +89,7 @@
   span {
     position: absolute;
     top: 2.5rem;
-    right: 1.35rem;
+    right: 1.15rem;
     color: #316760;
   }
   svg {
@@ -105,7 +105,7 @@
 
 .search {
   padding: 0.75rem 1.75rem;
-  width: 21.75rem;
+  width: 25.5rem;
   border-radius: 12px;
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
@@ -124,6 +124,9 @@
 .selectContainer {
   display: flex;
   flex-direction: column;
+  &:last-child {
+    margin-top: 1.5rem;
+  }
 }
 
 .label {
@@ -281,45 +284,6 @@
 }
 
 @media (max-width: 1024px) {
-  .main {
-    & > div:nth-child(2) > div:last-child {
-      margin-top: 1.5rem;
-    }
-  }
-
-  .filterBlock {
-    margin-bottom: 1.25rem;
-    width: 50%;
-  }
-
-  .cards {
-    grid-template-columns: repeat(auto-fill, 48.5%);
-  }
-}
-
-@media (max-width: 600px) {
-  .title, .logo {
-    font-size: 2rem;
-  }
-
-  .filters {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .main {
-    & > div:nth-child(2) {
-      margin-bottom: 0.5rem;
-    }
-    & > div:nth-child(2) > div:last-child {
-      margin-top: 0;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-    }
-  }
-
   .searchContainer {
     margin-right: 0;
     margin-bottom: 1rem;
@@ -336,6 +300,14 @@
 
   .selectContainer {
     width: 100%;
+    &:last-child {
+      margin-top: 0;
+    }
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .filterBlock {
@@ -343,12 +315,37 @@
     width: 100%;
   }
 
-  .filterBlockTitle {
-    font-size: 1rem;
-  }
-
   .checkbox {
     width: 100%;
+  }
+
+  .main {
+    & > div:nth-child(2) {
+      margin-bottom: 0.5rem;
+    }
+    & > div:nth-child(2) > div:last-child {
+      margin-top: 0;
+    }
+  }
+
+  .cards {
+    grid-template-columns: repeat(auto-fill, 48.5%);
+  }
+}
+
+@media (max-width: 600px) {
+  .title, .logo {
+    font-size: 2rem;
+  }
+
+  .main {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+
+  .filterBlockTitle {
+    font-size: 1rem;
   }
 
   .sortContainer {

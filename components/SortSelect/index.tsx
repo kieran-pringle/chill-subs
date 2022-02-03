@@ -1,12 +1,16 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { CaretUpOutline, CaretDownOutline } from 'react-ionicons';
 import styles from './SortSelect.module.scss'
 
 export default function SortSelect(props) {
-  const { options, style, onSelect } = props;
+  const { options, style, onSelect, defaultValue } = props;
 
   const [ showDropdown, setShowDropdown ] = useState<boolean>(false);
   const [ selectedOption, setSelectedOption ] = useState<any>(options[0]);
+
+  useEffect(() => {
+    setSelectedOption(defaultValue);
+  }, [defaultValue])
 
   const handleOptionSelect = option => {
     if (option.value === undefined) {

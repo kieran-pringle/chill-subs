@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Script from 'next/script'
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import Image from 'next/image'
 import { format } from 'date-fns';
 import ReactTooltip from 'react-tooltip';
@@ -21,58 +22,95 @@ import styles from '../styles/Browse.module.scss'
 // have 24h submission windows
 
 export default function Browse() {
-  const initialResults = favorites.sort((m1, m2) => m1.name.toLowerCase() > m2.name.toLowerCase() ? 1 : -1)
+  const router = useRouter();
   const [ values, setValues ] = useState<any>({
-    search: '',
+    magazineSearch: '',
+    contributorSearch: '',
   });
-  const [ results, setResults ] = useState<any[]>(initialResults);
+  const sortOptions = [
+    { value: 'az', dir: 'asc', label: 'Name (A-Z)' },
+    { value: 'followersDesc', dir: 'desc', label: 'Twitter followers (high to low)' },
+    { value: 'followersAsc', dir: 'asc', label: 'Twitter followers (low to high)' },
+    { value: 'deadline', dir: 'asc', label: 'Deadline' },
+  ];
+  const [ results, setResults ] = useState<any[]>([]);
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
+  const [ sortBy, setSortBy ] = useState<any>(sortOptions[0]);
+  const [ isFilterUsed, setIsFilterUsed ] = useState<boolean>(false);
+  const [ isInitialized, setIsInitialized ] = useState<boolean>(false);
 
   useEffect(() => {
-    if (window && window.innerWidth <= 600) {
+    if (window && window.innerWidth <= 1024) {
       setIsMobile(true);
     }
   }, [])
 
   useEffect(() => {
-    setResults(favorites.filter(magazine => {
-      let match = true;
-      for (const [key, value] of Object.entries(values)) {
-        if (key === 'search') {
-          const magazineMatch = magazine.name.toLowerCase().includes((value as any).toLowerCase());
-          const { contributors } = contributorsSource.find(m => m.magazineId === magazine.key);
-          const contributorMatch = contributors.find(c => c.toLowerCase().includes((value as any).toLowerCase()));
-          if (value && !magazineMatch && !contributorMatch) {
-            match = false;
-          }
-        } else if (key === 'responseTime') {
-          if (value && (!magazine.responseDays || magazine.responseDays > value) ) {
-            match = false;
-          }
-        } else if (key === 'noFee') {
-          if (value && magazine.fee) {
-            match = false;
-          }
-        } else if (key === 'vibe') {
-          if (value && magazine[key] !== value) {
-            match = false;
-          }
-        } else {
-          if (value && !magazine[key]) {
-            match = false;
+    if (window.location.pathname.includes('/browse')) {
+      let updatedResults = [];
+      let searchParams = new URLSearchParams(window.location.search.slice(1));
+      const sortByOption = searchParams.get('sortBy');
+      if (sortByOption) {
+        const option = sortOptions.find(o => o.value === sortByOption);
+        updatedResults = handleSort(option, results.length ? results : favorites);
+        setResults(updatedResults);
+      } else {
+        updatedResults = handleSort(sortOptions[0], results.length ? results : favorites);
+        setResults(updatedResults);
+      }
+    }
+  }, [router.query.sortBy])
+
+  useEffect(() => {
+    if (isFilterUsed) {
+      const filteredResults = favorites.filter(magazine => {
+        let match = true;
+        for (const [key, value] of Object.entries(values)) {
+          if (key === 'magazineSearch') {
+            const magazineMatch = magazine.name.toLowerCase().includes((value as any).toLowerCase());
+            if (value && !magazineMatch) {
+              match = false;
+            }
+          } else if (key === 'contributorSearch') {
+            const { contributors } = contributorsSource.find(m => m.magazineId === magazine.key);
+            const contributorMatch = contributors.find(c => c.toLowerCase().includes((value as any).toLowerCase()));
+            if (value && !contributorMatch) {
+              match = false;
+            }
+          } else if (key === 'responseTime') {
+            if (value && (!magazine.responseDays || magazine.responseDays > value) ) {
+              match = false;
+            }
+          } else if (key === 'noFee') {
+            if (value && magazine.fee) {
+              match = false;
+            }
+          } else if (key === 'vibe') {
+            if (value && magazine[key] !== value) {
+              match = false;
+            }
+          } else {
+            if (value && !magazine[key]) {
+              match = false;
+            }
           }
         }
-      }
-      return match;
-    }))
+        return match;
+      })
+  
+      let updatedResults = handleSort(sortBy, filteredResults);
+      setResults(updatedResults);
+    }
   }, [values])
 
   const handleValuesChange = (name, value) => {
+    setIsFilterUsed(true);
     setValues({ ...values, [name]: value });
   }
 
-  const sortResults = (option) => {
-    let sortedResults = [...results];
+  const handleSort = (option, list?) => {
+    setSortBy(option);
+    let sortedResults = list ? [...list] : [...results];
     if (option.value === 'followersDesc') {
       sortedResults.sort((m1, m2) => m1.twitterFollowers < m2.twitterFollowers ? 1 : -1)
     } else if (option.value === 'followersAsc') {
@@ -91,7 +129,11 @@ export default function Browse() {
     } else {
       sortedResults.sort((m1, m2) => m1.name.toLowerCase() > m2.name.toLowerCase() ? 1 : -1)
     }
-    setResults(sortedResults);
+    return sortedResults;
+  }
+
+  const sortResults = (option) => {
+    router?.replace({ query: { ...router.query, sortBy: option.value } }, undefined, { shallow: true });
   }
 
   return (
@@ -131,22 +173,35 @@ export default function Browse() {
 
         <div className={styles.filters}>
           <div className={styles.searchContainer}>
-            <div className={styles.label}>Search by magazine or contributor name</div>
+            <div className={styles.label}>Search by magazine name</div>
             <input
               className={styles.search}
               placeholder="Search..."
-              value={values.search}
-              onChange={e => handleValuesChange('search', e.target.value)}
+              value={values.magazineSearch}
+              onChange={e => handleValuesChange('magazineSearch', e.target.value)}
             />
-            {values.search && (
-              <CloseOutline onClick={e => handleValuesChange('search', '')} color="#316760" width="24" height="24" />
+            {values.magazineSearch && (
+              <CloseOutline onClick={e => handleValuesChange('magazineSearch', '')} color="#316760" width="24" height="24" />
+            )}
+          </div>
+
+          <div className={styles.searchContainer}>
+            <div className={styles.label}>Search by contributor name</div>
+            <input
+              className={styles.search}
+              placeholder="Search..."
+              value={values.contributorSearch}
+              onChange={e => handleValuesChange('contributorSearch', e.target.value)}
+            />
+            {values.contributorSearch && (
+              <CloseOutline onClick={e => handleValuesChange('contributorSearch', '')} color="#316760" width="24" height="24" />
             )}
           </div>
 
           <div className={styles.selectContainer}>
             <div className={styles.label}>Response time</div>
             <Select
-              style={! isMobile ? { marginRight: 32, width: 220 } : { marginBottom: 16, width: '100%' }}
+              style={!isMobile ? { width: 300 } : { marginBottom: 16, width: '100%' }}
               placeholder="Any time"
               options={[
                 { value: undefined, title: 'Any time' },
@@ -162,7 +217,7 @@ export default function Browse() {
           <div className={styles.selectContainer}>
             <div className={styles.label}>Vibe</div>
             <Select
-              style={!isMobile ? { width: 530 } : { marginBottom: 16, width: '100%'} }
+              style={!isMobile ? { width: 410 } : { marginBottom: 16, width: '100%'} }
               placeholder="All the vibes"
               options={[
                 { value: undefined, title: 'All the vibes' },
@@ -274,12 +329,8 @@ export default function Browse() {
         <div className={styles.browseHeader}>
           <h2>Browse</h2>
           <SortSelect
-            options={[
-              { value: 'az', dir: 'asc', label: 'Name (A-Z)' },
-              { value: 'followersDesc', dir: 'desc', label: 'Twitter followers (high to low)' },
-              { value: 'followersAsc', dir: 'asc', label: 'Twitter followers (low to high)' },
-              { value: 'deadline', dir: 'asc', label: 'Deadline' },
-            ]}
+            options={sortOptions}
+            defaultValue={sortBy}
             onSelect={option => sortResults(option)}
           />
         </div>
@@ -328,7 +379,6 @@ export default function Browse() {
       </main>
 
       <Footer />
-      <Script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js" />
     </div>
   )
 }
