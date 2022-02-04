@@ -3004,7 +3004,7 @@
     "responseDays": 21,
     "fee": "",
     "expeditedResponse": true,
-    "payment": "",
+    "payment": "$10 min.",
     "website": "https://www.perhappened.com/",
     "twitter": "https://twitter.com/perhappened",
     "twitterFollowers": 13000,
@@ -3016,6 +3016,7 @@
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published: \"we do consider previously published work, including work published in other online/print publications or social media!\"", "icon": "happy-outline" },
       { "title": "Offer expedited response: $5", "icon": "rocket-outline" },
+      { "title": "Pays! \"currently $10 or $15 if the submitter paid to expedite their sub, but that will be increasing for our next issue!\"", "icon": "cash-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
     ],
     "cons": [
