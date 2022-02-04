@@ -82,7 +82,7 @@
 
 .list li {
   margin: 0;
-  padding: 1rem 1.75rem;
+  padding: 0.85rem 1.75rem;
   cursor: pointer;
 }
 
@@ -125,6 +125,10 @@
 
 @media (max-width: 600px) {
   .input {
+    padding: 0.75rem 1rem;
     font-size: 1rem;
+    &:after {
+      right: 1rem;
+    }
   }
 }

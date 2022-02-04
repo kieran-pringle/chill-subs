@@ -1696,7 +1696,8 @@
   {
     "magazineId": 'crow-cross-keys',
     "contributors": [
-
+      'Tim Goldstone', 'Grace Safford', 'Jessie Lynn McMains', 'Sophie Dickinson', 'Morgan Quinn', 'Chip Jett', 'LE Francis', 'Charlotte Turnbull', 'Dr. Jack B. Bedell', 'Louise Mather', 'Caroline Butterwick', 'Karen Steiger', 'Jenny Wong', 'Samuel Best', 'Alena Sullivan', 'Kris Hiles', 'Vera Hadzic', 'Martins Deep', 'Wyeth Renwick', 'Gemma Elliott', 'Sarena Mason', 'Susan E Darlington', 'Amanda Crum', 'Bethan Rees', 'Jessie Lynn McMains', 'Amy Wolstenholme', 'Halcyon', 'Alexandra Grunberg', 'Jane B. Parker', 'Ariel K. Moniz', 'Izzy Peroni', 'Brandon Applegate', 'Amee Nassrene Broumand ', 'Jowell Tan', 'Helena Baptiste', 'Amélie Robitaille', 'KC Bailey', 'Kathleen Hoyle', 'Jessie Lynn McMains', 'Rebecca Hawkes', 'Pam Knapp', 'Lynn Finger', 'Joan Kwon Glass', 'Rachael Llewellyn', 'Sylvia Santiago', 'Samuel Strathman', 'Jacqueline Xiong', 'Louise Mather', 'Mary Ford Neal', 'Sean Noah Noah', 'Chiara Situmorang', 'Annmarie McQueen', 'Jerica Taylor', 'Megan Finkel', 'Claudia Lundahl', 'Jacqueline Saville', 'Jennifer Crow', 'Vic Nogay', 'Hadassah Shiradski', 'Emilia Joan Hamra', 'Jane Ayres', 'Lena Kinder', 'Olivia Hodgson', 'Lucia Larsen', 'Hannah Rovska-Strider', 'Julia Retkova', 'Avra Margariti', 'Bradley Sides', 'Aura Martin', 'Susan Cossette', 'Claire Hampton', 'Will Schmit', 'Nam Hoang Tran', 'Sarah Muir', 'Keshe Chow', 'Sadie Maskery', 'Kim Malinowski', 'Honor Vincent', 'Alexandra Grunberg', 'Callie S. Blackstone', 'Kelli Lage', 'Oluwatomiwa Ajeigbe', 'Lucy Zhou', 'Aimée Keeble', 'Melody Wang', 'Fija Callaghan', 'Becki Hawkes', 'Aepril Schaile', 'S.E. Hartz', 'Lorelei Bacht', 'Pascale Potvin', 'Amy Stewart', 'Brittney Corrigan', 'Amy Wolstenholme', 'Shelly Jones', 'Dr. Jack B. Bedell', 'Jeana Jorgensen', 'L. Reed Walton', 'Skye Wilson', 'Lora Robinson',
+      'Rebecca Harrison', 'Margot Nelson', 'Stephanie Parent', 'Emma Deimling', 'Mallory Hobson', 'J.R. Allen', 'Seren Ng', 'Lorna Dickson Keach', 'Alyssa Jordan', 'Sarah McPherson', 'Beth Brooke', 'Madeline Turner', 'Astrid Vallet', 'Emma Buckley', 'Ellen Huang', 'Lauren Hunt', 'Rachel A. Zhu', 'Katharine Blair', 'Emma Kathryn', 'Jane Ayres', 'Naomi Kim', 'Zeline Theodoro', 'Rebecca Harrison', 'Jasmina Kuenzli', 'Rebecca Ruvinsky', 'Jeanine Skowronski ', 'Louise Mather', 'Courtney Marie', 'Jaclyn J. Reed', 'Nick Petrou', 'Sarah Wallis', 'Hanne Larsson', 'Carrie Vaccaro Nelkin', 'Abbie Howell', 'Niki Brennan', 'K. A. Tutin', 'Kristi Petersen Schoonover'
     ],
   },
   {
@@ -1816,4 +1817,74 @@
 
     ],
   },
+  {
+    "magazineId": 'space-city-underground',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'free-library-of-the-internet-void',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'no-contact',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'indiana-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'lovers-eye-press',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'west-trade-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'fatal-flaw',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'alien-magazine',
+    "contributors": [
+      'Emily Adams', 'Joshua James Amberson', 'Brett Biebel', 'Jack Bishop', 'Michelle Brooks',
+      'Taylor Byas', 'Michael Chang', 'Alan Chazaro', 'Rob Colgate', 'Marisa Crane',
+      'Claire Burke Dain', 'Yves Descamps', 'EXILIO', 'Kora Gibson', 'Rebecca Gonshak',
+      'Bri Griffith', 'Michelle Gurule', 'Chelsea Harris', 'Susan Heeger', 'Raphael Jenkins',
+      'Joanna Karpowicz', 'Michael Kerbow', 'Daphne Kiplagat', 'Danielle Klebes', 'Ben Kline',
+      'Ian Lee', 'Blake Levario', 'Anthony Thomas Lombardi', 'Amelia Martens', 'John Paul Martinez',
+      'Tim Maxwell', 'Ian Micheal', 'Matt Mitchell', 'Rita Mookerjee', 'Charlie J. Meyers',
+      'Heather Nevay', 'Dani Putney', 'Zachery Noah Rahn', 'Tamaria del Rio', 'Danielle Roberts',
+      'Esteban Rodríguez', 'Ross Showalter', 'Ben Siegal', 'Kat Stanshine', 'Edward Steffanni',
+      'Alice Stone-Collins', 'Jonny Teklit', 'Cathy Ulrich', 'Sara VanGundy', 'Chloe Wilwerding',
+      'Eileen Winn', 'Tara Isabel Zambrano', 'Aaron Zuplo',
+    ],
+  },
+  {
+    "magazineId": 'whale-road-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-masters-review',
+    "contributors": [
+      
+    ],
+  }
 ]

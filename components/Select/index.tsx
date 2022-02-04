@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './Select.module.css'
+import styles from './Select.module.scss'
 
 export default function Select(props) {
   const { options, placeholder, style, onSelect } = props;

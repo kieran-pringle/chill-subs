@@ -501,7 +501,7 @@
       { "title": "Contributors get a 2-year subscription", "icon": "book-outline" }
     ],
     "cons": [
-      { "title": "Submission fee", "icon": "thumbs-down-outline" }
+      { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "notes": "i like it! Issue 60 - Charlotte Hughes \"Performance\". Issue 52 - Owen McLeod \"Click Here to Get Ripped\". Issue 54 - MATTHEW DICKMAN. Issue 56 - Jill McDonough."
   },
@@ -560,7 +560,7 @@
       { "title": "Available both in print and online", "icon": "library-outline" }
     ],
     "cons": [
-      { "title": "Submission fee", "icon": "thumbs-down-outline" }
+      { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
     "notes": "PNW:) Issue 17.2 - Emma Bolden \"Social Media\". and fun twitter😎"
@@ -619,7 +619,7 @@
       { "title": "Offer expedited response: $10 - response within 2 weeks", "icon": "rocket-outline" }
     ],
     "cons": [
-      { "title": "Submission fee", "icon": "thumbs-down-outline" }
+      { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
     "notes": "Tracy Fuad - \"Considering the Unit of the Day\" BOOM! awesome"
@@ -740,7 +740,7 @@
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
     ],
     "cons": [
-      { "title": "Submission fee", "icon": "thumbs-down-outline" }
+      { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
     "deadline": "February 28, 2022",
@@ -1514,7 +1514,7 @@
     "twitter": "https://twitter.com/AdjacentPineap1",
     "twitterFollowers": 275,
     "insta": "",
-    "activeOnSocials": true,
+    "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
     "pros": [
@@ -1578,6 +1578,7 @@
     "promoteAfterPublication": false,
     "vibe": "best",
     "pros": [
+      { "title": "\"response time was quick!\"", "icon": "flash-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" }
@@ -1744,7 +1745,7 @@
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" }
     ],
     "cons": [
-      "Submission fee (though they have some free submission windows)"
+      { "title": "Submission fee (though they have some free submission windows)", "icon": "cash-outline" },
     ],
     "open": true,
     "deadline": "June 1, 2022",
@@ -1770,7 +1771,7 @@
     "insta": "https://www.instagram.com/electricliterature/?hl=en",
     "activeOnSocials": true,
     "promoteAfterPublication": false,
-    "vibe": "best",
+    "vibe": "bester",
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $100", "icon": "cash-outline" }
@@ -2024,7 +2025,7 @@
     "insta": "",
     "activeOnSocials": true,
     "promoteAfterPublication": false,
-    "vibe": "chilling",
+    "vibe": "weird",
     "pros": [
       { "title": "Cool concept", "icon": "bulb-outline" },
       { "title": "Accept previously published: \"We are more likely to accept previously published work if it: has been published somewhere that is not a traditional literary venue; or was published in a more traditional literary venue a year or more ago\"", "icon": "happy-outline" },
@@ -2186,6 +2187,7 @@
       { "title": "Have pop-up submission windows with a fast response", "icon": "flash-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -2483,6 +2485,7 @@
     "vibe": "best",
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "No free examples on the website, you have to buy an issue or be a subscriber to view them", "icon": "thumbs-down-outline" }
@@ -2632,6 +2635,7 @@
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! €150 per story", "icon": "cash-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "No free examples on the website", "icon": "cash-outline" },
@@ -2649,7 +2653,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": false,
-    "responseTime": "6 weeks",
+    "responseTime": "4-6 weeks",
     "responseDays": 45,
     "fee": "",
     "payment": "",
@@ -2729,6 +2733,7 @@
       { "title": "Offer expedited response: $5 - response within 2 weeks", "icon": "rocket-outline" },
       { "title": "Pays! \"Payment is distributed based off profits from book sales and tip jar donations starting with Volume 10\"", "icon": "cash-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -2746,7 +2751,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": false,
     "print": true,
-    "responseTime": "2 months",
+    "responseTime": "1-2 months",
     "responseDays": 60,
     "fee": "",
     "payment": "",
@@ -2760,6 +2765,7 @@
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -2775,7 +2781,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": false,
-    "responseTime": "4 months",
+    "responseTime": "3-4 months",
     "responseDays": 120,
     "fee": "",
     "payment": "£0.02/word",
@@ -2823,6 +2829,7 @@
       { "title": "Offer expedited response: $3 - response within 24 hours", "icon": "rocket-outline" },
       { "title": "Pays!", "icon": "cash-outline" },
       { "title": "Accept previously published: \"Only from personal blogs or websites if it taken down upon acceptance.\"", "icon": "happy-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -2874,7 +2881,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": false,
-    "responseTime": "3 weeks",
+    "responseTime": "2-3 weeks",
     "responseDays": 21,
     "fee": "",
     "payment": "",
@@ -3018,6 +3025,7 @@
       { "title": "Offer expedited response: $5", "icon": "rocket-outline" },
       { "title": "Pays! \"currently $10 or $15 if the submitter paid to expedite their sub, but that will be increasing for our next issue!\"", "icon": "cash-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "\"Known for incredibly constructive and supportive rejections :)\"", "icon": "bandage-outline" },
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -3033,7 +3041,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": false,
-    "responseTime": "5 months",
+    "responseTime": "4-5 months",
     "responseDays": 150,
     "fee": "",
     "payment": "$20 min.",
@@ -3080,6 +3088,7 @@
       { "title": "Accept previously published: \"sometimes, case-by-case\"", "icon": "happy-outline" },
       { "title": "\"we write full feedback on all submissions & ask for revisions of the pieces we'd like to print.\"", "icon": "chatbubbles-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -3095,7 +3104,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": true,
-    "responseTime": "4 months",
+    "responseTime": "3-4 months",
     "responseDays": 120,
     "fee": "",
     "payment": "",
@@ -3111,6 +3120,7 @@
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
@@ -3126,7 +3136,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": true,
-    "responseTime": "3 months",
+    "responseTime": "2-3 months",
     "responseDays": 90,
     "fee": "",
     "payment": "$50",
@@ -3142,6 +3152,7 @@
       { "title": "Pays! $50 honorarium per contributor", "icon": "cash-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
       { "title": "Only accepts work by queer and trans writers", "icon": "alert-circle-outline" }
@@ -3157,7 +3168,7 @@
     "simultaneousSubmissions": true,
     "freeExamples": true,
     "print": false,
-    "responseTime": "3 months",
+    "responseTime": "2-3 months",
     "responseDays": 90,
     "fee": "",
     "payment": "",
@@ -3176,5 +3187,313 @@
     ],
     "open": true,
     "deadline": "February 7, 2022"
+  },
+
+  {
+    "id": 103,
+    "name": "Space City Underground",
+    "key": "space-city-underground",
+    "cover": "/covers/space-city-underground.jpeg",
+    "description": "We desire to create a space where stellar artists can express themselves unapologetically, free from any oppressive, earthly confines. Our goal is to expand the boundaries of art, orbit any topic, and travel to unexplored frontiers.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "",
+    "fee": "",
+    "payment": "",
+    "website": "https://spacecityunderground.com",
+    "twitter": "https://twitter.com/spacecitymag",
+    "twitterFollowers": 203,
+    "insta": "https://instagram.com/spacecityundergroundmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 104,
+    "name": "Free Library of the Internet Void",
+    "key": "free-library-of-the-internet-void",
+    "cover": "/covers/internet-void.jpeg",
+    "description": "We are a group of dedicated librarians, researchers, cretins, and cronies scouring the fabled internet void for fiction, poetry and art to add to our growing library currently filled with noise.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "",
+    "fee": "",
+    "payment": "",
+    "website": "https://internetvoid.com/",
+    "twitter": "https://twitter.com/InternetV0id",
+    "twitterFollowers": 203,
+    "insta": "https://www.instagram.com/theinternetvoid/",
+    "activeOnSocials": false,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Nice presentation!", "icon": "brush-outline" }
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 105,
+    "name": "No Contact",
+    "key": "no-contact",
+    "cover": "/covers/no-contact.jpeg",
+    "description": "We handle work as we’d want our own work to be handled — with great care in editing, presentation, and promotion. We create custom artwork for each piece, and assemble each issue with an eye for cohesion. We publish seasoned veterans and debut writers side-by-side",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "4-5 weeks",
+    "responseDays": 35,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.nocontactmag.com",
+    "twitter": "https://twitter.com/nocontactmag",
+    "twitterFollowers": 7676,
+    "insta": "https://www.instagram.com/nocontactmag/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Great presentation! Custom artwork for each piece", "icon": "brush-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 106,
+    "name": "Indiana Review",
+    "key": "indiana-review",
+    "cover": "/covers/indiana-review.jpeg",
+    "description": "Founded in 1976, Indiana Review is a non-profit literary magazine dedicated to showcasing the talents of emerging and established writers. Our mission is to offer the highest quality writing within a wide aesthetic.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1-3 months",
+    "responseDays": 90,
+    "fee": "$3",
+    "payment": "$25 min.",
+    "website": "https://indianareview.org/",
+    "twitter": "https://twitter.com/IndianaReview",
+    "twitterFollowers": 37700,
+    "insta": "https://www.instagram.com/indianareview/?hl=en",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "bester",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays! $25 + $5 per page", "icon": "cash-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+      { "title": "Available in print", "icon": "library-outline" }
+    ],
+    "cons": [
+      { "title": "Submission fee", "icon": "cash-outline" },
+    ],
+    "open": true,
+    "deadline": "March 31, 2022",
+  },
+  {
+    "id": 107,
+    "name": "Lover's Eye Press",
+    "key": "lovers-eye-press",
+    "cover": "/covers/lovers-eye.jpeg",
+    "description": "Our purpose is to provide creatives with a space to communicate the inescapable themes, experiences, and people that arise prominently in their work or linger in the background, winking a secret message.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1 month",
+    "responseDays": 30,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.loverseyepress.com/",
+    "twitter": "https://twitter.com/loverseyepress",
+    "twitterFollowers": 459,
+    "insta": "https://instagram.com/loverseyepress",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "\"We do not accept previously published work for poetry and fiction but we DO accept art that has been posted on social media\"", "icon": "thumbs-up-outline" },
+      { "title": "Have a podcast where they interview featured artists:)", "icon": "mic-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 108,
+    "name": "West Trade Review",
+    "key": "west-trade-review",
+    "cover": "/covers/west-trade-review.jpeg",
+    "description": "We accept fiction, creative non-fiction, poetry, and novel excerpts (especially looking for more of those). We have no fees during our regular reading period, April-December. Our aesthetic drive is in pursuit of work that is Fearless, Crafted, Impassioned (that's our motto!)",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "4-6 weeks",
+    "responseDays": 45,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.westtradereview.com/",
+    "twitter": "https://twitter.com/WTRlitmag",
+    "twitterFollowers": 824,
+    "insta": "https://www.instagram.com/westtradereview/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "\"We will occasionally run promos with expedited and/or personalized responses for free.\"", "icon": "flash-outline" },
+      { "title": "Contributors receive 2 copies", "icon": "book-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 15, 2022",
+  },
+  {
+    "id": 109,
+    "name": "Fatal Flaw",
+    "key": "fatal-flaw",
+    "cover": "/covers/fatal-flaw.jpeg",
+    "description": "We seek work that finds poignancy in unexpected places, confronts the status quo and, most importantly, prompts discussion about the human condition in these uncertain times. Give us fractured inner monologues, messy reckonings, imperfect catharses. Show us the fatal flaw and the beauty inherent within it.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3-8 weeks",
+    "responseDays": 60,
+    "fee": "$3",
+    "payment": "",
+    "website": "https://www.fatalflawlit.com/",
+    "twitter": "https://twitter.com/FatalFlawLit",
+    "twitterFollowers": 1546,
+    "insta": "https://www.instagram.com/fatalflawlit/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+    ],
+    "cons": [
+      { "title": "Submission fee", "icon": "cash-outline" },
+    ],
+    "open": true,
+    "deadline": "February 6, 2022"
+  },
+  {
+    "id": 110,
+    "name": "Alien Magazine",
+    "key": "alien-magazine",
+    "cover": "/covers/alien.jpeg",
+    "description": "We are a literary magazine for outsiders. We publish work that takes risks. We believe in you, in your art, and in aliens.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1-6 months",
+    "responseDays": 180,
+    "fee": "",
+    "payment": "$20",
+    "website": "https://alienliterarymagazine.com",
+    "twitter": "https://twitter.com/alienlitmag",
+    "twitterFollowers": 4568,
+    "insta": "https://instagram.com/alienlitmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 111,
+    "name": "Whale Road Review",
+    "key": "whale-road-review",
+    "cover": "/covers/whale-road.jpeg",
+    "description": "Whale Road Review publishes poetry, flash fiction, and micro essays that don’t demand too much time up front, but somehow leave readers changed. We hope readers of all sorts will enjoy these short pieces in stolen moments—waiting in line, using the restroom, riding a train, steeping tea.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "45 days",
+    "responseDays": 45,
+    "fee": "",
+    "payment": "",
+    "website": "https://whaleroadreview.com",
+    "twitter": "https://twitter.com/whaleroadreview",
+    "twitterFollowers": 11800,
+    "insta": "https://instagram.com/whaleroadreview",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 112,
+    "name": "The Masters Review",
+    "key": "the-masters-review",
+    "cover": "/covers/masters-review.jpeg",
+    "description": "An online and in print publication celebrating new and emerging writers. We are on the lookout for the best new talent with hopes of publishing stories from writers who will continue to produce great work.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "8-10 weeks",
+    "responseDays": 75,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "Yes",
+    "website": "https://mastersreview.com/",
+    "twitter": "https://twitter.com/MastersReview",
+    "twitterFollowers": 8960,
+    "insta": "https://instagram.com/the_masters_review",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: $10 - response within 2 weeks", "icon": "rocket-outline" },
+      { "title": "Pays! \"We pay New Voices authors $200 for short fiction and narrative non-fiction, and $100 for flash-length narratives (up to 1,000 words)\"", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
   },
 ]

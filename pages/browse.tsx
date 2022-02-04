@@ -32,12 +32,12 @@ export default function Browse() {
     { value: 'followersDesc', dir: 'desc', label: 'Twitter followers (high to low)' },
     { value: 'followersAsc', dir: 'asc', label: 'Twitter followers (low to high)' },
     { value: 'deadline', dir: 'asc', label: 'Deadline' },
+    { value: 'added', dir: 'desc', label: 'Recently added' },
   ];
   const [ results, setResults ] = useState<any[]>([]);
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
   const [ sortBy, setSortBy ] = useState<any>(sortOptions[0]);
   const [ isFilterUsed, setIsFilterUsed ] = useState<boolean>(false);
-  const [ isInitialized, setIsInitialized ] = useState<boolean>(false);
 
   useEffect(() => {
     if (window && window.innerWidth <= 1024) {
@@ -126,6 +126,8 @@ export default function Browse() {
         }),
         ...withoutDeadline,
       ]
+    } else if (option.value === 'added') {
+      sortedResults.sort((m1, m2) => m1.id < m2.id ? 1 : -1)
     } else {
       sortedResults.sort((m1, m2) => m1.name.toLowerCase() > m2.name.toLowerCase() ? 1 : -1)
     }
@@ -222,8 +224,10 @@ export default function Browse() {
               options={[
                 { value: undefined, title: 'All the vibes' },
                 { value: 'bestest', title: 'Very fancy very impressive very not fast' },
+                { value: 'bester', title: 'Top-tier stuff. Not Paris Review, but ok' },
                 { value: 'best', title: 'Send us your best but less intimidating' },
                 { value: 'worst', title: 'Send us your fucking worst' },
+                { value: 'weird', title: 'Weird / outsider / wtf even is it' },
                 { value: 'chilling', title: 'We\'re just chilling here' },
               ]}
               onSelect={option => handleValuesChange('vibe', option.value)}
