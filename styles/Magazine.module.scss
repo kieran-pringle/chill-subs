@@ -103,6 +103,27 @@
   font-style: italic;
 }
 
+.openAndVibe {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.vibe {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  strong {
+    margin-right: 0.5rem;
+  }
+}
+
+.vibeEmoji {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+}
+
 .stats {
   display: flex;
   justify-content: space-between;
@@ -515,6 +536,16 @@
     margin-bottom: 1.5rem;
   }
 
+  .openAndVibe {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .vibe {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
   .prosCons {
     flex-direction: column;
     justify-content: flex-start;
@@ -546,11 +577,10 @@
   }
 
   .contacts {
-    margin-bottom: 3rem;
+    margin-bottom: 1.25rem;
   }
 
   .stats {
-    margin-top: 0;
     width: 100%;
   }
 

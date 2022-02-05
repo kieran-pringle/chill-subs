@@ -11,6 +11,7 @@ import favorites from '!!json5-loader!../../data/favorites.json5';
 import examplesSource from '!!json5-loader!../../data/examples.json5';
 import contributorsSource from '!!json5-loader!../../data/contributors.json5';
 import Footer from '../../components/Footer';
+import { vibeOptions } from '../browse';
 import styles from '../../styles/Magazine.module.scss';
 
 Modal.setAppElement('#__next');
@@ -216,26 +217,33 @@ export default function Magazine() {
           <h1 className={styles.title}>{currentMagazine.name}</h1>
           <div className={styles.description}>{`"${currentMagazine.description}"`}</div>
           <div className={styles.contacts}>
-          <a href={currentMagazine.website} className={styles.contact} target="_blank" rel="noreferrer">
-            <GlobeOutline cssClasses={styles.contactIcon} />
-          </a>
-          {currentMagazine.twitter && (
-            <a href={currentMagazine.twitter} className={styles.contact} target="_blank" rel="noreferrer">
-              <LogoTwitter cssClasses={styles.contactIcon} />
+            <a href={currentMagazine.website} className={styles.contact} target="_blank" rel="noreferrer">
+              <GlobeOutline cssClasses={styles.contactIcon} />
             </a>
-          )}
-          {currentMagazine.insta && (
-            <a href={currentMagazine.insta} className={styles.contact} target="_blank" rel="noreferrer">
-              <LogoInstagram cssClasses={styles.contactIcon} />
-            </a>
-          )}
-        </div>
-          {currentMagazine.open && (
-            <div className={`${styles.stat} ${styles.openStat}`}>
-              <div>Open:</div>
-              <div>Yes{currentMagazine.deadline && `, till ${currentMagazine.deadline}`}</div>
+            {currentMagazine.twitter && (
+              <a href={currentMagazine.twitter} className={styles.contact} target="_blank" rel="noreferrer">
+                <LogoTwitter cssClasses={styles.contactIcon} />
+              </a>
+            )}
+            {currentMagazine.insta && (
+              <a href={currentMagazine.insta} className={styles.contact} target="_blank" rel="noreferrer">
+                <LogoInstagram cssClasses={styles.contactIcon} />
+              </a>
+            )}
+          </div>
+          <div className={styles.openAndVibe}>
+            {currentMagazine.open && (
+              <div className={`${styles.stat} ${styles.openStat}`}>
+                <div>Open:</div>
+                <div>Yes{currentMagazine.deadline && `, till ${currentMagazine.deadline}`}</div>
+              </div>
+            )}
+            <div className={styles.vibe}>
+              {/* <div className={styles.vibeEmoji}>🔮</div> */}
+              <strong>Vibe: </strong>
+              {vibeOptions.find(v => v.value === currentMagazine.vibe).title}
             </div>
-          )}
+          </div>
           <div className={styles.stats}>
             <div className={styles.stat}>
               <div>Response time:</div>

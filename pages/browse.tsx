@@ -21,6 +21,16 @@ import styles from '../styles/Browse.module.scss'
 // new (accepting their first submissions :) ) - checkbox
 // have 24h submission windows
 
+export const vibeOptions = [
+  { value: undefined, title: 'All the vibes' },
+  { value: 'bestest', title: 'Very fancy very impressive very not fast' },
+  { value: 'bester', title: 'Top-tier stuff. Not Paris Review, but ok' },
+  { value: 'best', title: 'Send us your best but less intimidating' },
+  { value: 'worst', title: 'Send us your fucking worst' },
+  { value: 'weird', title: 'Weird / outsider / wtf even is it' },
+  { value: 'chilling', title: 'We\'re just chilling here' },
+];
+
 export default function Browse() {
   const router = useRouter();
   const [ values, setValues ] = useState<any>({
@@ -221,15 +231,7 @@ export default function Browse() {
             <Select
               style={!isMobile ? { width: 410 } : { marginBottom: 16, width: '100%'} }
               placeholder="All the vibes"
-              options={[
-                { value: undefined, title: 'All the vibes' },
-                { value: 'bestest', title: 'Very fancy very impressive very not fast' },
-                { value: 'bester', title: 'Top-tier stuff. Not Paris Review, but ok' },
-                { value: 'best', title: 'Send us your best but less intimidating' },
-                { value: 'worst', title: 'Send us your fucking worst' },
-                { value: 'weird', title: 'Weird / outsider / wtf even is it' },
-                { value: 'chilling', title: 'We\'re just chilling here' },
-              ]}
+              options={vibeOptions}
               onSelect={option => handleValuesChange('vibe', option.value)}
             />
           </div>
