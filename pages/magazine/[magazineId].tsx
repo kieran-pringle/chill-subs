@@ -224,8 +224,8 @@ export default function Magazine() {
               <LogoTwitter cssClasses={styles.contactIcon} />
             </a>
           )}
-          {currentMagazine.instagram && (
-            <a href={currentMagazine.instagram} className={styles.contact} target="_blank" rel="noreferrer">
+          {currentMagazine.insta && (
+            <a href={currentMagazine.insta} className={styles.contact} target="_blank" rel="noreferrer">
               <LogoInstagram cssClasses={styles.contactIcon} />
             </a>
           )}
