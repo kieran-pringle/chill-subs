@@ -251,7 +251,7 @@ export default function Magazine() {
             </div>
             <div className={styles.stat}>
               <div>Previously published:</div>
-              <div>{currentMagazine.acceptPublishedOnSocialMedia ? 'Yes' : 'No'}</div>
+              <div>{currentMagazine.acceptPreviouslyPublished ? 'Yes' : 'No'}</div>
             </div>
           </div>
           <div className={styles.stats}>
@@ -261,7 +261,7 @@ export default function Magazine() {
             </div>
             <div className={styles.stat}>
               <div>Expedited submissions:</div>
-              <div>{currentMagazine.expeditedSubmissions ? 'Yes' : 'No'}</div>
+              <div>{currentMagazine.expeditedResponse ? 'Yes' : 'No'}</div>
             </div>
             <div className={styles.stat}>
               <div>Available in print:</div>
