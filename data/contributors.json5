@@ -1091,7 +1091,7 @@
   {
     "magazineId": 'the-daily-drunk',
     "contributors": [
-
+      'Karina Kupp and others 😏'
     ],
   },
   {
@@ -1886,5 +1886,167 @@
     "contributors": [
       
     ],
-  }
+  },
+
+  {
+    "magazineId": 'miniskirt-magazine',
+    "contributors": [
+      'Lisa Fabish', 'Ellen Huang', 'Beeper Peddle', 'Michael Chin', 'Lacey Johnson', 'Kate LaDew',
+      'Kourtney Jai', 'Erin Schallmoser', 'Shane Wilson', 'Rachel AG Gilman', 'Rebecca Dempsey',
+      'Rhiannon Wilson', 'Veronica Beatrice Walton', 'Joey Gould', 'Lynn Finger', 'Jesse Millner',
+      'Megan McDermott', 'Eddie Krzeminski', 'Sarah Fannon', 'Rachel Pittman', 'Palaces P',
+      'Marcela Sulak', 'Marlena Chertock', 'Taylor Brunson', 'Dean Boskovich', 'Jennifer Meade',
+      'Ashley Sapp', 'Victoria Wraight', 'Christina Hoag', 'JV Sumpter', 'Obafemi Thanni',
+      'Sy Brand', 'Amy Neufeld', 'Kevin Huttenmuller', 'Susan Montag', 'Kaisa Saarinen',
+      'Kendall Bistretzan', 'Annie James Thomas', 'Del Elizabeth', 'Shane SChick', 'Omolara Olusola',
+      'Emma McGlashen', 'Vera Hadzic', 'Kenneth Ryan', 'Rita Feinstein', 'CLaire Taylor',
+      'Erin McKenize', 'Matthew Schultz', 'Rick Hollon',
+
+      'Daniel DeRock', 'Jack Hartley', 'Virginia Laurie', 'Robin Gow', 'Glen Armstrong',
+      'Ashley Anglin', 'Joel Fishbane', 'Nadja Maril', 'Katie Kemple', 'John Repp',
+      'Flourish Joshua', 'Lacie Semenovich', 'Charles Radke', 'Olivia Martello', 'Susannah Mintz',
+      'Paul Lewellan', 'Natalie Marino', 'Aimee Nicole', 'Adam Day', 'Corinna Schulenberg',
+      'Kimberly Ramos', 'Pippa Russell', 'Jeanine Skowronski ', 'Hayley Bowen', 'Lily Sadighmehr',
+      'Tuhin Bhowal', 'Lisa Harris', 'C Morris', 'Joshua Amberson', 'Becca Rose Hall',
+      'Samuel Adeyemi', 'Kayla Degala-Paraiso', 'Bonnie Heather Bartos', 'Esther Lee Deitch',
+      'Lester Batiste', 'NL Rivera', 'Andrew Analore', 'Samuel Boudreau', 'Mark Fleckenstein',
+      'Victoria Rego', 'Flower Conroy', 'KG Newman', 'Matthew Miller', 'Megan Wilkinson',
+      'Elizabeth Galoozis', 'Susan Coronel', 'Lindsay Calzone', 'Ashley Anglin', 'N West Moss',
+      'Olivia Dimond' 
+    ],
+  },
+  {
+    "magazineId": 'hippocampus-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'lucky-jefferson',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-institutionalized-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'always-crashing',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'cutleaf',
+    "contributors": [
+      'Ace Boggess', 'Alesha Sivartha', 'Amy Wright', 'Anna Atkins', 'Barrett Bowlin',
+      'Barrett Warner', 'Ben Kaufman', 'Benjamin Anastas', 'Benjamin Woodard', 'Bror Myer',
+      'Carter Sickels', 'Chiwan Choi', 'Chris Arthur', 'Chris McGinley', 'Clara Strong',
+      'Daniel Leach', 'Darci Schummer', 'David B. Prather', 'Diane Payne', 'Dirk Marple',
+      'Douglas Bauer', 'E. Ethelbert Miller', 'E.C. Salibian', 'Eduard Pechuel-Loesche',
+      'Elijah Burrell', 'Elise Lasko', 'Erica Anderson-Senter', 'Erika T. Wurth', 'Erika Veurink',
+      'Ernst Haeckel', 'Ethan Rutherford', 'Ezra Baeli-Wang', 'George Eastman', 'George Ella Lyon',
+      'George Singleton', "Gerard O'Neill", 'Giovanni Battista Bracelli', 'Greg Bottoms',
+      'Hanna Ferguson', 'Harrie Irving Hancock', 'Henrique Alvim Corrêa', 'Henry Giardina',
+      'James Nasmyth', 'Jasmin Darznik', 'Jay Hodges', 'Jean-Marc Côté',
+      'Jennifer Reeder and Nancy Andrews', 'Jennifer Stewart Miller', 'Jeremy B. Jones',
+      'Jesse Graves', 'Joan Wickersham', 'Joe Tobias', 'John Davis, Jr.', 'Julia Halprin Jackson',
+      'K. K. Bosse', 'Karen Salyer McElmurray', 'Kari Gunter-Seymour', 'Kevin Fitton',
+      'Lajos Tihanyi', 'Lauren Green', 'Lauren K. Alleyne', 'Lewis W. Leeds', 'Luci Arbus-Scandiffio',
+      'Margaret Yapp', 'Mary Zheng', 'Matt Cashion', 'Matt Muilenberg', 'Matt Prater',
+      'Maurice Manning', 'Melissa Helton', 'Meredith McCarroll', 'Museo Chileno de Arte Precolombino', 
+      'NASA-JPL', 'Odilon Redon', 'Operation Doorstep', 'Pauletta Hansel', 'Peggy Xu', 'R. B. Simon',
+      'Ralph Sneeden', 'Ray Trotter', 'Roald Amundsen', 'Robert Sachs', 'Ron Rash', 'Russell Green',
+      'Sage Behr', 'Samuel Fallours and Louis Renard', 'Stephen Hundley', 'Sylvia Woods',
+      'Tara Kelly', 'Tiffany Melanson', 'Vanessa Nirode', 'Wesley Brown', 'Wesley Browne',
+      'William Glidden', 'William Hope', 'Yasmina Din Madden',
+    ],
+  },
+  {
+    "magazineId": 'couplet-poetry',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-augment-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'bs-ws',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'nawr',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'a-velvet-giant',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'writers-resist',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'one-story',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'witness',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'noema',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-centifictionist',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'papeachu-press',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'gasher',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'she-rose-revolution',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'evoke',
+    "contributors": [
+      
+    ],
+  },
 ]
