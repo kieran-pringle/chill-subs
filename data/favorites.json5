@@ -20,6 +20,13 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "worst",
+    "genres": [
+      { value: 'fiction' },
+      { value: 'nonfiction' },
+      { value: 'poetry' },
+      { value: 'art' },
+      { value: "anything, send us anything" },
+    ],
     "pros": [
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -54,6 +61,11 @@
     "activeOnSocials": false,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000 },
+      { value: 'poetry', max: 5, },
+      { value: 'art', max: 5 },
+    ],
     "pros": [
       { "title": "A nice common theme that unites people + you know what to send them", "icon": "lightbulb-outline" },
       { "title": "Pays! \"Contributors will be paid according to the fundraising success of the magazine’s Patreon page.\"", "icon": "cash-outline" },
@@ -85,6 +97,14 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 2000, additional: "If you're submitting micro, you can submit 3 stories in a single file." },
+      { value: 'nonfiction', wordCount: 1000 },
+      { value: 'poetry', max: 4 },
+      { value: 'interview' },
+      { value: 'review' },
+      { value: 'photography' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -115,6 +135,14 @@
     "insta": "https://www.instagram.com/fineprintpaper/?hl=en",
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 1000, max: 3 },
+      { value: 'nonfiction', wordCount: 1000, max: 3 },
+      { value: 'poetry', max: 5, additional: 'each poem no longer than 3 pages' },
+      { value: 'art', max: 5, additional: 'All artwork should be submitted in black and white as either a .PDF or .JPG file and saved at 300 DPI.' },
+      { value: 'photography', max: 5 },
+      { value: 'comics', max: 5 },
+    ],
     "pros": [
       { "title": "Great style", "icon": "brush-outline" },
       { "title": "Available both in print (free copies!) and online", "icon": "library-outline" },
@@ -146,6 +174,9 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 5 },
+    ],
     "pros": [
       { "title": "Available both in print and online", "icon": "library-outline" }
     ],
@@ -174,6 +205,10 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 3, lineLimit: 40 },
+      { value: 'art', max: 3, additional: 'Please supply or link us to a hi-res image (300pdi at approx. A5 size)' },
+    ],
     "pros": [
       { "title": "Accept previously published", "icon": "happy-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -206,6 +241,10 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 1, additional: 'each poem no longer than 3 pages' },
+      { value: 'art', exact: 13, max: 13, additional: 'Please send a complementary collection of 13 images (.jpg or .png)' },
+    ],
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -238,6 +277,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 2000, max: 3 },
+      { value: 'nonfiction', wordCount: 2000, max: 3 },
+      { value: 'poetry', max: 5 },
+      { value: 'art', max: 5 },
+    ],
     "pros": [
     ],
     "cons": [
@@ -266,6 +311,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Every issue focuses on a specific social issue", "icon": "earth-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -301,6 +352,11 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 1 },
+      { value: 'art', max: 8 },
+      { value: 'photography', max: 8 },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -310,6 +366,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "February 10, 2022",
     "notes": "Issue 35 - Joan Penn \"Death in the Time of Pandemic Pontoum\", Robert E. Ray \"Killing Time"
   },
   {
@@ -333,6 +391,10 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 5, additional: 'max 3 pages' },
+      { value: 'review' },
+    ],
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -366,6 +428,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction' },
+      { value: 'nonfiction' },
+      { value: 'poetry' },
+      { value: 'art' },
+    ],
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -398,6 +466,11 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 2000 },
+      { value: 'poetry', max: 3 },
+      { value: 'art', additional: "If you're interested in having your work considered for an issue's featured artist or our cover art, please send a small sampling of your work to bluereviewreview@gmail.com" },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -428,6 +501,11 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 1000, max: 3 },
+      { value: 'nonfiction', wordCount: 1000, max: 3 },
+      { value: 'prose poetry', max: 3, wordCount: 1000 },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Have pop-up submission windows with a fast response", "icon": "flash-outline" },
@@ -460,6 +538,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 2000, max: 3, additional: 'Please submit pieces longer than 1000 words one at a time. If you would like to submit a suite of up to 3 pieces shorter than 1000 words, please submit these in a single document.' },
+      { value: 'nonfiction', wordCount: 2000, max: 3, additional: 'Please submit pieces longer than 1000 words one at a time. If you would like to submit a suite of up to 3 pieces shorter than 1000 words, please submit these in a single document.' },
+      { value: 'poetry', max: 3 },
+      { value: 'photography', min: 6, max: 12, additional: 'We would like to see a collection of photographs that speak to each other and express an idea as a whole. ' },
+    ],
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
@@ -494,6 +578,14 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', max: 1, additional: '15 pages max' },
+      { value: 'nonfiction', max: 1, wordCount: 5000 },
+      { value: 'shortStory', max: 2 },
+      { value: 'poetry', min: 3, max: 5, additional: '10 pages max' },
+      { value: 'review', max: 5 },
+      { value: 'art', max: 5 },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -525,6 +617,9 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'anything' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" }
     ],
@@ -554,6 +649,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 1 },
+      { value: 'flash-fiction', wordCount: 1000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 1 },
+      { value: 'poetry', max: 3 },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -584,6 +685,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', additional: '6-12 pages' },
+      { value: 'art', additional: '6-12 pages' },
+      { value: 'audio', max: 3, additional: '6-12 pages' },
+      { value: 'video', max: 6, additional: '6-12 pages' },
+    ],
     "pros": [
 
     ],
@@ -614,6 +721,11 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 4000, max: 1 },
+      { value: 'nonfiction', wordCount: 4000, max: 1 },
+      { value: 'poetry', max: 5, additional: 'No more than 10 pages' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Offer expedited response: $10 - response within 2 weeks", "icon": "rocket-outline" }
@@ -632,6 +744,7 @@
     "description": "Press Pause is a literary magazine with zero social media presence. We want to create an online (and real-life) place away from the usual spaces—a primarily quiet place. ",
     "acceptPreviouslyPublished": false,
     "simultaneousSubmissions": true,
+    "multipleSubmissions": true,
     "freeExamples": true,
     "print": true,
     "responseTime": "3 months",
@@ -644,6 +757,13 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 10000 },
+      { value: 'nonfiction', wordCount: 10000 },
+      { value: 'poetry', max: 10 },
+      { value: 'art' },
+      { value: 'music' },
+    ],
     "pros": [
       { "title": "Cool concept", "icon": "bulb-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -676,6 +796,10 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 8 },
+      { value: 'art' },
+    ],
     "pros": [
       { "title": "Poems are awesome", "icon": "heart-outline" }
     ],
@@ -707,6 +831,11 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000 },
+      { value: 'nonfiction', wordCount: 5000 },
+      { value: 'poetry', min: 3, max: 5 },
+    ],
     "pros": [
       { "title": "Pays! $50", "icon": "cash-outline" }
     ],
@@ -736,6 +865,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 2500 },
+      { value: 'nonfiction', wordCount: 2500 },
+      { value: 'poetry', max: 4 },
+      { value: 'art', max: 8 },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
     ],
@@ -743,7 +878,7 @@
       { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
-    "deadline": "February 28, 2022",
+    "deadline": "March 6, 2022",
     "notes": "Spring 2021 - Derek Graf \"There Are No Birds In My House\", Eric Roy \"Cartoon Obvious\". Winter 2020 - Laura Cherry."
   },
   {
@@ -767,6 +902,17 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 3000, max: 3 },
+      { value: 'nonfiction', wordCount: 3000, max: 3 },
+      { value: 'poetry', max: 5 },
+      { value: 'art', max: 5 },
+      { value: 'photography', max: 5 },
+      { value: 'video', max: 5 },
+      { value: 'audio', max: 5 },
+      { value: 'wtf is genre' },
+      { value: 'anything' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -799,6 +945,14 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 1000 },
+      { value: 'nonfiction', wordCount: 1000 },
+      { value: 'poetry' },
+      { value: 'art' },
+      { value: 'photography' },
+      { value: 'anything' },
+    ],
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Nice concept", "icon": "bulb-outline" },
@@ -834,6 +988,11 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "worst",
+    "genres": [
+      { value: 'flash-fiction', wordCount: 1000, max: 2 },
+      { value: 'fiction', wordCount: 4000, max: 1 },
+      { value: 'poetry', max: 4 },
+    ],
     "pros": [
       { "title": "Offer expedited response: €4 for 2 day response", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -866,6 +1025,13 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction' },
+      { value: 'nonfiction' },
+      { value: 'poetry' },
+      { value: 'art' },
+      { value: 'review' },
+    ],
     "pros": [
       { "title": "Well it's just really cool alright?", "icon": "glasses-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
@@ -897,6 +1063,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Accept previously published", "icon": "happy-outline" }
     ],
@@ -927,6 +1099,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" }
     ],
@@ -956,6 +1134,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
 
     ],
@@ -987,6 +1171,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "The poems are awesome", "icon": "heart-outline" }
     ],
@@ -1016,6 +1206,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Available in print", "icon": "library-outline" },
       { "title": "Sometimes you can email them to get a free digital issue :)", "icon": "heart-outline" },
@@ -1047,6 +1243,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
@@ -1081,6 +1283,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
@@ -1112,6 +1320,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "worst",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
@@ -1148,6 +1362,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Supportive: list all their contributors with links to their websites/socials, and promote writers even after publication", "icon": "megaphone-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1183,6 +1403,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Accept previously published", "icon": "happy-outline" },
@@ -1214,6 +1440,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -1246,6 +1478,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Rejections that are actually nice", "icon": "bandage-outline" },
@@ -1278,6 +1516,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1302,7 +1546,7 @@
     "print": true,
     "responseTime": "",
     "fee": "",
-    "payment": "",
+    "payment": "Yes",
     "website": "https://www.littleengines.pub/",
     "twitter": "https://twitter.com/Little__Engines",
     "twitterFollowers": 1231,
@@ -1310,8 +1554,15 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Pays!", "icon": "cash-outline" }
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" }
     ],
@@ -1341,6 +1592,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "worst",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fucking weird. Love it", "icon": "skull-outline" },
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
@@ -1374,6 +1631,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
@@ -1427,6 +1690,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
@@ -1457,6 +1726,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fucking weird. Love it", "icon": "skull-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -1488,6 +1763,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Accept previously published", "icon": "happy-outline" }
     ],
@@ -1517,6 +1798,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
 
     ],
@@ -1546,6 +1833,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1577,6 +1870,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "\"response time was quick!\"", "icon": "flash-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -1610,6 +1909,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1641,6 +1946,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
@@ -1675,6 +1986,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available both in print and online", "icon": "library-outline" },
@@ -1707,6 +2024,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" }
     ],
@@ -1738,6 +2061,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" },
@@ -1772,6 +2101,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bester",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $100", "icon": "cash-outline" }
@@ -1802,6 +2137,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "worst",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fast response: \"Once submissions close, you'll hear back from us within a week\"", "icon": "rocket-outline" },
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
@@ -1835,6 +2176,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Offer expedited response: $5 or more - response within 3 days", "icon": "rocket-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -1869,6 +2216,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1900,6 +2253,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fucking weird. Love it", "icon": "skull-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -1929,6 +2288,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Just a super cool and helpful space", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1959,6 +2324,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -1993,6 +2364,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Offer expedited response: $6  - response within 1 week", "icon": "rocket-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -2026,6 +2403,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Cool concept", "icon": "bulb-outline" },
       { "title": "Accept previously published: \"We are more likely to accept previously published work if it: has been published somewhere that is not a traditional literary venue; or was published in a more traditional literary venue a year or more ago\"", "icon": "happy-outline" },
@@ -2057,6 +2440,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2086,6 +2475,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2117,6 +2512,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Accept previously published: \"Work previously published in print only welcome if in no violation of original rights.\"", "icon": "happy-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -2150,6 +2551,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Offer expedited response: $5  - response within 24 hours", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2180,6 +2587,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Offer expedited response", "icon": "rocket-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -2214,6 +2627,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2244,6 +2663,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "I mean poems about taco bell, what else do you need", "icon": "bulb-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -2276,6 +2701,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bestest",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "You'll finally be able to impress your mom. Maybe", "icon": "thumbs-up-outline" },
       { "title": "Cash cash fame fame", "icon": "cash-outline" },
@@ -2305,6 +2736,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bestest",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "You'll finally be able to impress your mom. Maybe", "icon": "thumbs-up-outline" },
       { "title": "Cash cash fame fame", "icon": "cash-outline" },
@@ -2335,6 +2772,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bestest",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "You'll finally be able to impress your mom. Maybe", "icon": "thumbs-up-outline" },
       { "title": "Cash cash fame fame", "icon": "cash-outline" },
@@ -2397,6 +2840,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Pays! \"Single Poems - $25, Suites of poems (2-4) - $50, One act plays - $50, Essays and Fiction - $75\"", "icon": "cash-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2425,6 +2874,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Helpful: posting other opportunities on their Twitter:)", "icon": "bookmark-outline" }
@@ -2453,6 +2908,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2483,6 +2944,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" }
@@ -2511,6 +2978,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
@@ -2539,6 +3012,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2572,6 +3051,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
@@ -2601,6 +3086,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2632,6 +3123,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! €150 per story", "icon": "cash-outline" },
@@ -2664,6 +3161,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2695,6 +3198,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published: \"prefer work that has not been published recently\"", "icon": "happy-outline" },
@@ -2727,6 +3236,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2762,6 +3277,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2792,6 +3313,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2823,6 +3350,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2858,6 +3391,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2892,6 +3431,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2924,6 +3469,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2955,6 +3506,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2985,6 +3542,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3019,6 +3582,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published: \"we do consider previously published work, including work published in other online/print publications or social media!\"", "icon": "happy-outline" },
@@ -3052,6 +3621,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3082,6 +3657,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3115,6 +3696,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3147,6 +3734,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $50 honorarium per contributor", "icon": "cash-outline" },
@@ -3179,6 +3772,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
@@ -3209,6 +3808,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
@@ -3237,6 +3842,12 @@
     "activeOnSocials": false,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Nice presentation!", "icon": "brush-outline" }
     ],
@@ -3265,6 +3876,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3296,6 +3913,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bester",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $25 + $5 per page", "icon": "cash-outline" },
@@ -3329,6 +3952,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "\"We do not accept previously published work for poetry and fiction but we DO accept art that has been posted on social media\"", "icon": "thumbs-up-outline" },
@@ -3359,6 +3988,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "\"We will occasionally run promos with expedited and/or personalized responses for free.\"", "icon": "flash-outline" },
@@ -3391,6 +4026,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
@@ -3421,6 +4062,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3454,6 +4101,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3486,6 +4139,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Offer expedited response: $10 - response within 2 weeks", "icon": "rocket-outline" },
@@ -3518,6 +4177,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3550,6 +4215,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $40", "icon": "cash-outline" },
@@ -3581,6 +4252,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! \"$15/ea accepted work for poets submitting to ‘Awake’, our digital zine for Black authors\"", "icon": "cash-outline" },
@@ -3615,6 +4292,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Great concept", "icon": "bulb-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -3647,6 +4330,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! \"Print: $15 & copy of the issue; we do not currently pay for online acceptance\"", "icon": "cash-outline" },
@@ -3678,6 +4367,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! \"from $100 to $400 for published fiction and nonfiction. from $50 to $200 for published poetry\"", "icon": "cash-outline" },
@@ -3707,6 +4402,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
@@ -3737,6 +4438,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3771,6 +4478,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3805,6 +4518,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published", "icon": "happy-outline" },
@@ -3835,6 +4554,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "weird",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $20 per contributor", "icon": "cash-outline" },
@@ -3866,6 +4591,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $10 per accepted poem, essay or short story", "icon": "cash-outline" },
@@ -3898,6 +4629,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bester",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $500", "icon": "cash-outline" },
@@ -3930,6 +4667,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bester",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $50 per published piece, whether in the print or online issue", "icon": "cash-outline" },
@@ -3961,6 +4704,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "bester",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays!", "icon": "cash-outline" },
@@ -3992,6 +4741,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
@@ -4022,6 +4777,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" }
@@ -4053,6 +4814,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
     ],
@@ -4082,6 +4849,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Active on Instagram", "icon": "chatbubbles-outline" },
     ],
@@ -4111,6 +4884,12 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "genres": [
+      { value: 'fiction', wordCount: 5000, max: 3 },
+      { value: 'nonfiction', wordCount: 5000, max: 3 },
+      { value: 'poetry', max: 5, wordCount: 1000 },
+      { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
+    ],
     "pros": [
       { "title": "Fast response!", "icon": "flash-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
