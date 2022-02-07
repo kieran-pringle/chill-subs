@@ -1562,7 +1562,7 @@
     ],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
-      { "title": "Pays!", "icon": "cash-outline" }
+      { "title": "Pays!", "icon": "cash-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" }
     ],
