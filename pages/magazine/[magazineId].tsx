@@ -316,7 +316,7 @@ export default function Magazine() {
         <h2>Genres</h2>
         <div className={styles.genres}>
           {currentMagazine.genres.map(g => (
-            <div className={styles.genre}>
+            <div className={styles.genre} key={g.value}>
               <div className={styles.genreHeader}>
                 <div className={styles.genreEmoji}>👌</div>
                 <h3>{g.value[0].toUpperCase() + g.value.slice(1)}</h3>
