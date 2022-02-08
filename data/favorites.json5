@@ -4221,7 +4221,7 @@
     "responseTime": "4-6 weeks",
     "responseDays": 45,
     "expeditedResponse": true,
-    "fee": "$3",
+    "fee": "",
     "payment": "Yes",
     "website": "https://luckyjefferson.com",
     "twitter": "https://twitter.com/_luckyjefferson",
@@ -4242,7 +4242,7 @@
       { "title": "Available in print", "icon": "library-outline" }
     ],
     "cons": [
-      { "title": "Submission fee", "icon": "cash-outline" }
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
     "deadline": "February 13, 2022",
