@@ -313,6 +313,27 @@ export default function Magazine() {
             </button>
           </div>
         </div>
+        <h2>Genres</h2>
+        <div className={styles.genres}>
+          {currentMagazine.genres.map(g => (
+            <div className={styles.genre}>
+              <div className={styles.genreHeader}>
+                <div className={styles.genreEmoji}>👌</div>
+                <h3>{g.value[0].toUpperCase() + g.value.slice(1)}</h3>
+              </div>
+              <div className={styles.genreContent}>
+                {g.maxWords && <span>Max words: {g.maxWords}</span>}
+                {g.maxLines && <span>Max lines: {g.maxLines}</span>}
+                {g.min && <span>Min pieces: {g.min}</span>}
+                {g.max && <span>Max pieces: {g.max}</span>}
+                {g.additional && <span>{g.additional}</span>}
+                {!g.maxWords && !g.maxLines && !g.min && !g.max && !g.additional && (
+                  <span>No specific limitations</span>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
         <h2>Examples</h2>
         <div className={styles.examples}>
           {examples?.length ? (

@@ -56,8 +56,8 @@ const allMagazines = [
 ];
 
 export const plannedFeatures = [
-  { id: 'genres', title: 'Genre categorization' },
-  { id: 'word-count', title: 'Word and line count rules' },
+  // { id: 'genres', title: 'Genre categorization' },
+  // { id: 'word-count', title: 'Word and line count rules' },
   { id: 'nominations', title: 'Nominations', description: 'Ego loves nominations! We need a filter and info about those!' },
   { id: 'limited-demographic', title: 'Limited demographic info (specific area / young people / women / queer / etc)', description: 'Have a filter for those' },
   { id: 'contests', title: 'Contests', description: 'Have some separate filter for them, and when a place is open for subs, it would indicate whether it’s open for a contest or general submissions' },
@@ -245,12 +245,12 @@ export default function Roadmap() {
           <div className={styles.monthly}>
             
             <ProgressBar
-              completed={13}
+              completed={18}
               className={styles.progressBarContainer}
               barContainerClassName={styles.progressBar}
               completedClassName={styles.progressBarCompleted}
             />
-            <span><strong>$13</strong> of <strong>$100</strong> monthly support goal</span>
+            <span><strong>$18</strong> of <strong>$100</strong> monthly support goal</span>
           </div>
           <a href="https://www.buymeacoffee.com/karinakupp" target="_blank" rel="noreferrer">
             <button className={styles.button}>Donate</button>

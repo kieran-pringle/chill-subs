@@ -31,6 +31,35 @@ export const vibeOptions = [
   { value: 'chilling', title: 'We\'re just chilling here' },
 ];
 
+export const genreOptions = [
+  { value: undefined, title: 'Any genre' },
+  { value: 'fiction', title: 'Fiction' },
+  { value: 'nonfiction', title: 'Nonfiction' },
+  { value: 'poetry', title: 'Poetry' },
+  { value: 'hybrid', title: 'Hybrid' },
+  { value: 'review', title: 'Review' },
+  { value: 'interview', title: 'Interview' },
+  { value: 'art', title: 'Art' },
+  { value: 'photography', title: 'Photography' },
+  { value: 'comics', title: 'Comics' },
+  { value: 'audio', title: 'Audio' },
+  { value: 'video', title: 'Video' },
+  { value: 'game', title: 'Game' },
+  { value: 'anything', title: 'Wtf is genre, send anything' },
+  // { value: 'anything', title: 'Anything, send us anything' },
+];
+
+export const wordCountOptions = [
+  { max: undefined, title: 'Any' },
+  { min: 0, value: 1000, title: 'Under 1000 words' },
+  { min: 1000, value: 2000, title: '1000 - 2000 words' },
+  { min: 2000, value: 3000, title: '2000 - 3000 words' },
+  { min: 3000, value: 4000, title: '3000 - 4000 words' },
+  { min: 4000, value: 5000, title: '4000 - 5000 words' },
+  { min: 5000, value: 6000, title: '5000 - 6000 words' },
+  { min: 6000, value: 10000, title: '6000 - 10000 words' },
+];
+
 export default function Browse() {
   const router = useRouter();
   const [ values, setValues ] = useState<any>({
@@ -98,6 +127,23 @@ export default function Browse() {
           } else if (key === 'vibe') {
             if (value && magazine[key] !== value) {
               match = false;
+            }
+          } else if (key === 'genre') {
+            const magazineGenreKeys = magazine.genres.map(g => g.value);
+            if (value && !magazineGenreKeys.includes(value)) {
+              match = false;
+            }
+          } else if (key === 'wordCount') {
+            const genreMatch = magazine.genres.find(g => g.value === values.genre);
+            if (value && !genreMatch) {
+              match = false;
+            } else {
+              if (value && genreMatch && !genreMatch.maxWords) {
+                match = false;
+              }
+              if (value && genreMatch && (genreMatch.maxWords < Number(value) || (genreMatch.minWords ? genreMatch.minWords > Number(value) : false))) {
+                match = false;
+              }
             }
           } else {
             if (value && !magazine[key]) {
@@ -226,14 +272,41 @@ export default function Browse() {
             />
           </div>
 
-          <div className={styles.selectContainer}>
-            <div className={styles.label}>Vibe</div>
-            <Select
-              style={!isMobile ? { width: 410 } : { marginBottom: 16, width: '100%'} }
-              placeholder="All the vibes"
-              options={vibeOptions}
-              onSelect={option => handleValuesChange('vibe', option.value)}
-            />
+          <div className={styles.selectRow}>
+            <div className={styles.selectContainer}>
+              <div className={styles.label}>Vibe</div>
+              <Select
+                style={!isMobile ? { marginRight: 32, width: 410 } : { marginBottom: 16, width: '100%'} }
+                placeholder="All the vibes"
+                options={vibeOptions}
+                onSelect={option => handleValuesChange('vibe', option.value)}
+              />
+            </div>
+
+            <div className={styles.selectContainer}>
+              <div className={styles.label}>Accepting genre</div>
+              <Select
+                style={!isMobile ? { marginRight: 32, width: 300 } : { marginBottom: 16, width: '100%'} }
+                placeholder="Any genre"
+                options={genreOptions}
+                onSelect={option => handleValuesChange('genre', option.value)}
+              />
+            </div>
+
+            {(values.genre === 'fiction' || values.genre === 'nonfiction' || values.genre === 'hybrid') && (
+              <div className={`${styles.searchContainer} ${styles.wordCountContainer}`}>
+                <div className={styles.label}>Your piece word count</div>
+                <input
+                  className={styles.search}
+                  placeholder=""
+                  value={values.wordCount}
+                  onChange={e => handleValuesChange('wordCount', e.target.value)}
+                />
+                {values.wordCount && (
+                  <CloseOutline onClick={e => handleValuesChange('wordCount', '')} color="#316760" width="24" height="24" />
+                )}
+              </div>
+            )}
           </div>
 
         </div>

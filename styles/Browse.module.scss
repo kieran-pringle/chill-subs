@@ -103,6 +103,10 @@
   }
 }
 
+.wordCountContainer {
+  margin-right: 0;
+}
+
 .search {
   padding: 0.75rem 1.75rem;
   width: 25.5rem;
@@ -124,9 +128,12 @@
 .selectContainer {
   display: flex;
   flex-direction: column;
-  &:last-child {
-    margin-top: 1.5rem;
-  }
+}
+
+.selectRow {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5rem;
 }
 
 .label {
@@ -303,6 +310,11 @@
     &:last-child {
       margin-top: 0;
     }
+  }
+
+  .selectRow {
+    flex-direction: column;
+    width: 100%;
   }
 
   .filters {
