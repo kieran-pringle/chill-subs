@@ -341,7 +341,7 @@
     "freeExamples": true,
     "print": true,
     "responseTime": "",
-    "fee": "",
+    "fee": "$5",
     "payment": "",
     "website": "https://www.highshelfpress.com/",
     "twitter": "https://twitter.com/highshelfpress",
@@ -362,7 +362,7 @@
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" }
     ],
     "cons": [
-      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+      { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
     "deadline": "February 10, 2022",
