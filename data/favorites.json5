@@ -253,8 +253,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 7, 2022",
     "notes": "Issue 7 - “Anxiety & Co.” by Jordan Hamel. “Dad” by Karyn Peyton. Issue 33 - “Friday Morning” by Christine Naprava"
   },
   {
@@ -1385,8 +1383,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 5, 2022",
     "notes": "Jeff Bogle \"Coffee\" - I like it! ohh he's the editor"
   },
   {
@@ -4020,8 +4016,6 @@
     "cons": [
       { "title": "Submission fee", "icon": "cash-outline" },
     ],
-    "open": true,
-    "deadline": "February 6, 2022"
   },
   {
     "id": 110,
