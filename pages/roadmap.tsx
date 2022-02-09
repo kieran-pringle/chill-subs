@@ -58,9 +58,10 @@ const allMagazines = [
 export const plannedFeatures = [
   // { id: 'genres', title: 'Genre categorization' },
   // { id: 'word-count', title: 'Word and line count rules' },
-  { id: 'nominations', title: 'Nominations', description: 'Ego loves nominations! We need a filter and info about those!' },
   { id: 'limited-demographic', title: 'Limited demographic info (specific area / young people / women / queer / etc)', description: 'Have a filter for those' },
   { id: 'contests', title: 'Contests', description: 'Have some separate filter for them, and when a place is open for subs, it would indicate whether it’s open for a contest or general submissions' },
+  { id: 'books', title: 'Chapbooks / books submissions' },
+  { id: 'nominations', title: 'Nominations', description: 'Ego loves nominations! We need a filter and info about those!' },
   { id: 'editors', title: 'Editors info and links to interviews with them' },
 ]
 
@@ -106,7 +107,6 @@ export const suggestions = [
 export const futureFeatures = [
   { id: 'accounts', title: 'Possibility to log in, save your favorite mags and MORE' },
   { id: 'text-analysis', title: 'Suggest a magazine based on your poem / story - some text analysis shit!' },
-  { id: 'books', title: 'Chapbooks / books submissions' },
 ]
 
 export default function Roadmap() {
