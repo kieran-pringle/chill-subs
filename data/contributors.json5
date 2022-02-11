@@ -2049,4 +2049,112 @@
       
     ],
   },
+
+  {
+    "magazineId": 'the-levatio',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'ghost-girls-zine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'moss-puppy-magazine',
+    "contributors": [
+      'Rae Stone', 'Radhika Kapoor', 'Emmanuel Paradella', 'Ellen Huang', 'Madeline Trosclair',
+      'Jane Pine', 'Linda Hawkins', 'John Polles', 'Katie Manning', 'Catie Wiley',
+      'Sharon Denmark', 'Veronica Jarboe', 'Rick Hollon', 'Madeleine Tomasoa', 'Andrew McSorley',
+      'Richard Leise', 'Frederick Charles Melancon', 'Marie Little', 'Rhianna Levi',
+      'Lynn Finger', 'Jack Bedell', 'Cheyenne Dunnett', 'Lawrence Moore', 'Beth Mulcahy',
+      'Mojca Bozja', 'Jasmine Kaur', 'Uriah Howard Allis', 'Vrinda Gandhi', 'sarah robin',
+      'Matthew McGuirk', 'Rebecca Munoz', 'Cristine Gostinski Costa', 'melissa flores',
+      'adam chabot', 'avery nguyen', 'amanda michelle', 'mel wilson', 'ken pobo',
+      'anna lindwaser', 'Arden Hunter', 'gerry stewart', 'j archer avary', 'andrea laws',
+      'pea flower tomioka', 'robin williams', 'rachael crosbie', 'Beatriz Seelaender',
+      'Edward Michael Supranowicz', 'Jennifer Mitchell', 'Holley Cornetto', 'Oliver Cable',
+      'Corinna Schulenburg', 'Mariana Feyt', 'Hikari Leilani Miya', 'Kavan P. Stafford',
+      'Mukund Gnanadesikan', 'Timmy Sutton', 'Jenny Wong', 'Jessica Frelow',
+      'Jennifer MacBain-Stephens', 'George Stein', 'dutch simmons', 'Kathleen Stancik',
+      'Angel Walker', 'Bonnie Meekums', 'Laura Bibby', 'Slawka G. Scarso ', 'James Reitter',
+      'Jim Zola', 'M. Patrick Riggin', 'Irene Watson', 'Perry Wyatt', 'Briar Ripley Page',
+      'Manahil Bandukwala', 'Kiri DeLandé', 'Emily Daniels', 'Phoebe Thomson', 'Haley Wilder',
+      'Helen Gwyn Jones', 'William Doreski'
+    ],
+  },
+  {
+    "magazineId": 'hearth-coffin-literary-journal',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-missouri-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'red-ogre-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'kallisto-gaia-press',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'puerto-del-sol',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'paper-milk-literary-journal',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'ice-queen-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-twin-bill',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'blue-arrangements',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'class-collective-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'alebrijes-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'fractured-literary',
+    "contributors": [
+      
+    ],
+  },
 ]
