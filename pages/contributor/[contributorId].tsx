@@ -44,7 +44,22 @@ export default function Contributor() {
     <div className={styles.container}>
       <Head>
         <title>chill subs</title>
+
+        <meta name="name" content="chill subs" />
         <meta name="description" content="Find the right home for your writing without losing your shit" />
+        <meta name="image" content="/cover.png" />
+
+        <meta property="og:url" content="https://chillsubs.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="chill subs" />
+        <meta property="og:description" content="Find the right home for your writing without losing your shit" />
+        <meta property="og:image" content="/cover.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="chill subs" />
+        <meta name="twitter:description" content="Find the right home for your writing without losing your shit" />
+        <meta name="twitter:image" content="/cover.png" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
