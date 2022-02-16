@@ -60,6 +60,15 @@ export const wordCountOptions = [
   { min: 6000, value: 10000, title: '6000 - 10000 words' },
 ];
 
+export const demographicOptions = [
+  { value: undefined, title: 'All creators' },
+  { value: 'location', title: 'Focus on specific location or ethnic group' },
+  { value: 'marginalized', title: 'Focus on all marginalized creators' },
+  { value: 'lgbt', title: 'Focus on LGBTQ+ creators' },
+  { value: 'womenAndNonbinary', title: 'Focus on women and nonbinary creators' },
+  { value: 'young', title: 'Focus on work from young creators' },
+];
+
 export default function Browse() {
   const router = useRouter();
   const [ values, setValues ] = useState<any>({
@@ -145,6 +154,10 @@ export default function Browse() {
                 match = false;
               }
             }
+          } else if (key === 'demographic') {
+            if (value && (!magazine.demographic || !magazine.demographic.includes(value))) {
+              match = false;
+            }
           } else {
             if (value && !magazine[key]) {
               match = false;
@@ -193,6 +206,8 @@ export default function Browse() {
   const sortResults = (option) => {
     router?.replace({ query: { ...router.query, sortBy: option.value } }, undefined, { shallow: true });
   }
+
+  const showWordCountSelect = values.genre === 'fiction' || values.genre === 'nonfiction' || values.genre === 'hybrid';
 
   return (
     <div className={styles.container}>
@@ -308,7 +323,7 @@ export default function Browse() {
               />
             </div>
 
-            {(values.genre === 'fiction' || values.genre === 'nonfiction' || values.genre === 'hybrid') && (
+            {showWordCountSelect && (
               <div className={`${styles.searchContainer} ${styles.wordCountContainer}`}>
                 <div className={styles.label}>Your piece word count</div>
                 <input
@@ -322,6 +337,16 @@ export default function Browse() {
                 )}
               </div>
             )}
+
+            <div className={styles.selectContainer} style={{ marginTop: showWordCountSelect && !isMobile ? 24 : 0 }}>
+              <div className={styles.label}>Specific demographic</div>
+              <Select
+                style={!isMobile ? { width: 410 } : { marginBottom: 16, width: '100%'} }
+                placeholder="All creators"
+                options={demographicOptions}
+                onSelect={option => handleValuesChange('demographic', option.value)}
+              />
+            </div>
           </div>
 
         </div>
@@ -340,6 +365,13 @@ export default function Browse() {
             label="Offer expedited submissions"
             className={styles.checkbox}
             onChange={e => handleValuesChange('expeditedResponse', e.target.checked)}
+          />
+
+          <Checkbox
+            name="expedited"
+            label="Built around a specific theme"
+            className={styles.checkbox}
+            onChange={e => handleValuesChange('theme', e.target.checked)}
           />
 
         </div>

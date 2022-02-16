@@ -66,6 +66,7 @@
       { value: 'poetry', max: 5, },
       { value: 'art', max: 5 },
     ],
+    "theme": true,
     "pros": [
       { "title": "A nice common theme that unites people + you know what to send them", "icon": "lightbulb-outline" },
       { "title": "Pays! \"Contributors will be paid according to the fundraising success of the magazine’s Patreon page.\"", "icon": "cash-outline" },
@@ -315,6 +316,7 @@
       { value: 'poetry', max: 5, maxWords: 1000 },
       { value: 'art', max: 3, additional: 'Any digital files are accepted, though .MOV, .JPG, and .PNG, are preferred. Please ensure that the quality of your files is above 450px*600px (for picture files) and 720p (for moving files)' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Every issue focuses on a specific social issue", "icon": "earth-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -409,7 +411,7 @@
     "name": "C*nsorship Magazine",
     "key": "cnsorship",
     "cover": "/covers/censorship.jpeg",
-    "description": "A literary magazine all about censorship We take inspiration from the little magazines of the late 19th and early 20th centuries. We welcome poetry, prose and visual art, as experimental as they come!",
+    "description": "A literary magazine all about censorship. We take inspiration from the little magazines of the late 19th and early 20th centuries. We welcome poetry, prose and visual art, as experimental as they come!",
     "acceptPreviouslyPublished": false,
     "simultaneousSubmissions": true,
     "freeExamples": true,
@@ -430,6 +432,7 @@
       { value: 'poetry' },
       { value: 'art' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -534,6 +537,7 @@
     "activeOnSocials": true,
     "promoteAfterPublication": true,
     "vibe": "best",
+    "theme": true,
     "genres": [
       { value: 'fiction', maxWords: 2000, max: 1, additional: 'If you would like to submit a suite of up to 3 pieces shorter than 1000 words, please submit these in a single document.' },
       { value: 'nonfiction', maxWords: 2000, max: 1, additional: 'If you would like to submit a suite of up to 3 pieces shorter than 1000 words, please submit these in a single document.' },
@@ -951,6 +955,7 @@
       { value: 'photography' },
       { value: 'anything' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Nice concept", "icon": "bulb-outline" },
@@ -1251,6 +1256,7 @@
       { value: 'quiz' },
       { value: 'comics' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Cool theme", "icon": "brush-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
@@ -2321,6 +2327,7 @@
       { value: 'poetry' },
       { value: 'art' },
     ],
+    "demographic": ["marginalized", "minAge"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2439,6 +2446,7 @@
       { value: 'nonfiction', maxWords: 500, max: 1 },
       { value: 'poetry' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -2658,6 +2666,7 @@
       { value: 'art' },
       { value: 'comics' },
     ],
+    "theme": true,
     "pros": [
       { "title": "I mean poems about taco bell, what else do you need", "icon": "bulb-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -2835,6 +2844,7 @@
       { value: 'interview', max: 7500 },
       { value: 'review', max: 1500 },
     ],
+    "demographic": ["location"],
     "pros": [
       { "title": "Pays! \"Single Poems - $25, Suites of poems (2-4) - $50, One act plays - $50, Essays and Fiction - $75\"", "icon": "cash-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3270,6 +3280,7 @@
     "genres": [
       { value: 'poetry', additional: '5 pages max' },
     ],
+    "demographic": ["lgbt", "womenAndNonbinary"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3422,6 +3433,7 @@
       { value: 'poetry', max: 3, additional: 'Individual poem length limit of three pages.' },
       { value: 'photography', min: 30, max: 50, additional: 'Please submit only landscapes, from the urban to the rural, of the American South.' },
     ],
+    "demographic": ["location"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -3491,6 +3503,7 @@
     "activeOnSocials": true,
     "promoteAfterPublication": false,
     "vibe": "best",
+    "theme": true,
     "genres": [
       { value: 'fiction', maxWords: 8000, additional: 'Either as a single piece or up to 3 shorter pieces up to a combined total of 8,000 words' },
       { value: 'nonfiction', maxWords: 8000, additional: 'Either as a single piece or up to 3 shorter pieces up to a combined total of 8,000 words' },
@@ -3540,8 +3553,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 15, 2022",
   },
   {
     "id": 97,
@@ -3718,6 +3729,7 @@
       { value: 'poetry', max: 5 },
       { value: 'art' },
     ],
+    "demographic": ["lgbt"],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $50 honorarium per contributor", "icon": "cash-outline" },
@@ -4160,6 +4172,7 @@
       { value: 'poetry', max: 5, additional: 'Up to 10 pages' },
       { value: 'art', min: 4, max: 10 },
     ],
+    "theme": true,
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -4269,6 +4282,7 @@
       { value: 'art', max: 10 },
       { value: 'photography', max: 10 },
     ],
+    "theme": true,
     "pros": [
       { "title": "Great concept", "icon": "bulb-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
@@ -4494,6 +4508,7 @@
       { value: 'photography' },
       { value: 'video' },
     ],
+    "demographic": ["location"],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published", "icon": "happy-outline" },
@@ -4568,6 +4583,7 @@
       { value: 'poetry', max: 3 },
       { value: 'art', max: 1 },
     ],
+    "theme": true,
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Pays! $10 per accepted poem, essay or short story", "icon": "cash-outline" },
@@ -4745,6 +4761,7 @@
       { value: 'nonfiction', maxWords: 2000, max: 1 },
       { value: 'poetry', max: 3, additional: 'No longer than 2 pages per piece' },
     ],
+    "demographic": ["womenAndNonbinary"],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" }
@@ -4816,6 +4833,7 @@
     "genres": [
       { value: 'nonfiction', minWords: 300, additional: 'All the way to 2000+ words' },
     ],
+    "demographic": ["womenAndNonbinary"],
     "pros": [
       { "title": "Active on Instagram", "icon": "chatbubbles-outline" },
     ],
@@ -4859,8 +4877,6 @@
     "cons": [
       { "title": "No examples online yet because the mag is new, but they are coming:)", "icon": "thumbs-down-outline" }
     ],
-    "open": true,
-    "deadline": "February 15, 2022",
   },
 
   {
@@ -4925,6 +4941,7 @@
       { value: 'poetry' },
       { value: 'art' },
     ],
+    "demographic": ["marginalized"],
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Available in print", "icon": "library-outline" },
@@ -5185,6 +5202,7 @@
       { value: 'poetry' },
       { value: 'art' },
     ],
+    "demographic": ["marginalized"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -5369,6 +5387,7 @@
       { value: 'art', max: 5 },
       { value: 'photography', max: 5 },
     ],
+    "demographic": ["location"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -5483,6 +5502,8 @@
       { value: 'tutorial' },
       { value: 'documentary' },
     ],
+    "theme": true,
+    "demographic": ["lgbt", "marginalized"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -5599,6 +5620,7 @@
       { value: 'poetry', max: 6, additional: '10 pages max' },
       { value: 'art', max: 6 },
     ],
+    "theme": true,
     "pros": [
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
       { "title": "Accept previously published artwork", "icon": "happy-outline" },
@@ -5716,6 +5738,7 @@
       { value: 'poetry', max: 5 },
       { value: 'art', max: 5 },
     ],
+    "demographic": ["womenAndNonbinary", "marginalized"],
     "pros": [
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
@@ -5793,6 +5816,7 @@
       { value: 'poetry', max: 3 },
       { value: 'hybrid' },
     ],
+    "theme": true,
     "pros": [
       { "title": "Nice concept :)", "icon": "bulb-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
