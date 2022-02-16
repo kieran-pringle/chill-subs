@@ -368,7 +368,7 @@ export default function Browse() {
           />
 
           <Checkbox
-            name="expedited"
+            name="theme"
             label="Built around a specific theme"
             className={styles.checkbox}
             onChange={e => handleValuesChange('theme', e.target.checked)}
