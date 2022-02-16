@@ -339,7 +339,7 @@ export default function Browse() {
             )}
 
             <div className={styles.selectContainer} style={{ marginTop: showWordCountSelect && !isMobile ? 24 : 0 }}>
-              <div className={styles.label}>Specific demographic</div>
+              <div className={styles.label}>Specific demographics</div>
               <Select
                 style={!isMobile ? { width: 410 } : { marginBottom: 16, width: '100%'} }
                 placeholder="All creators"
