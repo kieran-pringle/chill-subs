@@ -15,11 +15,8 @@ import Select from '../components/Select';
 import SortSelect from '../components/SortSelect';
 import styles from '../styles/Browse.module.scss'
 
-// size - select - smaller, popular but fun, popular but not like "the fanciest", very fucking fancy
-// targets specific demographic - select (lgbt, black, bipoc, latinx, women, specific country, young, old)
 // nominate for awards - checkbox
 // new (accepting their first submissions :) ) - checkbox
-// have 24h submission windows
 
 export const vibeOptions = [
   { value: undefined, title: 'All the vibes' },

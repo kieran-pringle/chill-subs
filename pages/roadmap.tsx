@@ -57,7 +57,7 @@ const allMagazines = [
 export const plannedFeatures = [
   // { id: 'genres', title: 'Genre categorization' },
   // { id: 'word-count', title: 'Word and line count rules' },
-  { id: 'limited-demographic', title: 'Limited demographic info (specific area / young people / women / queer / etc)', description: 'Have a filter for those' },
+  // { id: 'limited-demographic', title: 'Limited demographic info (specific area / young people / women / queer / etc)', description: 'Have a filter for those' },
   { id: 'contests', title: 'Contests', description: 'Have some separate filter for them, and when a place is open for subs, it would indicate whether it’s open for a contest or general submissions' },
   { id: 'books', title: 'Chapbooks / books submissions' },
   { id: 'nominations', title: 'Nominations', description: 'Ego loves nominations! We need a filter and info about those!' },
@@ -83,11 +83,11 @@ export const suggestions = [
     title: 'Issues format / continuous posting',
     quote: 'Interested in seeing a checkbox option for magazines that have issues v.s magazines that just post submissions weekly without issues.',
   },
-  {
-    id: 'theme',
-    title: 'Theme / no theme',
-    quote: 'maybe a checkbox for themed magazines?'
-  },
+  // {
+  //   id: 'theme',
+  //   title: 'Theme / no theme',
+  //   quote: 'maybe a checkbox for themed magazines?'
+  // },
   {
     id: 'tone',
     title: 'Tone (pastel/light or darker/moodier)',
@@ -259,12 +259,12 @@ export default function Roadmap() {
           <div className={styles.monthly}>
             
             <ProgressBar
-              completed={18}
+              completed={23}
               className={styles.progressBarContainer}
               barContainerClassName={styles.progressBar}
               completedClassName={styles.progressBarCompleted}
             />
-            <span><strong>$18</strong> of <strong>$100</strong> monthly support goal</span>
+            <span><strong>$23</strong> of <strong>$100</strong> monthly support goal</span>
           </div>
           <a href="https://www.buymeacoffee.com/karinakupp" target="_blank" rel="noreferrer">
             <button className={styles.button}>Donate</button>
