@@ -2332,4 +2332,65 @@
       
     ],
   },
+
+  {
+    "magazineId": 'celestite-poetry',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'analogies-allegories',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'full-house-literary',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'little-patuxent-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'better-than-starbucks',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'corvid-queen',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'adoxography',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'warning-lines',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'shirley-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'vocivia-magazine',
+    "contributors": [
+      
+    ],
+  },
 ]

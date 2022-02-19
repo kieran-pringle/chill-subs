@@ -11,7 +11,7 @@ const allMagazines = [
   '​the winnow', 'fifth wheel press',
   'NationalPoetryMonth.ca', 'Flash Frog', 'Gordon Square Review',
   'Split Lip', 'MONO.', 'Haiku Crush', 'Alphabet Box', 'The Aurora Journal', 'Pollux Journal',
-  'Claw & Blossom', 'indigo lit', 'warning lines',
+  'Claw & Blossom', 'indigo lit',
   'Honey Lit', 'Tahoma Literary Review', 'SmokeLong Quarterly', 'Atticus Review',
   'Thin Air Magazine', 'unstamatic', 'Anthra',
   'Five South', 'ANMLY', 'beestung',
