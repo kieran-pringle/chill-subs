@@ -15,8 +15,6 @@ export default function Post() {
 
   const currentPost = posts.find(p => p.slug === postId);
 
-  if (!currentPost) return null;
-
   let disqusConfig: any;
   const disqusShortname = 'chillsubs';
 
@@ -25,10 +23,12 @@ export default function Post() {
       disqusConfig = {
         url: window.location.href,
         identifier: postId, // Single post id
-        title: currentPost.title // Single post title
+        title: currentPost?.title // Single post title
       }
     }
   }, [postId])
+
+  if (!currentPost) return null;
 
   return (
     <div className={styles.container}>
