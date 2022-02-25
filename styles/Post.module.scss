@@ -1,0 +1,138 @@
+.container {
+  padding: 0 2rem;
+  color: #316760;
+  background-color: #ffedd1;
+  background-color: #FFF9F0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.5rem;
+  white-space: pre-wrap;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #316760;
+  /* color: transparent;
+  text-shadow: 0 0 1px 0 #000; */
+  font-family: Waffle Soft;
+  cursor: pointer;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  svg {
+    margin-top: 0.25rem;
+  }
+  svg, .link {
+    margin-left: 2.25rem;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+  .link {
+    font-size: 1.25rem;
+  }
+}
+
+.main {
+  min-height: 100vh;
+  margin-top: 2rem;
+  padding: 0 0 4rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .postDate {
+    // margin-top: 1.5rem;
+    font-size: 1.25rem;
+    color: #5F8372;
+    // opacity: 0.8;
+  }
+
+  h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.125rem;
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .content {
+    margin: 3rem 0;
+    max-width: 70%;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: justify;
+  }
+}
+
+.cover {
+  margin: 0 auto;
+  img {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1.125rem;
+  }
+
+  .logo {
+    font-size: 2rem;
+  }
+
+  .links {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: -4px;
+    svg, .link {
+      margin-left: 1.25rem;
+      margin-bottom: 0.65rem;
+    }
+    .link {
+      font-size: 1.125rem;
+    }
+    & .link:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
