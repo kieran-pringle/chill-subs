@@ -21,11 +21,11 @@
     "promoteAfterPublication": false,
     "vibe": "worst",
     "genres": [
-      { value: 'fiction' },
-      { value: 'nonfiction' },
-      { value: 'poetry' },
-      { value: 'art' },
-      { value: 'anything' },
+      { value: 'fiction', max: 4, maxWords: 2500, additional: "But, like, if your 3000 word story is really fuckin' fun, we might just say yes." },
+      { value: 'nonfiction', max: 4, maxWords: 2500, additional: "But, like, if your 3000 word story is really fuckin' fun, we might just say yes." },
+      { value: 'poetry', max: 4 },
+      { value: 'art', max: 4 },
+      { value: 'anything', max: 4 },
     ],
     "pros": [
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
