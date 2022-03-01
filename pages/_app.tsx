@@ -1,5 +1,6 @@
 import React, { useRef, useEffect, memo } from 'react'
 import { useRouter } from 'next/router'
+import { UserProvider } from '@auth0/nextjs-auth0';
 import '../styles/globals.css'
 
 const App = ({ Component, pageProps }) => {
@@ -52,19 +53,22 @@ const App = ({ Component, pageProps }) => {
   }, [Component, pageProps])
 
   return (
-    <div>
-      <div style={{ display: isRetainableRoute ? 'block' : 'none' }}>
-        {Object.entries(retainedComponents.current).map(([path, c]: any) => (
-          <div
-            key={path}
-            style={{ display: router.pathname === path ? 'block' : 'none' }}
-          >
-            {c.component}
-          </div>
-        ))}
+    <UserProvider>
+      <div>
+        <div style={{ display: isRetainableRoute ? 'block' : 'none' }}>
+          {Object.entries(retainedComponents.current).map(([path, c]: any) => (
+            <div
+              key={path}
+              style={{ display: router.pathname === path ? 'block' : 'none' }}
+            >
+              {c.component}
+            </div>
+          ))}
+        </div>
+        {!isRetainableRoute && <Component {...pageProps} />}
       </div>
-      {!isRetainableRoute && <Component {...pageProps} />}
-    </div>
+    </UserProvider>
+    
   )
 }
 

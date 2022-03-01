@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { LogoTwitter } from 'react-ionicons';
 import Footer from '../components/Footer';
 import styles from '../styles/Home.module.scss'
+import { useUser } from '@auth0/nextjs-auth0';
 
 export default function Home() {
   const [ isMobile, setIsMobile ] = useState<boolean>(false);
@@ -12,6 +13,8 @@ export default function Home() {
   useEffect(() => {
     setIsMobile(window.innerWidth <= 600);
   }, [])
+
+  const { user, error, isLoading } = useUser();
 
   return (
     <div className={styles.container}>
@@ -55,6 +58,10 @@ export default function Home() {
           <a href="https://www.buymeacoffee.com/karinakupp" target="_blank" rel="noreferrer">
             <div className={styles.link}>Support the project</div>
           </a>
+          <Link href="/api/auth/login">
+            <div className={styles.link}>Login</div>
+          </Link>
+            <div>{user && user.name}</div>
         </div>
       </div>
 
