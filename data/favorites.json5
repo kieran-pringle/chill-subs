@@ -8,7 +8,7 @@
     "acceptPreviouslyPublished": false,
     "simultaneousSubmissions": true,
     "freeExamples": true,
-    "print": false,
+    "print": true,
     "responseTime": "fast:)",
     "responseDays": 30,
     "fee": "",
@@ -32,12 +32,14 @@
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
-      { "title": "Print anthologies", "icon": "library-outline" },
+      { "title": "Print anthologies: Contributors will receive $5/piece + copy", "icon": "library-outline" },
       { "title": "Have cool merch", "icon": "shirt-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "April 1, 2022",
     "notes": "my favorite place to be"
   },
   {
