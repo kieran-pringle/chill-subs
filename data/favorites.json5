@@ -154,6 +154,8 @@
     "cons": [
       { "title": "Submission fee. Though if it would bar you from submitting due to financial circumstances, you can get in touch and they will waive that fee.", "icon": "cash-outline" }
     ],
+    "open": true,
+    "deadline": "June 1, 2022",
     "notes": "beauty! Issue 5 - Amanda Glasser \"I want to be the pill you take to sleep"
   },
   {
@@ -256,6 +258,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 7, 2022",
     "notes": "Issue 7 - “Anxiety & Co.” by Jordan Hamel. “Dad” by Karyn Peyton. Issue 33 - “Friday Morning” by Christine Naprava"
   },
   {
@@ -1966,8 +1970,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
     "notes": ""
   },
   {
@@ -2605,8 +2607,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 71,
@@ -2640,7 +2640,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
   },
   {
     "id": 72,
@@ -2680,6 +2679,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "open oct 31"
   },
   {
     "id": 73,
@@ -3292,6 +3292,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "June 1, 2022",
   },
   {
     "id": 90,
@@ -3595,6 +3597,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
     "notes": "Submissions open on March 1"
   },
   {
@@ -3631,6 +3634,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
     "notes": "Submissions open on March 1"
   },
   {
@@ -3668,7 +3672,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "notes": "Submissions open on March 1"
   },
   {
     "id": 100,
@@ -3746,7 +3749,8 @@
     "cons": [
       { "title": "Only accepts work by queer and trans writers", "icon": "alert-circle-outline" }
     ],
-    "notes": "will open on March 1",
+    "open": true,
+    "deadline": "May 2, 2022",
   },
   {
     "id": 102,
@@ -3780,6 +3784,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 7, 2022",
   },
 
   {
@@ -4226,6 +4232,8 @@
     "cons": [
       { "title": "Submission fee", "icon": "cash-outline" }
     ],
+    "open": true,
+    "deadline": "May 31, 2022",
     "notes": "March 1, 2022",
   },
   {
@@ -4410,8 +4418,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 120,
@@ -4785,8 +4791,6 @@
       { "title": "Submission fee, but a small one:)", "icon": "cash-outline" },
       { "title": "No free examples online", "icon": "book-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 130,
@@ -5041,8 +5045,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 137,
@@ -5534,6 +5536,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "May 15, 2022",
     "notes": "will open on march 1",
   },
   {
@@ -5728,8 +5732,6 @@
     "cons": [
       { "title": "No examples yet because they're new, but the first issues comes out in April:)", "icon": "thumbs-down-outline" }
     ],
-    "open": true,
-    "deadline": "March 1, 2022",
   },
   {
     "id": 155,
@@ -6102,6 +6104,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 31, 2022",
   },
   {
     "id": 165,
@@ -6174,8 +6178,6 @@
     "cons": [
       { "title": "Don't accept submissions from persons living outside of the United States", "icon": "globe-outline" }
     ],
-    "open": true,
-    "deadline": "March 1, 2022",
   },
   {
     "id": 167,
@@ -6290,8 +6292,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 170,
@@ -6786,5 +6786,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 15, 2022",
   },
 ]
