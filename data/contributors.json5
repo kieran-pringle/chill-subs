@@ -2332,4 +2332,149 @@
       
     ],
   },
+
+  {
+    "magazineId": 'celestite-poetry',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'analogies-allegories',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'full-house-literary',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'little-patuxent-review',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'better-than-starbucks',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'corvid-queen',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'adoxography',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'warning-lines',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'shirley-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'vocivia-magazine',
+    "contributors": [
+      
+    ],
+  },
+
+  {
+    "magazineId": 'carte-blanche',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'gencontrolz-magazine',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'the-dodge',
+    "contributors": [
+      'Anthony Gomez III', 'Kim Rogers', 'L. Acadia', 'Liesel Hamilton', 'Brittney Corrigan',
+      'Kelly DuMar', 'Stephen Kampa', 'Jen Karetnick', 'Lisa Ludden', 'Edie Meade', 'Jeanne Morel',
+      'Jennifer Schomburg Kanke', 'Andrew Gebhardt', 'Lêdo Ivo', 'Stephanie Peters',
+    ],
+  },
+  {
+    "magazineId": 'the-selkie',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'fifth-wheel-press',
+    "contributors": [
+      'Kasey Edgerton', 'Nat Raum', 'Frances Bukovsky', 'Jamie Robertson', 'Alanis Santiago-Rodriguez',
+      'Kirra Kimbrell', 'Shantal Kim', 'Rachael Crosbie', 'Yael Veitz', 'Sal Kang', 'Joyce Liu',
+      'Junpei Tarashi', 'Daniel Liu', 'N.W. Downs',
+
+      'Elisa Bloblaum', 'Bazil Bradford', 'Frances Bukovsky', 'Jaina Cipriano', 'Frank Climenhage', 'Elle Conant', 'Jesse Ryan Crosby', 'Em Daugherty', 'Misha Davydov', 'Jesse Egner', 'Zachary J. Francois', 'Connor Frew', 'Sibyla Giles', 'Lauren Grudzien', 'Tay Hall', 'Kira Hansen', 'Angela Higuera', 'Jamie Ho', 'Chaska Jurado', 'Keeva Lough', 'Sky Maggiore', 'Jenny Irene Miller', 'Matt Moment', 'Ali Newhard', 'Roux Noel', 'Emily Roach Osborne', 'Mag Parson', 'Ren Penlea', 'Marcia Poloski', 'Haley Ryan', 'Becca Schwartz', 'Ash Strazzinski', 'Kelsey Sucena', 'Abbey Trincere', 'Sam Wrigglesworth', 'Annie Yan',
+
+      'Natalia Barrientos', 'Gisell Calderón', 'Lyn Corelle', 'Sol Diaz', 'Brenda Edith Franco', 'Verónica Gaona', 'Jessica Carolina González', 'Angela Higuera', 'Daniela León', 'Valeria Moreno', 'Roux Noel & Elle Conant', 'Arely Marisol Peña', 'Jamie Robertson', 'Haley Ryan', 'Sarah Antonia Sudhoff',
+
+      'Lucero Alomía', 'Vera Benschop', 'Frances Bukovsky', 'Ally Campbell', 'Emmaline Carter', 'Shia Conlon', 'Sadie Cook', 'Jesse Ryan Crosby', 'Em Daugherty', 'Sarah Eckstine', 'Kasey Edgerton', 'Ethan Edwards', 'Lauren Emmerson', 'Bowen Fernie', 'Alanna Floreck', 'Zachary Francois', 'Ash Goodwin', 'Keavy Handley-Byrne', 'Melissa Grace Kreider', 'Roslyn Julia', 'Audrey Kenison', 'Kirra Kimbrell', 'Lily LaGrange', 'Mickey Lee', 'Jiatong Lu', 'Emily Margarit Mason', 'Mag Parson', 'Manda Quevedo', 'Nat Raum', 'Jamie Robertson', 'Jay Roff-Garcia', 'Alanis Santiago-Rodriguez', 'Alexandra Silverthorn', 'Erika Nina Suarez', 'Kelsey Sucena', 'Jacquelyn Stuber', 'Alanna Styer', 'Jessica Swank', 'Sloane Volpe', 'Bronwen Wickstrom',
+
+      'Kristen Bennett', 'Mayra Biajante', 'Frances Bukovsky', 'Kelly Burgess', 'Bridie Carey', 'Madeline Cass', 'William Carroll', 'Lauren Darpel', 'Sarah Eckstine', 'Atefeh Farajolahzadeh', 'Liv Ferrari', 'Amy Fink', 'Alanna Floreck', 'Alex Gencarelli', 'Keavy Handley-Byrne', 'Jamie Ho', 'Jenna Koch', 'Vanessa Leroy', 'Diego Maeso', 'Gabi Magaly', 'Sky Maggiore', 'Penny Molesso', 'Margaret Murphy', 'Nick Norman', 'Julie Rae Powers', 'Larissa Ramey', 'Emme Rovins', 'Hyacinth Schukis', 'Astrid Tilton', 'Hilah Thomas', 'Jennifer Timmer Trail', 'Sydney Walsh',
+
+      'Ami', 'Rahne Alexander', 'Ken Anderson', 'Kimball Anderson', 'Anna Arden', 'Mia Arias Tsang', 'Philip Avilov', 'Tamara Bašić', 'Evelyn Bauer', 'Yash Bisht', 'jaden bleier', 'Dale Booton', 'Cherie Lynae Cabrera Suski', 'Finn Carpenter', 'Valentine', '[sarah] Cavar', 'Ginger Yifan Chen', 'Edward M. Cohen', "Brenna Collins O'Donnell", 'Rachael Crosbie', 'Ivy Darcy', 'Kiri Delandé', 'Denise Dooley', 'Sarah Elgatian', 'Jillian A. Fantin', 'Fran Fernández Arce', 'Clem Flowers', 'Autumn Koors Foltz', 'Ren Gay', 'Katy Ilonka Gero', 'Emily M. Goldsmith', 'Andrea Lianne Grabowski', 'Charlotte Gutzmer', 'Maija Haavisto', 'lukas ray hall', 'Christine E. Hamm', 'Shannon Hearn', 'Matt Hsu', 'Arden Hunter', 'Glenn Ingersoll', 'Anastasia Jill', 'Daniel Johnstone', 'Bel Kelly', 'Sarah Klein', 'Rose Knapp', 'BEE LB', 'Anastasia (Dre) Levant', 'Morgan MacVaugh', 'Danielle Mamaril', 'arden maseko', 'Chaim McNamee', 'Will Moran', 'Xylophone Mykland', 'Timothy Nolan', "B.A. O'Connell", 'Lucy Parr', 'Max Pasakorn', 'Kit Patrick', 'Olive Pile', 'Murphy Reed', 'Artemisio Romero Y Carver', 'Jeremy Scott', 'JP Seabright', 'Steff Sirois', 'Julia Smith', 'Kelly Stohr', 'Tessa Swackhammer', 'Lauren Theresa', 'Alexandra Weiss', 'Lemmy Ya’akova', 'Samari Zysk'
+    ],
+  },
+  {
+    "magazineId": 'sugar-house-review',
+    "contributors": [
+      'Albert Abonado', 'Allison Adair', 'David Adamson', 'Clarissa Adkins', 'Lindsay Adkins', 'Vidhu Aggarwal', 'Jeffrey C. Alfier', 'Deborah Allbritain', 'Joel Allegretti Jr', 'Linette Marie Allen', 'James E. Allman,', 'Dana Alsamsam', 'Amy M. Alvarez', 'Lisa Ampleman', 'Levi Andalou', 'geoff anderson', 'Idris Anderson', 'Sandy Anderson', 'Kimberly Quiogue Andrews', 'Arlene Ang', 'Mary Angelino', 'Diana Anhalt', 'Aaron Anstett', 'José Angel Araguz', 'Kara Arguello', 'Christopher Arigo', 'Rebecca Aronson', 'Rane Arroyo', 'Carl Auerbach', 'Paul Scot August', 'William Auten', 'Emma Aylor', 'Deborah Bacharach', 'Scott M. Bade', 'Colin Bailes', 'Caitlin Bailey', 'Lindsey Anne Baker', 'Shanan Ballam', 'Kathleen Balma', 'Devon Balwit', 'Karin Wraley Barbee', 'Ruth Bavetta', 'Dan Beachy-Quick',
+      'Scott W Beal', 'Ellery Beck', 'Jack Bedell', 'David Beebe', 'Philip Belcher', 'John Belk', 'Oliver Bendorf', 'Matthew Ivan Bennett', 'Paul Benton', 'Jill Bergkamp', 'Bryce Berkowitz', 'Eric Berlin', 'Erica Bernheim', 'B.J. Best', 'Alecia D Beymer', 'Lisa Bickmore', 'Mary Biddinger', 'Lucy Biederman', 'Daniel Biegelson', 'Darla Biel', 'Candace Black', 'Sheila F Black', 'Jenn Blair', 'John Blair', 'Craig Blais', 'Richard White', 'Wendy Blankenship', 'Ace Boggess', 'Bruce Bond', 'William Bonfiglio', 'Jan Bottiglieri', 'Julia Bouwsma', 'Heather Bowlan', 'Kevin Boyle', 'Shevaun Brannigan', 'Tiffany Brenneman', 'Chanel Brenner', 'Gaylord Brewer', 'Kenneth Brewer', 'Melissa J Brewer', 'Kierstin B Bridge', 'Traci Brimhall', 'Round Broach', 'F. Douglas Brown', 'Jenny Mary Brown', 'Steven Brown', 'Ryan J. Browne', 'Amy Brunvand', 'Gordon Buchan', 'Mary E Buchinger', 'Claudia Buckholts', 'Polly Buckingham', 'B.J. Buckley', 'Simmons B. Buntin', 'Eric Burger', 'Mark Burke', 'Elijah Burrell', 'Laura Bylenok', 'Mary Kovaleski Byrnes', 'Teresa Cader', 'nicole callihan', 'Robert Campbell', 'Raphael Field', 'Ian M Cappelli', 'Thom Caraway',
+      'Jerry Carlin', 'Rob Carney', 'Robert Carr', 'Paul V. Carroll', 'Patricia Caspers', 'Shannon Castleton', 'Anne Caston', 'Nikia Chaney', 'Sara Biggs Chaney', 'Mario Chard', 'Cortney Lamar Charleston', 'Diya Chaudhuri', 'Caroline Chavatel', 'Chad M. Christensen', 'Mary Leauna Christensen', 'Kristen Clanton', 'Maureen Clark', 'George Elliott Clarke', 'Grant Clauser', 'Andrew Cleary', 'Eileen Cleary', 'Cassandra Cleghor', 'Brad Clompus', 'Tobi Cogswell', 'Bailey A Cohen-Vera', 'Christopher Cokino', 'Joan Colby', 'Katharine Coles', 'Matt Comi', 'Abigail Kirby Conklin', 'Jackson Connor', 'Flower Conroy', 'Josh Cook', 'Rob Cook', 'Thomas Cook', 'C.K. Coombs', 'Brendan Cooney', 'Wyn Cooper', 'Matthew Cooperman', 'Jin Cordaro', 'Kelly Corinda', 'Cortez River', 'Kay Cosgrove', 'Star Coulbrooke', 'Brandon Courtney', 'Emily J. Cousins', 'Lisa Fay Coutley', 'Dorsey Craft', 'Hannah Craig', 'Steven Cramer', 'Christopher Crew', 'Ben Cromwell', 'Mary Crow', 'Dana Curtis', 'Kevin Cutrer', 'Weston Cutter', 'Fred Dale', 'Lee Ann Dalton', 'Molly Damm', 'Julie Danho', 'Devin William Daniels', 'Jim Daniels', 'Jim Davis', 'Lauren Davis', 'Erica Dawson', 'Adam Day', 'Jeni De La O', 'Tara Deal', 'Cassandra-Halleh Delaney', 'Mary Christine Delea', 'Darren C. Demaree', 'Nick Demske', 'Shira Dentz', 'Emma DePanise', 'Nick DePascal', 'Heather Derr-Smith', 'Brock Dethier', 'Nandini Dhar', 'Fay Dillof', 'Chelsea Dingman', 'Michael R Dinkel', 'Cat Dixon', 'Daniel Donaghy', 'Cassie Donish', 'Gary Dop', 'Lisa Dordal', 'William Doreski', 'Jennifer Dorner', 'Shavahn Dorris-Jefferso', 'Sean Thomas Dougherty', 'Merrill Oliver Douglas', 'Wendy Drexler', 'Danielle Beazer Dubrasky', 'Merridawn Duckler', 'Barbara Duffey', 'Alice Duggan', 'Iris Jamahl Dar', 'Steven Duong', 'Jaclyn Dwyer', 'Leave Earley',
+      'Athena N. Edmonds', 'Hannah Edwards', 'Lynnell Edwards', 'Brad Efford', 'Elizabeth Ehrlich', 'Amy Eisner', 'Thea Robin Engst', 'Benjamin Evans', 'Judson Evans', 'Justin Evans', 'Jeff Ewing', 'Nava Fader', 'Howard Faerstein', 'Katherine B Fallo', 'Carrie Farmer', 'Sandra L. Faulkner', 'Rita Feinstein', 'Steve Fellner', 'Bradley J. Fest', 'Robert Fillman', 'Henry Finch', 'Kat Finch', 'John Findura', 'Neil S Flatman', 'Richard J. Flemin', 'Luiza Flynn-Goodlet', 'Charles Fort', 'Yolanda J. Franklin', 'Cal Freeman', 'Randall R. Freisinger', 'Jane Ann Fuller', 'Mag Gabbert', 'Jonterri Gadson', 'Jeannine Hall Gailey', 'Joy Gaines-Friedle', 'Cecilia Galarraga', 'John Gallaher', 'James Garcia', 'Kim Garcia', 'Richard Garcia', 'Jennifer Garfield', 'Kate Gaskin', 'Aaron Gates', 'Marie Gauthier', 'DG Geis', 'Matthew Gellman', 'Guiseppe Getto', 'Brian Gilmore', 'Sarah Giragosian', 'Jennifer Givhan', 'Gail Goepfert', 'Peter Golub', 'Daniel Gomez', 'Howie Good', 'Mike Good', 'Jessica Goodfello', 'Abigail Goodhart', 'Caroline D Goodwi', 'Lauren Gordon', 'Christine Gosnay', 'Andrew C. Gottlie', 'Grae asked', 'Hillary Gravendyk', 'Jonathan Greenhaus', 'Kate Greenstreet', 'Jeremy Gregersen', 'Heather Griffiths', 'Susan Grimm', 'Teri Youmans Grim', 'Laura E Grothaus', 'Ben Gunsberg', 'Lilian Ha', 'Patrick Haas', 'Judy Halebsky', 'Andrew Haley', 'Eric Ham', 'Justin Hamm', 'Chera Hammons', 'Shelby M Handler', 'Mary Hanrahan', 'Jeff Hardin', 'Shannon Elizabeth Hardwick',
+      'Elizabeth Harlan-Ferlo', 'Ryan Harper', 'Meghan Harrison', 'Chris Haven', 'Jen Hawkins', 'JaLeah Hedrick', 'Andrew Hemmert', 'Melanie Henderson', 'Mark Hendrickson', 'Sara Henning Frîa', 'Carol Henrikson', 'Patrick Thomas Henry', 'Julie Henson', 'Alec Hershman', 'Benjamin Hertwig', 'Brian Patrick Heston', 'JD Hibbitts', 'Lisa Higgs', 'See David This', 'Leonore Hildebrandt', 'Lauren Hilger', 'Jessica A Hincapie', 'Dustin M. Hoffman', 'Katherine Hollande', 'Erin Coughlin Hollowell', 'Tom Holmes', 'Brandi Homan', 'Natalie Homer', 'Erin Hoover', 'Jay Hopler', 'Sean Howard', 'Allison Hraban', 'Allison Huang', 'David Huddle', 'heather hughes', 'Spencer Hupp', 'Michael J Hurley', 'The Zebulon House', 'Vedran Husíc', 'Natalie E. Illum', 'Katherine Indermau', 'Judy Ireland', 'Alexis Ivy', 'Jennifer Jabaily-Blackbur', 'Mark Jackley', 'Gary Jackson', 'Major Jackson', 'Russell Jaffe', 'Colin James', 'Chelsea Jennings', 'Curtis Jensen', 'stephen de jesus', 'Alyssa Jewell', 'Lexi Jocelyn', 'Elaine Johanson', 'Sonja Johanson', 'Brandyn Johnson', 'Fred Johnson', 'Kimberly Johnson', 'Meg Johnson', 'Sara Eliza Johnson', 'Brock Michael Jones', 'Christine Jones', 'Michael Jones', 'Andrea Jurjevi', 'Cindy  Juyoung Ok', 'Mia Kang', 'Genevieve Kaplan', 'Holly Karapetkova', 'Liza Katz Duncan', 'Aby Kaupang', 'Les Kay', 'Liz Kay', 'Christopher T. Keaveney', 'Catherine Keefe', 'Claudia Keelan', 'Ray Keifetz', 'Charmi Keranen', 'Natasha Kessler-Rain', 'Alan King', 'Andrew David King', 'Willie James King', 'Benjamín Naka-Hasebe Kingsley', 'Kate Kingston', 'Tara Kipnees', 'Tyler Kline', 'William Kloefkorn', 'Elizabeth Knapp',
+      'Casey Knott', 'Andrew Koch', 'Sandra Kohler', 'Kathleen Kraft', 'Ashley Seitz Kramer', 'Daniel Takeshi Krause', 'Peter Krumbach', 'Brian Laidlaw', 'Kien Lam', 'Jen Lambert', 'Jessica Lanay', 'Joseph Landi', 'Matthew Landrum', 'Rosa Lane', 'Susanna Lang', 'Steve Langan |', 'Elizabeth Langemak', 'Lance Larsen', 'Michael Lauchlan', 'Mark Leahy', 'Gracie Leavitt', 'David Dodd Lee', 'David Lee', 'Esther Lee', 'Jon D. Lee', 'Christopher Anthony Leibow', 'Alex Lemon', 'Julia Leverone', 'Gail Carson Levine', 'Lisa Lewis', 'Paige Lewis', 'Nate Liederbach', 'Lyn Lifshin', 'Kathryne Lim', 'Ananda Lima', 'Jacob Lindberg', 'Emilie Lindemann', 'Kate Lindroos', 'Robin Linn', 'D.A. Lockhart', 'Kathleen M Loe', 'Jane Loechler', 'Dennis Loney', 'Joel Long', 'Sandy Longhorn', 'dawn lonsinger', 'Natalie Louise Tombasco', 'Adam Love', 'Grant Loveys', 'Raymond Luczak', 'Maja Lukic', 'Francis J Lunney', 'Lindsay Lusby', 'Michael Lynch', 'Robert W Lynn', 'Jacqueline Lyons', 'Dylan Mace', 'Kristin Macintyre', 'Kate MacLam', 'Angie Macri', 'Al Maginnes', 'Oksana Maksymchuk', 'Jennie Malboeuf', 'Laurie Maley', 'Lauren Mallett', 'Charlie Malone', 'Roszak Suzanne Manizza', 'Sandra Marchetti', 'Ashley Mares', 'Michael Mark', 'Erin Lynn Marsh', 'Jennifer Martelli', 'Cate Marvin', 'Matt Mason', 'Lucian Mattison', 'Dom Mattos', 'Matt Mauch', 'Edward Mayes', 'J.G. McClure', 'Kyle McCord', 'Jeffrey McDaniel', 'Kristina McDonald', 'Meredith McDonoug', 'Kathleen McGookey', 'Jennifer A McGowa', 'Campbell McGrath', 'Louis McKee', 'Sarah McKinstry-Brow', 'Michael McLane', 'harps mclean', 'Kevin McLellan', 'Owen McLeod', 'Meryl McQueen', 'Anna Master', 'Colin Meldrum', 'Mary Melendez', 'Michael W Mercurio',
+      'Kathryn Merwin', 'Gary Mesick', 'Michael Metivier', 'Nancy L Meyer', 'Peter H. Michaels', 'Christopher Lee Miles', 'Erin L. Miller', 'Jack Miller', 'Jennifer Stewart Miller I', 'Kaisa Ullsvik Miller', 'Jan C. Minich', 'Sally Molini', 'Keith Montesano', 'Nancy Carol Moody', 'David Moolten', 'Jennifer Moore', 'Thomas R. Moore', 'John J. Morales', 'Cindy Hunter Morgan', 'Stelios Mormoris', 'Mary Morris', 'Kelly Morse', 'Travis Mossotti', 'Alicia Mountain', 'Paul Muldoon', 'Christopher Munde', 'Dan Murphy', 'Joseph Murphy', 'Patricia Colleen Murphy', 'Kristine Ong Muslim', 'William Neumire', 'Anna Newman', 'Lance Newman', 'John A. Nieves', 'Lauren Nicole Nixon', 'Brianna Noll', 'James Norcliffe', 'Susan Nyikos', 'Annmarie O’Connel', 'Dion O’Reilly', "Bridget O'Bernstei", "Dan O'Brien", "David O'Connell", 'Jacob Oet', 'Claire Oleson', 'Carolyn Oliver', 'Jason Olsen', "Emily O'Neill", 'Anthony Opal', 'Omotunde Oredipe', "Amy O'Reilly", 'Shawnte Orion', 'Leah Osowski', 'Gavin Otteson', 'Tamara L. Panici', 'Greg Pape', 'Suphil Lee Park', 'Kate Partridge', 'Dayna Patterson', 'Lynn Pattison', 'J.R. Pearson', 'Joanna Pearson', 'Joel Peckham, Jr.', 'Alison Pelegrin', 'Cathy Peppers', 'Simon Perchik', 'Perkins travels', 'Richard King Perkins', 'Jim Peterson', 'Kate Peterson', 'Mike Petrik', 'Carl Phillips', 'Daniel Pinkerton', 'Micah Player', 'Amy Plettner', 'Scott Poole', 'Lee Potts', 'Melissa Reeser Poulin', 'Elizabeth A. Powell', 'Marjorie Power', 'Elizabeth Preston', 'Alison Prine', 'Nate Pritts', 'Jennifer Pruiett-Selb', 'Emma Ramey', 'Jessy Randall', 'Emily Ransdell', 'Will M Reger', 'Nathan Renie', 'Donald Revell',
+      'Susan Rich', 'Jim Richards', 'Sundin Richards', 'Nick Ripatrazone', 'Nanette Rayman Rivera', 'Natalie Bryant Rizzieri', ' RKR', 'Kristen Roach', 'Liz Robbins', 'Richard Robbins', 'Lisa Robertson', 'Todd Robinson', 'David Rock', 'Janis E. Rodgers', 'Stephen Rodriguez', 'Freya Rohn', 'Mary Ann Rojas', 'David in the Novel', 'Christa Romanosky', 'Lee Ann Roripaugh', 'Kate Rosenberg', 'Christina Rothenbec', 'Jerome Rothenberg', 'Lisa Roullard', 'Eric Roy', 'Jennifer S Ruby', 'Sam Ruddick', 'David Ruekberg', 'Ki Russell', 'F. Daniel Rziczne', 'Natasha Sajé', 'Ron Paul Salutsky', 'April Salzano', 'Mary Ann Samyn', 'Shannon Sankey', 'Kate Savage', 'Evan Scarborough', 'Jeff Schiff', 'Stephanie E. Schlaifer', 'Joyce Schmid', 'Amy Schmitz', 'Steven D. Schroeder', 'Bethany Schultz Hurst', 'Jonathan H. Scott', 'M.A. Scott', 'Jason W. Selby', 'Laurie Sewall', 'Marvin Shackelfor', 'Eric Paul Shaffer', 'Derek Sheffield', 'Jacalyn Shelley', 'Bret Shepard', 'Anne Shifrer', 'Katie Jean Shinkl', 'd.r. shipp Jr', 'C.F. Sibley', 'Hilary Sideris', 'M.E. Silverman', 'Brian Simoneau', 'Matthew Sinex', 'Pete Sipchen', 'Chris Siteman', 'Karen Skolfield', 'Lauren Goodwin Slaughter', 'Sarah J. Sloat', 'Cody Smith', 'Danez Smith', 'Kathryn Smith', 'Maggie Smith', 'Patricia Smith', 'Rosanne Smith', 'Deborah K. Snider', 'BJ Soloy', 'Michael Sowder', 'Christine Spillso', 'Andrea Spofford', 'John Lambremont, Sr.', 'Johnna St. Cyr', 'David Starkey', 'Melissa Stein', 'Anastasia Stelse', 'Shannon Azzato Stephens', 'Christine Stewart-Nuñez',
+      'Samn Stockwell', 'stinne storm', 'Melanie Stormm', 'Laura Stott', 'William Stratton', 'Joanna Straughn', 'Cutter Streeby', 'Anne Dyer Stuart', 'Derek Sugamosto', 'Billy Swift', 'Janet Sylvester', 'Dujie Tahat', 'Nancy Takacs', 'Rob Talbert', 'MaryEllen Talley', 'Jason Tandon', 'Adam Tavel', 'Henry Taylor', 'R. Matt Taylor', 'Kailey Tedesco', 'Terrell Jamal Terry', 'David Thacker', 'Larry D. Thomas', 'Robert Thomas', 'Truth Thomas', 'Alison Thumel', 'Christine Tierney', 'Jeff Tigchelaar', 'Anna Tillett', 'Robert J. Tillett', 'Isaac B Timm', 'Allison Tobey', 'Elise M. Tobin', 'Brendan Todt', 'Pat Tompkins', 'JR Toriseva', 'Caroline Tracey', 'Jonathan Travelstea', 'Natalia Trevino', 'Pimone Triplett', 'William Trowbridg', 'Rhett Iseman Trul', 'Jeffrey Tucker', 'Millie Tullis', 'Robin Tung', 'Albert Uriah Turner,', 'Diane Unterweger', 'Cindy Veach', 'L. Vella', 'Jeanann Verlee', 'Cady Vishniac', 'Elizabeth Klise von Zerneck', 'Angela Voras-Hills', 'Donna Vorreyer', 'Ocean Vuong', 'Mark Wagenaar', 'Miles Waggener', 'Laura Walker', 'Nicole Walker', 'John Walser', 'Anthony Warnke', 'Hannah V Warren', 'Emma Cairns Watso', 'Robert N. Watson', 'Sara Watson', 'Lillo Way', 'Charles Harper Webb', 'H.R. Webster', 'Danielle Weeks', 'Kaja Weeks', 'L.A. Weeks', 'Tana Jean Welch', 'Brandi Wells', 'Jacqueline West', 'Valerie Wetlaufer', 'Karen J. Weyant', 'Carolyne Whelan', 'Jennifer Whitaker', 'Mike White', 'Jeff Whitney', 'Erik James Wilbur', 'Joshua Marie Wilkinson', 'Sunni Brown Wilkinson', 'Amanda Williams', 'John Sibley Williams', 'Carolyn Williams-Nore', 'Jess Williard', 'Shangrila Willy', 'Brian Wiora', 'Laura Madeline Wiseman', 'Aubree Else Woelber', 'Valerie Wohlfeld', 'Tria Wood', 'Matthew Woodman', 'William Kelley Woolfitt', 'Theodore Worozbyt', 'Stefanie Wortman', 'Charles Wyatt', 'Lauren Yarnall', 'Steve Yates',
+      'Jessica Young', 'Phil E. Young', 'Changming Yuan', 'Felicia Zamora', 'Amie Zimmerman', 'Angelique Zobitz', 'Holli Zollinger', 'Shari Zollinger',
+    ],
+  },
+  {
+    "magazineId": 'the-adroit-journal',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'jarfly',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": '32-poems',
+    "contributors": [
+      
+    ],
+  },
+  {
+    "magazineId": 'antinarrative-zine',
+    "contributors": [
+      
+    ],
+  },
 ]

@@ -8,11 +8,11 @@
     "acceptPreviouslyPublished": false,
     "simultaneousSubmissions": true,
     "freeExamples": true,
-    "print": false,
+    "print": true,
     "responseTime": "fast:)",
     "responseDays": 30,
     "fee": "",
-    "payment": "",
+    "payment": "Yes, for print",
     "website": "https://bullshitlit.com",
     "twitter": "https://twitter.com/bullshitlit",
     "twitterFollowers": 1219,
@@ -21,23 +21,25 @@
     "promoteAfterPublication": false,
     "vibe": "worst",
     "genres": [
-      { value: 'fiction' },
-      { value: 'nonfiction' },
-      { value: 'poetry' },
-      { value: 'art' },
-      { value: 'anything' },
+      { value: 'fiction', max: 4, maxWords: 2500, additional: "But, like, if your 3000 word story is really fuckin' fun, we might just say yes." },
+      { value: 'nonfiction', max: 4, maxWords: 2500, additional: "But, like, if your 3000 word story is really fuckin' fun, we might just say yes." },
+      { value: 'poetry', max: 4 },
+      { value: 'art', max: 4 },
+      { value: 'anything', max: 4 },
     ],
     "pros": [
       { "title": "Want your shitty poems - yay!", "icon": "heart-outline" },
       { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
       { "title": "Fast response", "icon": "rocket-outline" },
       { "title": "Active on social media", "icon": "chatbubbles-outline" },
-      { "title": "Print anthologies", "icon": "library-outline" },
+      { "title": "Print anthologies: Contributors will receive $5/piece + copy", "icon": "library-outline" },
       { "title": "Have cool merch", "icon": "shirt-outline" }
     ],
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "April 1, 2022",
     "notes": "my favorite place to be"
   },
   {
@@ -152,6 +154,8 @@
     "cons": [
       { "title": "Submission fee. Though if it would bar you from submitting due to financial circumstances, you can get in touch and they will waive that fee.", "icon": "cash-outline" }
     ],
+    "open": true,
+    "deadline": "June 1, 2022",
     "notes": "beauty! Issue 5 - Amanda Glasser \"I want to be the pill you take to sleep"
   },
   {
@@ -254,6 +258,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 7, 2022",
     "notes": "Issue 7 - “Anxiety & Co.” by Jordan Hamel. “Dad” by Karyn Peyton. Issue 33 - “Friday Morning” by Christine Naprava"
   },
   {
@@ -329,7 +335,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": false,
+    "open": true,
     "notes": "Issue 1 - Kath G \"i am tired\" - well it's not awesome, but at least the mood. Issue 2 - Saoirshe O'Neill \"A generation\", Elizabeth Corallo \"March 13, 2020"
   },
   {
@@ -665,7 +671,7 @@
       { "title": "Submission fee", "icon": "cash-outline" }
     ],
     "open": true,
-    "notes": "PNW:) Issue 17.2 - Emma Bolden \"Social Media\". and fun twitter😎"
+    "notes": "Open till May. PNW:) Issue 17.2 - Emma Bolden \"Social Media\". and fun twitter😎"
   },
   {
     "id": 19,
@@ -1115,6 +1121,8 @@
     "cons": [
       { "title": "Social media: Active only on Facebook", "icon": "megaphone-outline" }
     ],
+    "open": true,
+    "deadline": "March 31, 2022",
     "notes": "Issue 70 - Samantha DeFlitch \"Split-Boned Dog\", Christopher Lanyon \"Peel Out\", David Galloway \"Why I Shouldn't Time Travel"
   },
   {
@@ -1151,8 +1159,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 16, 2022",
     "notes": "Issue 22 - Meg Johnson. well i guess it's okIssue 8.1 - Nancy Lynée Woo \"Somewhere in Montana, Maybe\". Issue 7.2 - Geoff Martin \"Dental Therapy"
   },
   {
@@ -1267,7 +1273,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
+    "open": false,
     "notes": "humor. Shawn Berman is cool! open for submissions on Thursdays"
   },
   {
@@ -1964,8 +1970,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
     "notes": ""
   },
   {
@@ -2491,6 +2495,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "open at the start of every odd month"
   },
   {
     "id": 68,
@@ -2602,8 +2607,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 71,
@@ -2637,7 +2640,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
   },
   {
     "id": 72,
@@ -2677,6 +2679,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "open oct 31"
   },
   {
     "id": 73,
@@ -3289,6 +3292,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "June 1, 2022",
   },
   {
     "id": 90,
@@ -3515,7 +3520,7 @@
       { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
     ],
     "cons": [
-      { "title": "\"We're specifically for writing inspired by the visual arts\"", "icon": "alert-circle-outline" }
+      { "title": "Will be closed until April. \"We're specifically for writing inspired by the visual arts\"", "icon": "alert-circle-outline" }
     ],
   },
   {
@@ -3592,6 +3597,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "notes": "Submissions open on March 1"
   },
   {
     "id": 98,
@@ -3627,6 +3634,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "notes": "Submissions open on March 1"
   },
   {
     "id": 99,
@@ -3740,6 +3749,8 @@
     "cons": [
       { "title": "Only accepts work by queer and trans writers", "icon": "alert-circle-outline" }
     ],
+    "open": true,
+    "deadline": "May 2, 2022",
   },
   {
     "id": 102,
@@ -3773,6 +3784,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "March 7, 2022",
   },
 
   {
@@ -4069,6 +4082,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "notes": "open for nonficiton and art year round"
   },
   {
     "id": 111,
@@ -4107,6 +4121,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "Will open in June"
   },
   {
     "id": 112,
@@ -4183,6 +4198,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "will open on march 10"
   },
   {
     "id": 114,
@@ -4216,6 +4232,9 @@
     "cons": [
       { "title": "Submission fee", "icon": "cash-outline" }
     ],
+    "open": true,
+    "deadline": "May 31, 2022",
+    "notes": "March 1, 2022",
   },
   {
     "id": 115,
@@ -4253,6 +4272,8 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "notes": "digital open year round",
   },
   {
     "id": 116,
@@ -4331,6 +4352,7 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "notes": "will open in june"
   },
   {
     "id": 118,
@@ -4396,8 +4418,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 120,
@@ -4735,6 +4755,7 @@
       { "title": "Submission fee, though \"a limited amount of free submissions are available for microfiction writers who otherwise couldn't send their writing\"", "icon": "cash-outline" }
     ],
     "open": true,
+    "notes": "always open"
   },
   {
     "id": 129,
@@ -4770,8 +4791,6 @@
       { "title": "Submission fee, but a small one:)", "icon": "cash-outline" },
       { "title": "No free examples online", "icon": "book-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 130,
@@ -5026,8 +5045,6 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
-    "open": true,
-    "deadline": "February 28, 2022",
   },
   {
     "id": 137,
@@ -5101,6 +5118,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "deadline": "March 2, 2022",
   },
   {
     "id": 139,
@@ -5287,6 +5305,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "deadline": "March 15, 2022",
   },
   {
     "id": 144,
@@ -5358,6 +5377,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "notes": "always open",
   },
   {
     "id": 146,
@@ -5435,6 +5455,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "notes": "always open",
   },
 
   {
@@ -5471,6 +5492,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "notes": "always open",
   },
   {
     "id": 149,
@@ -5514,6 +5536,9 @@
     "cons": [
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
+    "open": true,
+    "deadline": "May 15, 2022",
+    "notes": "will open on march 1",
   },
   {
     "id": 150,
@@ -5707,8 +5732,6 @@
     "cons": [
       { "title": "No examples yet because they're new, but the first issues comes out in April:)", "icon": "thumbs-down-outline" }
     ],
-    "open": true,
-    "deadline": "March 1, 2022",
   },
   {
     "id": 155,
@@ -5864,6 +5887,7 @@
       { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
     ],
     "open": true,
+    "notes": "always open",
   },
   {
     "id": 159,
@@ -5971,6 +5995,7 @@
       { "title": "No free examples on the website, you have to buy an issue or be a subscriber", "icon": "thumbs-down-outline" }
     ],
     "open": true,
+    "deadline": "March 31, 2022",
   },
   {
     "id": 162,
@@ -6004,45 +6029,764 @@
     ],
     "open": true,
   },
-  // {
-  //   "id": 163,
-  //   "name": "celestite poetry",
-  //   "key": "celestite-poetry",
-  //   "cover": "/covers/evoke.jpeg",
-  //   "description": "",
-  //   "acceptPreviouslyPublished": false,
-  //   "simultaneousSubmissions": true,
-  //   "freeExamples": true,
-  //   "print": false,
-  //   "responseTime": "6 weeks",
-  //   "responseDays": 45,
-  //   "expeditedResponse": true,
-  //   "fee": "",
-  //   "payment": "",
-  //   "website": "https://celestitepoetry.wixsite.com/journal",
-  //   "twitter": "https://twitter.com/celestitepoetry",
-  //   "twitterFollowers": 639,
-  //   "insta": "https://www.instagram.com/celestitepoetry/",
-  //   "activeOnSocials": true,
-  //   "promoteAfterPublication": false,
-  //   "vibe": "best",
-  //   "genres": [
-  //     { value: 'fiction', maxWords: 3500 },
-  //     { value: 'nonfiction', maxWords: 3500 },
-  //     { value: 'poetry', max: 3 },
-  //     { value: 'art' },
-  //     { value: 'review' },
-  //     { value: 'tutorial' },
-  //     { value: 'documentary' },
-  //   ],
-  //   "pros": [
-  //     { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
-  //     { "title": "Active on social media", "icon": "chatbubbles-outline" },
-  //     { "title": "Offer expedited response: £3 - response within 24 hours", "icon": "rocket-outline" },
-  //     { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
-  //   ],
-  //   "cons": [
-  //     { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
-  //   ],
-  // },
+
+  {
+    "id": 163,
+    "name": "celestite poetry",
+    "key": "celestite-poetry",
+    "cover": "/covers/celestite.jpeg",
+    "description": "Named after the celestite crystal, a stone of tranquility, peace and creativity, we aim to cultivate an online heaven of beautiful writing. We want to read your love stories and your heartaches, your playlists and your shopping lists.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "6 weeks",
+    "responseDays": 45,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "",
+    "website": "https://celestitepoetry.wixsite.com/journal",
+    "twitter": "https://twitter.com/celestitepoetry",
+    "twitterFollowers": 2872,
+    "insta": "https://www.instagram.com/celestitepoetry/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', max: 3, maxWords: 500 },
+      { value: 'nonfiction', max: 3, maxWords: 500 },
+      { value: 'poetry', max: 5 },
+      { value: 'playlists' },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: £3 - response within 24 hours", "icon": "rocket-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 164,
+    "name": "Analogies & Allegories",
+    "key": "analogies-allegories",
+    "cover": "/covers/analogies.jpeg",
+    "description": "Send us your metaphors, your musings, your layered thoughts.  Dazzle us with delightful new worlds.  Spellbind us with the history of the past.  Make us believe in a world of endless possibilities.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1 month",
+    "responseDays": 30,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.analogiesandallegories.com/",
+    "twitter": "https://twitter.com/AnologiesLitMag",
+    "twitterFollowers": 3880,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', maxWords: 3000, max: 1, additional: "Or up to 3 flash fiction pieces of no more than 1,000 words each." },
+      { value: 'poetry', max: 3, additional: "5 pages max" },
+      { value: 'art', max: 5 },
+      { value: 'photography', max: 5 },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 31, 2022",
+  },
+  {
+    "id": 165,
+    "name": "Full House Literary",
+    "key": "full-house-literary",
+    "cover": "/covers/full-house.jpeg",
+    "description": "Founded in 2020 as an online magazine, we have grown to deliver podcasts, workshops, reviews, and festivals, and (coming soon!) print issues.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "4-6 weeks",
+    "responseDays": 45,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.fullhouseliterary.com",
+    "twitter": "https://twitter.com/fullhouselit",
+    "twitterFollowers": 7967,
+    "insta": "https://instagram.com/fullhouselitmag",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', maxWords: 750, max: 1 },
+      { value: 'nonfiction', maxWords: 750, max: 1 },
+      { value: 'poetry', max: 1, maxLines: 30 },
+      { value: 'script', additional: "1.5 pages max" },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 166,
+    "name": "Little Patuxent Review",
+    "key": "little-patuxent-review",
+    "cover": "/covers/lpreview.jpeg",
+    "description": "A journal of literature and the arts, publishing poetry, short fiction, creative nonfiction and artwork. LPR welcomes most US-based contributors and prides itself on supporting both up-and-coming and well-established artists and writers.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": false,
+    "print": true,
+    "responseTime": "3-5 months",
+    "responseDays": 150,
+    "fee": "",
+    "payment": "",
+    "website": "https://littlepatuxentreview.org/",
+    "twitter": "https://twitter.com/LPReview",
+    "twitterFollowers": 1136,
+    "insta": "https://instagram.com/littlepatuxentreview",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', maxWords: 5000, max: 1 },
+      { value: 'nonfiction', maxWords: 3500, max: 1 },
+      { value: 'poetry', max: 3, maxLines: 100 },
+    ],
+    "demographic": ["location"],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+    ],
+    "cons": [
+      { "title": "Don't accept submissions from persons living outside of the United States", "icon": "globe-outline" }
+    ],
+  },
+  {
+    "id": 167,
+    "name": "Better Than Starbucks",
+    "key": "better-than-starbucks",
+    "cover": "/covers/starbucks.jpeg",
+    "description": "A quarterly journal, online and in print, which publishes an eclectic selection of creative writing, including poetry, fiction, and creative nonfiction. Submissions are open year round.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "multipleSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "3 month",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "$20",
+    "website": "https://www.betterthanstarbucks.org/",
+    "twitter": "https://twitter.com/betterthanstar2",
+    "twitterFollowers": 466,
+    "insta": "https://instagram.com/better_than_starbucks",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', maxWords: 5000, max: 1, additional: "Flash fiction of up to 1000 words, and micro fiction of up to 100 words." },
+      { value: 'nonfiction', maxWords: 5000, max: 1 },
+      { value: 'poetry', max: 4, additional: "If you are sending short forms such as haiku, limericks, micro poetry or micro fiction send up to six." },
+      { value: 'art' },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays! \"$20 via Paypal (to twelve Featured authors)\"", "icon": "cash-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Accept previously published", "icon": "happy-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 168,
+    "name": "Corvid Queen",
+    "key": "corvid-queen",
+    "cover": "/covers/corvid-queen.png",
+    "description": "A journal of feminist fairy tales, folklore, & myths from Sword & Kettle Press. We believe that folklore helps us make sense of the world we live in. We love stories that represent a wide range of cultures, identities, & viewpoints. We love stories that embrace nuance & complexity.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "2-4 months",
+    "responseDays": 120,
+    "fee": "",
+    "payment": "$5",
+    "website": "https://corvidqueen.com",
+    "twitter": "https://twitter.com/swordandkettle",
+    "twitterFollowers": 2211,
+    "insta": "https://instagram.com/swordandkettle",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "theme": true,
+    "genres": [
+      { value: 'fiction', maxWords: 5000, max: 1 },
+      { value: 'nonfiction', maxWords: 5000, max: 1 },
+      { value: 'poetry' },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "notes": "will open in summer",
+  },
+  {
+    "id": 169,
+    "name": "Adoxography",
+    "key": "adoxography",
+    "cover": "/covers/adoxography.jpeg",
+    "description": "A literary magazine for work by young writers, created by young writers. We also accept work from writers that are older. Please, do not feel afraid to send your work our way!",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1-2 weeks",
+    "responseDays": 14,
+    "fee": "",
+    "payment": "",
+    "website": "https://adoxographylitmag.wixsite.com/adoxography",
+    "twitter": "https://twitter.com/adoxographylit",
+    "twitterFollowers": 150,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', maxWords: 5000, additional: "Pieces over 1,500 words must have a marked excerpt that is 1,500 words or less." },
+      { value: 'nonfiction', maxWords: 2000, max: 1, additional: "Pieces should average around 1,000-2,000 words, but this is by no means a firm word limit in either direction. " },
+      { value: 'poetry', max: 5 },
+      { value: 'art' },
+    ],
+    "demographic": ["young"],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published", "icon": "happy-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 170,
+    "name": "warning lines",
+    "key": "warning-lines",
+    "cover": "/covers/warning-lines.jpeg",
+    "description": "More specificallly, warning lines aims to publish and uplift the voices of queer, trans, and neurodivergent folks—  and especially QTPOC, neurodivergent POC, and those of us multiply marginalized. We are trans, nonbinary, Latine, disabled, and immigrant-run.",
+    "acceptPreviouslyPublished": false,
+    "multipleSubmissions": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1 month",
+    "responseDays": 30,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "",
+    "website": "https://warninglines.com",
+    "twitter": "https://twitter.com/warninglines",
+    "twitterFollowers": 3251,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', maxWords: 2500, max: 2 },
+      { value: 'nonfiction', maxWords: 2500, max: 2 },
+      { value: 'poetry', max: 3, "additional": "Max 2 pages per poem" },
+      { value: 'art', max: 3 },
+    ],
+    "demographic": ["marginalized"],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: $5 - response within 24 hours", "icon": "rocket-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "April 1, 2022",
+  },
+  {
+    "id": 171,
+    "name": "Shirley Magazine",
+    "key": "shirley-magazine",
+    "cover": "/covers/shirley.jpeg",
+    "description": "We are prose first, plot second, but we need both. Give us a slice of the sublimely strange. We want the eerie, the weird, the beautiful. We're interested in the body and its grotesqueries, the brain and its tricks.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1-3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.shirleymag.com",
+    "twitter": "https://twitter.com/ShirleyLitMag",
+    "twitterFollowers": 497,
+    "insta": "https://instagram.com/shirleymagazine",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "weird",
+    "genres": [
+      { value: 'fiction', maxWords: 3000, max: 1, additional: "Or up to three flash pieces (1,000 words max)" },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "notes": "always open",
+  },
+  {
+    "id": 172,
+    "name": "Vocivia Magazine",
+    "key": "vocivia-magazine",
+    "cover": "/covers/vocivia.jpeg",
+    "description": "Vocivia Magazine aims to amplify the voices of those who cannot scream loud enough into the void we call the internet to create an immersive multimedia experience through new and innovative mediums.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "3-4 weeks",
+    "responseDays": 30,
+    "fee": "",
+    "payment": "",
+    "website": "https://mildlysomewhat.wixsite.com/vociviamagazine",
+    "twitter": "https://twitter.com/vociviamagazine",
+    "twitterFollowers": 404,
+    "insta": "https://instagram.com/vociviamagazine",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', additional: "5 pages max" },
+      { value: 'nonfiction', additional: "5 pages max" },
+      { value: 'poetry', additional: "5 pages max" },
+      { value: 'art', max: 3 },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published: \"Mention where piece has been published in email\"", "icon": "happy-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "April 8, 2022",
+  },
+  {
+    "id": 173,
+    "name": "carte blanche",
+    "key": "carte-blanche",
+    "cover": "/covers/carte-blanche.jpeg",
+    "description": "A Quebec-based online literary magazine published by the Quebec Writer’s Federation that presents eclectic narratives in all forms and supports Canadian and international writers and artists",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "75 CAD",
+    "website": "https://carteblanchemagazine.com",
+    "twitter": "https://twitter.com/alacarteblanche",
+    "twitterFollowers": 3624,
+    "insta": "https://instagram.com/alacarteblanchemtl",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', maxWords: 3500 },
+      { value: 'nonfiction', maxWords: 3500, additional: "Currently closed" },
+      { value: 'poetry', max: 3 },
+      { value: 'photography', max: 12, additional: "Tell a story in 12 photos or fewer. Together, your photos should create a narrative." },
+      { value: 'comics' },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 31, 2022",
+  },
+  {
+    "id": 174,
+    "name": "GENCONTROLZ magazine",
+    "key": "gencontrolz-magazine",
+    "cover": "/covers/gencontrolz.jpeg",
+    "description": "A student-led POC magazine celebrating the small messy things of being human. We want to create creative opportunities for marginalised, underrepresented voices especially from the Global South.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "2 weeks",
+    "responseDays": 14,
+    "fee": "",
+    "payment": "",
+    "website": "https://gencontrolz.com",
+    "twitter": "https://twitter.com/gencontrolz",
+    "twitterFollowers": 653,
+    "insta": "https://instagram.com/gencontrolz",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction', maxWords: 2000 },
+      { value: 'nonfiction', maxWords: 2000 },
+      { value: 'poetry', max: 3, additional: "5 pages max" },
+      { value: 'art', max: 3 },
+      { value: 'music' },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published", "icon": "happy-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 175,
+    "name": "The Dodge",
+    "key": "the-dodge",
+    "cover": "/covers/dodge.jpeg",
+    "description": "We publish eco-writing, writing about animals, and works in translation.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1-2 months",
+    "responseDays": 60,
+    "fee": "$3",
+    "payment": "",
+    "website": "https://www.thedodgemag.com",
+    "twitter": "https://twitter.com/TheDodgeMag",
+    "twitterFollowers": 1806,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "chilling",
+    "theme": true,
+    "genres": [
+      { value: 'fiction', maxWords: 8000, additional: "We are open to flash fiction." },
+      { value: 'nonfiction', maxWords: 7000, additional: "We are open to flash nonfiction." },
+      { value: 'poetry', max: 5 },
+      { value: 'art' },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Submission fee", "icon": "cash-outline" }
+    ],
+    "open": true,
+    "deadline": "April 1, 2022",
+  },
+  {
+    "id": 176,
+    "name": "The Selkie",
+    "key": "the-selkie",
+    "cover": "/covers/selkie.jpeg",
+    "description": "The Selkie accepts work by individuals who self-identify as underrepresented in terms of race/ethnicity, religion, sexual orientation, sex, socio-economic class, neurodivergence, disability and refugee/immigration status.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "",
+    "fee": "",
+    "payment": "",
+    "website": "https://theselkie.co.uk/",
+    "twitter": "https://twitter.com/TheSelkieUK",
+    "twitterFollowers": 1924,
+    "insta": "https://instagram.com/theselkieuk",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "best",
+    "genres": [
+      { value: 'fiction', maxWords: 4000 },
+      { value: 'nonfiction', minWords: 1000, maxWords: 3000 },
+      { value: 'poetry', max: 5, additional: "5 pages max" },
+    ],
+    "demographic": ["marginalized"],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Though contributors are not currently paid for published work, payment is prioritised where funding is available – these opportunities are clearly highlighted as being paid.", "icon": "cash-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 177,
+    "name": "fifth wheel press",
+    "key": "fifth-wheel-press",
+    "cover": "/covers/fifth-wheel.jpeg",
+    "description": "An independent community-focused publisher of art and writing by queer, trans, and gender non-conforming creatives.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "2-4 weeks",
+    "responseDays": 30,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "$10/piece",
+    "website": "https://fifthwheelpress.com",
+    "twitter": "https://twitter.com/fifthwheelpress",
+    "twitterFollowers": 1704,
+    "insta": "https://instagram.com/fifthwheelpress",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction' },
+      { value: 'nonfiction' },
+      { value: 'poetry' },
+      { value: 'photography' },
+    ],
+    "demographic": ["lgbt"],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+      { "title": "Accept previously published", "icon": "happy-outline" },
+      { "title": "Offer expedited response: $5 - response within 72 hours", "icon": "rocket-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+  },
+  {
+    "id": 178,
+    "name": "Sugar House Review",
+    "key": "sugar-house-review",
+    "cover": "/covers/sugar-house-review.jpeg",
+    "description": "Our mission is to promote an eclectic range of poets through publishing and live events to build nationally connected literary communities and foster the literary arts in Utah.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "1-6 months",
+    "responseDays": 180,
+    "expeditedResponse": true,
+    "fee": "",
+    "payment": "",
+    "website": "https://www.sugarhousereview.com",
+    "twitter": "https://twitter.com/sugarhouserev",
+    "twitterFollowers": 1879,
+    "insta": "https://instagram.com/sugarhousereview",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "best",
+    "genres": [
+      { value: 'poetry', max: 5, additional: "15 pages max" },
+      { value: 'review' },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Offer expedited response: $3.75 - response within 2 months", "icon": "rocket-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "notes": "will open may 31"
+  },
+  {
+    "id": 179,
+    "name": "The Adroit Journal",
+    "key": "the-adroit-journal",
+    "cover": "/covers/adroit.png",
+    "description": "We’re looking for work that’s bizarre, authentic, subtle, outrageous, indefinable, raw, paradoxical. We’ve got our eyes on the horizon. Send us writing that lives just between the land and the sky.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "",
+    "fee": "",
+    "payment": "",
+    "website": "https://theadroitjournal.org/",
+    "twitter": "https://twitter.com/adroitjournal",
+    "twitterFollowers": 19800,
+    "insta": "https://instagram.com/adroitjournal",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "bester",
+    "genres": [
+      { value: 'fiction', maxWords: 9000, max: 3 },
+      { value: 'nonfiction', maxWords: 9000, max: 3 },
+      { value: 'poetry', max: 6 },
+      { value: 'art', max: 6 },
+      { value: 'interview' },
+      { value: 'review' },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 180,
+    "name": "Jarfly",
+    "key": "jarfly",
+    "cover": "/covers/jarfly.jpeg",
+    "description": "An online magazine that works to share poetry, ordinary and exotic, with new audiences, attempting to reach those who might not usually read poems.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "1-3 months",
+    "responseDays": 90,
+    "fee": "",
+    "payment": "",
+    "website": "http://www.thejarflymagazine.com/",
+    "twitter": "https://twitter.com/JarflyMagazine",
+    "twitterFollowers": 1034,
+    "insta": "https://instagram.com/JarflyMagazine",
+    "activeOnSocials": true,
+    "promoteAfterPublication": true,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'nonfiction', minWords: 500, maxWords: 800, max: 1 },
+      { value: 'review', minWords: 500, maxWords: 800, max: 1 },
+      { value: 'interview', minWords: 500, maxWords: 800, max: 1 },
+      { value: 'poetry', min: 3, max: 5 },
+      { value: 'art', min: 3, max: 5 },
+      { value: 'photography', min: 3, max: 5 },
+    ],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Promote writers even after publication - hype hype hype", "icon": "megaphone-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+  },
+  {
+    "id": 181,
+    "name": "32 Poems",
+    "key": "32-poems",
+    "cover": "/covers/32poems.gif",
+    "description": "Printed twice a year (in July and December) and distributed internationally with subscribers in over twenty countries, each issue includes 32 shorter poems.",
+    "acceptPreviouslyPublished": false,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": true,
+    "responseTime": "3 months",
+    "responseDays": 90,
+    "fee": "$3",
+    "payment": "$25/poem",
+    "website": "http://32poems.com/",
+    "twitter": "https://twitter.com/32poems",
+    "twitterFollowers": 12200,
+    "insta": "https://www.instagram.com/32poems/",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "bester",
+    "genres": [
+      { value: 'poetry', max: 5, maxLines: 32 },
+      { value: 'review', minWords: 1000 },
+    ],
+    "pros": [
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Pays!", "icon": "cash-outline" },
+      { "title": "Available in print", "icon": "library-outline" },
+    ],
+    "cons": [
+      { "title": "Submission fee", "icon": "cash-outline" },
+    ],
+    "open": true,
+  },
+  {
+    "id": 182,
+    "name": "antinarrative zine",
+    "key": "antinarrative-zine",
+    "cover": "/covers/antinarrative.jpeg",
+    "description": "made by and for POC youth creatives, antinarrative is a collaborative arts zine for those willing to challenge the conventional limits on genre, medium, and format with their work.",
+    "acceptPreviouslyPublished": true,
+    "simultaneousSubmissions": true,
+    "freeExamples": true,
+    "print": false,
+    "responseTime": "72 hours",
+    "responseDays": 3,
+    "fee": "",
+    "payment": "",
+    "website": "http://antinarrativezine.com",
+    "twitter": "https://twitter.com/antinarrativeZ",
+    "twitterFollowers": 735,
+    "insta": "",
+    "activeOnSocials": true,
+    "promoteAfterPublication": false,
+    "vibe": "chilling",
+    "genres": [
+      { value: 'fiction' },
+      { value: 'nonfiction' },
+      { value: 'poetry' },
+      { value: 'art' },
+    ],
+    "demographic": ["marginalized", "young"],
+    "pros": [
+      { "title": "Make you feel at home: cozy, meme-friendly, a sense of community, all that stuff", "icon": "home-outline" },
+      { "title": "Active on social media", "icon": "chatbubbles-outline" },
+      { "title": "Accept previously published", "icon": "happy-outline" },
+      { "title": "Helpful: reposting other opportunities on their Twitter:)", "icon": "bookmark-outline" },
+    ],
+    "cons": [
+      { "title": "Can't think of any!", "icon": "thumbs-up-outline" }
+    ],
+    "open": true,
+    "deadline": "March 15, 2022",
+  },
 ]

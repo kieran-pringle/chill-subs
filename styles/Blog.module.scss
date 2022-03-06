@@ -85,105 +85,72 @@
   font-size: 1.25rem;
 }
 
-.contact, .email {
+.buttons button:focus {
+  box-shadow: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 23.75%);
+  justify-content: space-between;
+  grid-gap: 1.25rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  max-width: 43rem;
-  line-height: 1.5;
-  font-size: 1.25rem;
-  a {
-    color: #FF8B5D;
-  }
-}
-
-.email {
-  margin-top: 0;
-}
-
-.hire {
-  display: flex;
-  align-items: center;
-  margin-top: 2rem;
-  padding: 1.5rem;
-  max-width: 43rem;
-  border-radius: 16px;
-  font-size: 1rem;
-  line-height: 1.7;
-  background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-}
-
-.hireEmoji {
-  margin-right: 1.25rem;
-  font-size: 2rem;
-}
-
-.creator {
-  max-width: 44rem;
-}
-
-.creatorInfo {
-  display: flex;
-  span {
-    min-width: 240px;
-    border-radius: 6px;
-  }
-}
-
-.creatorText {
-  display: flex;
-  flex-direction: column;
-  margin-top: -0.15rem;
-  margin-left: 1.75rem;
-  line-height: 1.5;
-  font-size: 1.125rem;
-
-  p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-  }
-
-  a {
-    color: #FF8B5D;
-  }
-}
-
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  background-color: #fff;
+  overflow: hidden;
+  transition: all 0.15s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  cursor: pointer;
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
+  &:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
+  h3 {
+    margin-top: 2rem;
+    line-height: 1.4;
+  }
 
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
+  img {
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .cardImage {
+    // width: 100%;
+    // height: 18rem;
+    // background-color: #efefef;
+  }
+
+  .cardInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 2rem;
+  }
+
+  .cardDate {
+    color: #8A9F8A;
+  }
+
+  .cardTitle {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    // font-size: 1.5rem;
+    line-height: 1.35;
+    text-align: left;
+  }
+  
 }
 
 @media (max-width: 600px) {
@@ -197,15 +164,6 @@
 
   .description {
     font-size: 1.125rem;
-  }
-
-  .creatorInfo {
-    flex-direction: column;
-  }
-
-  .creatorText {
-    margin-left: 0;
-    margin-top: 1rem;
   }
 
   .logo {
